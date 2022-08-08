@@ -1,0 +1,151 @@
+body{
+    margin: 0 auto;
+    width: 95%;
+    max-width: 1200px;
+    font-family: 'Noto Sans', sans-serif;
+  }
+  /* -------------------------------------------sauvage */
+  section.ydr-sauvage{
+      display: flex;
+      margin:0 auto;
+      background: rgb(237, 237, 239);
+  }
+  section.ydr-sauvage-video{
+    width: 100%;
+    height: 100%;
+    padding-top: 50%;
+    background: #CCC;
+  }
+  main.ydr-sauvage-purfume{
+    margin: 0 auto;
+  
+  }
+  ul.ydr-sauvage-purfume-img{
+    display: flex;
+    margin: 0 auto;
+    width: 100%;
+  }
+  ul.ydr-sauvage-purfume-img li{
+    position: relative;
+    width: 50%;
+    padding-top: 50%;
+    background: blue;
+  }
+  ul.ydr-sauvage-purfume-img li img{
+    width: 100%;
+    height: 100%;
+  }
+  section.ydr-sauvage-banner {
+    display: flex;
+    position: relative;
+    width: 95%;
+    margin: 30px 5% 30px 0;
+    padding-top: 40%;
+    background: red;
+  }
+  /* -------------------------------------------------collection */
+  section.ydr-collection{
+    width: 100%;
+    background: blue;
+  }
+  ul.ybr-colection-wrap{
+     display: flex;
+     flex-wrap: wrap;
+     width: 100%;
+  }
+  ul.ybr-colection-wrap li:nth-child(odd){
+    background: gray;
+  }
+  @media screen and (min-width:1000px) {
+    ul.ybr-colection-wrap li{
+      width: 33.3%;
+      padding-top: 33.3%;
+    }
+  }
+  @media screen and (min-width:500px) and (max-width:1000px){
+    ul.ybr-colection-wrap li{
+      width: 50%;
+      padding-top: 50%;
+    }
+  }
+  @media screen and (max-width:500px){
+    ul.ybr-colection-wrap li{
+      width: 100%;
+      padding-top: 100%;
+    }
+  }
+  /* ---------------------------------------------------dior-homme */
+  
+  figure.ydr-homme{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 50px;
+  }
+  figure.ydr-homme img{
+    width: 50%;
+    height: 100%;
+  }
+  figcaption.ydr-home-text{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  figcaption.ydr-home-text h3{
+    font-weight: 600;
+    font-size: 2em;
+    margin-bottom: 30px;
+  }
+  figcaption.ydr-home-text p{
+   margin: 0 auto;
+    width: 80%;
+  }
+  nav.ydr-homme-nav{
+    display: flex;
+    margin-top: 50px ;
+    width: 100%;
+  }
+  div.ydr-homme-name{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+  }
+  div.ydr-homme-name span{
+    margin-bottom: 30px;
+  }
+  div.ydr-homme-name span a::after{
+   content: "/";
+  }
+  nav.ydr-homme-nav img{
+    width: 50%;
+  }
+  .ydr-homme-purfume{
+    width: 100%;
+  }
+  ul.ydr-homme-ul{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+  }
+  ul.ydr-homme-ul li{
+    width: 30%;
+  }
+  @media screen and (min-width:1000px) {
+    ul.ydr-homme-ul li{
+      width: 30%;
+      padding-top: 30%;
+    }
+  }
+  
+  @media screen and (max-width:500px){
+    ul.ydr-homme-ul li{
+      width: 100%;
+      padding-top: 50%;
+    }
+  }
