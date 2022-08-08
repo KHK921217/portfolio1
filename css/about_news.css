@@ -1,0 +1,87 @@
+.lee-main{
+  background-color: black;
+  height: 100%;
+  position: relative;
+}
+.lee-header{
+  margin: 10px auto;
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  padding: 50px;
+}
+.lee-header h1{
+  color: #fc8130;
+}
+.lee-header h1 a:nth-child(1){
+  font-size: 3em;
+}
+.lee-header h1 a:nth-child(2){
+  font-size: 1.5em;
+  margin-left: 20px;
+}
+.lee-header ul{
+  position:relative;
+  display: flex;
+  top:4px;
+}
+.lee-header ul li{
+  padding: 10px;
+  color: white; 
+  font-size: 0.5em;
+}
+.lee-header ul li:nth-child(even){
+  color: #fc8130;
+}
+.lee-line{
+  width: 90%;
+  margin: -30px auto;
+}
+@media screen and (min-width:800px){
+  
+}
+
+/* ---- nav ---- */
+.lee-nav{
+  margin: 25px 0;
+  display: flex;
+  justify-content: space-between;
+  padding: 5%;
+}
+.lee-nav h6{
+  font-size: 1.2em;
+  color: #fc8130;
+}
+.lee-nav div{
+  display: block;
+  position: relative;
+  margin: 0 100px 0 20px;
+}
+.lee-nav div div{
+  display: flex;
+}
+.lee-nav div div:nth-child(2){
+  top: 125px;
+}
+.lee-nav div div figure{
+  overflow: hidden;
+  width: 140px;
+  height: 160px;
+  border: 1px solid #fc8130;
+}
+.lee-nav div div figure img{
+  width: 100%;
+  height: 100%;
+}
+.lee-nav div div span{
+  display: block;
+  margin-left:50px;
+}
+.lee-nav div div span h3{
+  color: white;
+  font-size: 1.75em;
+}
+.lee-nav div div span p{
+  font-size: 1.3em;
+}
+
