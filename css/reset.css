@@ -1,0 +1,41 @@
+html,body{
+  height: 100%;
+  box-sizing: border-box;}
+
+*{
+  margin: 0;
+  padding: 0;
+  color:inherit;
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+  font-style: inherit;
+  text-decoration: inherit;
+}
+li{
+  list-style: none;
+}
+a{
+  text-decoration: none;
+}
+input,textarea,select{
+  box-sizing: border-box;
+}
+button{
+  background: none;
+  border:none;  
+  cursor: pointer;
+}
+table{
+  border-collapse: collapse;
+}
+img,iframe{
+  display: block;
+}
+iframe{
+  border:none;
+}
+.hidden{
+  position: fixed;
+  left:-10000px;
+}
