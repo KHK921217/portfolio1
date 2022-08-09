@@ -1,3 +1,6 @@
+body{
+  overflow-x: hidden;
+}
 .lee-container0{
   background-color: black;
   width: 100%;
@@ -39,11 +42,12 @@
 }
 @media screen and (max-width:950px){
   .lee-container0{
+    width: 102%;
     padding: 0 10px;
   }
   .lee-container0 div{
     display: block;
-    width: 47%;
+    width: 50%;
     margin: 0 auto;
   }
   .lee-container0 div h1 a:nth-child(1){
@@ -83,10 +87,11 @@
 
 /* ---- nav ---- */
 .lee-container1{
-  margin: 0px 0;
   display: flex;
+  width: 90%;
+  height: 100%;
   justify-content: space-between;
-  padding: 100px 5%;
+  padding: 80px 5%;
   background-color: black;
 }
 .lee-container1 h6{
@@ -94,9 +99,8 @@
   color: #fc8130;
 }
 .lee-container1 div{
-  display: block;
   position: relative;
-  margin: 0 100px 0 20px;
+  margin: 0 100px 0 10px;
 }
 .lee-container1 div div{
   display: flex;
@@ -125,24 +129,110 @@
 .lee-container1 div div span p{
   font-size: 1.3em;
 } 
-
-@media screen and (max-width:950px){
+.lee-container1 div div span .leebtn{
+  display: none;
+} 
+@media screen and (min-width:1300px){
+  .lee-container1 h6{
+    font-size: 1.4em;
+  }
+  .lee-container1 div{
+    padding: 0 20px;
+  }
+  .lee-container1 div div figure{
+    width: 175px;
+    height: 200px;
+    margin: 0 10px 0 0;
+  }
+}
+@media screen and (min-width:600px) and (max-width:950px){
   .lee-container1{
+    width: 92%;
+    height: 200%;
     display: block;
   }
   .lee-container1 div{
     margin: 0 auto;
   }
   .lee-container1 div div{
-    display: block;
     position: relative;
+    display: block;
     border: solid 1px lightgrey;
-    padding: 30px;
+    padding: 80px;
     text-align: center;
-    margin:0 auto;
   }
-  .lee-contaisner1 div div figure{
+  .lee-container1 div div figure{
+    margin: 0 auto;
+    width: 70%;
+    height: 70%;
+  }
+  .lee-container1 div div figure img{
     width: 100%;
-    height: 60%;
+    height: 100%;
   }
+  .lee-container1 div div span{
+    margin: 0px auto;
+  }
+  .lee-container1 div div span h3{
+    margin-top: 30px;
+    font-size: 1.5em;
+  }
+  .lee-container1 div div span p{
+    font-size: 1.2em;
+  }
+  .lee-container1 div div span .leebtn{
+    margin: 0 auto;
+    display: block;
+    width: 100px;
+    height: 40px;
+    font-weight: 500;
+    background-color: aliceblue;
+    border-radius: 10px;
+  } 
+}
+@media screen and (max-width:600px){
+  .lee-container1{
+    width: 100%;
+    height: 200%;
+    display: block;
+  }
+  .lee-container1 div{
+    margin: 0 auto;
+  }
+  .lee-container1 div div{
+    position: relative;
+    display: block;
+    border: solid 1px lightgrey;
+    padding: 80px;
+    text-align: center;
+  }
+  .lee-container1 div div figure{
+    margin: 0 auto;
+    width: 70%;
+    height: 70%;
+  }
+  .lee-container1 div div figure img{
+    width: 100%;
+    height: 100%;
+  }
+  .lee-container1 div div span{
+    margin: 0px auto;
+  }
+  .lee-container1 div div span h3{
+    margin-top: 30px;
+    font-size: 1.2em;
+  }
+  .lee-container1 div div span p{
+    margin-top: -20px;
+    font-size: 1em;
+  }
+  .lee-container1 div div span .leebtn{
+    margin: 0 auto;
+    display: block;
+    width: 100px;
+    height: 40px;
+    font-weight: 500;
+    background-color: aliceblue;
+    border-radius: 10px;
+  } 
 }

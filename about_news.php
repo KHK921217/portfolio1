@@ -1,4 +1,5 @@
 <?php include 'sub-header.php' ?>
+<link rel="stylesheet" href="./css/about_news.css">
   <nav class="lee-container0">
     <div>
   <h1>
@@ -24,8 +25,8 @@
         </figure>
         <span>
          <h3>그녀들은 Dior를 만들었습니다</h3><br>
-         <p>DIOR UNTOLD THE power of red</p>
-         <p>DIOR UNTOLD THE power of red</p>
+         <p>DIOR UNTOLD THE power of red<br>DIOR UNTOLD THE power of red</p><br>
+         <button class="leebtn">상세보기</button>
         </span>
        </div>
        <div>
@@ -34,8 +35,9 @@
         </figure>
        <span>
          <h3>꽃이 만발한 디올</h3><br>
-         <p>In the opening episode</p>
-         <p>Dior in Bloom</p>
+         <p>In the opening episode<br>Dior in Bloom</p>
+         <br>
+         <button class="leebtn">상세보기</button> 
        </span>
        </div>
       </div>
