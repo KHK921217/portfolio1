@@ -1,21 +1,40 @@
 <?php include 'sub-header.php' ?>
+<link rel="stylesheet" href="./css/about_man.css">
 <section class="ydr-sauvage">
-    <section class="ydr-sauvage-video">
-      s
-    </section>
+  <section class="ydr-sauvage-video">
+    dior
   </section>
+
   <main class="ydr-sauvage-purfume">
     <ul class="ydr-sauvage-purfume-img">
-      <li></li>
-      <li></li>
+      <li>
+        <img src="./img/yoodareen/savage/3348901567572_0.jpg" alt="">
+        <h3><a href="#"> SAUVAGE</a></h3>
+        <em>elixir</em>
+      </li>
+      <li>
+        <img src="./img/yoodareen/savage/product-2_1440_1200_500x500_crop_center.jpg" alt="">
+        <h3><a href="#"> SAUVAGE</a></h3>
+        <em>Eau de toilette</em>
+      </li>
+      <li class="ydr-sauvage-lemon">
+        <img src="./img/yoodareen/savage/edt-1_1440_1200_500x_crop_center.jpg" alt="">
+      </li>
+ <!--      <li class="ydr-sauvage-lemon2">
+        <img src="./img/yoodareen/savage/edt-3_1440_1200_500x_crop_center.jpg" alt="">
+      </li>
+      <li class="ydr-sauvage-lemon3">
+        <img src="./img/yoodareen/savage/diorparfums_sauvage_borninthewil_1440x.jpg" alt="">
+      </li> -->
     </ul>
-    <section class="ydr-sauvage-banner">
-      1
-    </section>
   </main>
+   <nav class="ydr-sauvage-banner">
+    <img src="./img/yoodareen/savage/01Sauvage_depp.jpg" alt="">
+   </nav>
+</section>
+<section>1</section>
 
-
-  <section class="ydr-collection">
+<!--   <section class="ydr-collection">
     <section class="ydr-collection-water">
       <ul class="ybr-colection-wrap">
         <li></li>
@@ -71,5 +90,5 @@
       <li>2</li>
       <li>3</li>
     </ul>
-  </section>
+  </section> -->
 <?php include 'sub-footer.php' ?>
