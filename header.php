@@ -8,13 +8,13 @@
   <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="./css/reset.css">
   <link rel="stylesheet" href="./css/style.css">
-  <link rel="stylesheet" href="./css/header.css">
+<!--   <link rel="stylesheet" href="./css/header.css">
   <link rel="stylesheet" href="./css/footer.css">
   <link rel="stylesheet" href="./css/about_dior.css">
   <link rel="stylesheet" href="./css/about_news.css">
   <link rel="stylesheet" href="./css/about_man.css">
   <link rel="stylesheet" href="./css/about_woman.css">
-  <link rel="stylesheet" href="./css/sub_common.css">
+  <link rel="stylesheet" href="./css/sub_common.css"> -->
   <script src="http://code.jquery.com/jquery-latest.js"></script>
   <script src="./js/tweenmax.js"></script>
   <script src="./js/morphsvg.js"></script>

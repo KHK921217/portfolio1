@@ -17,8 +17,8 @@
 
   <nav class="lee-container1">
       <h6>JULY2022</h6>
-        <div>
       <div>
+       <div>
         <figure>
           <img src="./img/leeseongjin/model/women2.png" alt="">
         </figure>
@@ -27,8 +27,8 @@
          <p>DIOR UNTOLD THE power of red</p>
          <p>DIOR UNTOLD THE power of red</p>
         </span>
-      </div>
-      <div>
+       </div>
+       <div>
         <figure>
           <img src="./img/leeseongjin/model/women3.jpg" alt="">
         </figure>
