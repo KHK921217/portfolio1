@@ -1,3 +1,2 @@
-<hr>
-  서브하단
+</main>
 <?php include "footer.php"?>
