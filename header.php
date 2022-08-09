@@ -21,7 +21,6 @@
   <script src="./js/window.js"></script>
   <script src="./js/script.js"></script>
   <script src="./js/smoothscroll.js"></script>
-  <script src="./js/app_particle_star.js"></script>
   <script src="./js/jquery.isotope.js"></script>
   <script src="./js/jquery.justifiedGallery.min.js"></script>
   <script src="./js/masonry-docs.min.js"></script>
