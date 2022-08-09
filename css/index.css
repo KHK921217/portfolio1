@@ -4,56 +4,148 @@
   background: #000;
 }
 .khkindexlogo{
-  position: relative;
-  margin: 0 auto;
-  padding: 30px 0;
-  width: 95%;
-  max-width: 1200px;
-  height: 100%;
-  background-color: black;
-}
-figure.khkindexlogo img:nth-of-type(1){
-  position: relative;
   position: absolute;
-  top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  top:50%;
+  transform: translate(-50%,-50%);
+  width:80%;
+  max-width: 600px;
+  -webkit-box-reflect: below 0px linear-gradient(to bottom, rgba(0,0,0,0.0), rgba(0,0,0,0.2));
+}
+figure.khkindexlogo img{
+  width: 100%;
+}
+figure.khkindexlogo img:nth-of-type(1){/* white */
+  position: relative;
   z-index: 1;
+  margin: 0 auto;
 }
-figure.khkindexlogo img:nth-of-type(2){
+figure.khkindexlogo img:nth-of-type(2){ /* blue */
   position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  top:0%;
+  left:0%;
   animation: glitch1 0.5s infinite;
+
 }
-figure.khkindexlogo img:nth-of-type(3){
+figure.khkindexlogo img:nth-of-type(3){ /* yellow */
   position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  animation: glitch2 0.1s infinite;
+  top:0%;
+  left:0%;
+  animation: glitch1 0.3s infinite;
+
 }
-@keyframes glitch1 {
-  0%    { top: 49.5%; left: 49.5%; }
-  12.5% { top: 49.5%; left: 50%; }
-  25%   { top: 49.5%; left: 50.5%; }
-  37.5% { top: 50%; left: 50.5%; }
-  50%   { top: 50.5%; left: 50.5%; }
-  62.5% { top: 50.5%; left: 50%; }
-  75%   { top: 50.5%; left: 49.5%; }
-  87.5% { top: 50%; left: 49.5%; }
-  100%  { top: 49.5%; left: 49.5%; }
+@keyframes glitch1{
+  0%{
+    transform: translateX(2%);
+    clip-path:polygon( 0 0 , 100% 0 , 100% 80% , 0 80% );
+  }
+  10%{
+    transform: translateX(-4%);
+    clip-path:polygon( 0 20% , 100% 20 , 100% 80% , 0 80% );
+  }
+  20%{
+    transform: translateX(1%);
+    clip-path:polygon( 0 25% , 100% 30% , 100% 90% , 0 90% );
+  }
+  30%{
+    transform: translateX(-2%);
+    clip-path:polygon( 0 30% , 100% 35% , 100% 80% , 0 80% );
+  }
+  40%{
+    transform: translateX(-1.5%);
+    clip-path:polygon( 0 35% , 100% 40% , 100% 70% , 0 70% );
+  }
+  50%{
+    transform: translateX(3%);
+    clip-path:polygon( 0 30% , 100% 30% , 100% 80% , 0 80% );
+  }
+  60%{
+    transform: translateX(1%);
+    clip-path:polygon( 0 25% , 100% 25% , 100% 100% , 0 100% );
+  }
+  70%{
+    transform: translateX(2%);
+    clip-path:polygon( 0 20% , 100% 20% , 100% 80% , 0 80% );
+  }
+  80%{
+    transform: translateX(-1%);
+    clip-path:polygon( 0 15% , 100% 10% , 100% 70% , 0 70% );
+  }
+  90%{
+    transform: translateX(3%);
+    clip-path:polygon( 0 10% , 100% 5% , 100% 80% , 0 80% );
+  }
+  100%{
+    transform: translateX(1.5%);
+    clip-path:polygon( 0 0 , 100% 0% , 100% 55% , 0 55% );
+  }
 }
 
-@keyframes glitch2 {
-  0%    { top: 50.5%; left: 50.5%; }
-  12.5% { top: 50%; left: 50.5%; }
-  25%   { top: 49.5%; left: 50.5%; }
-  37.5% { top: 49.5%; left: 50%; }
-  50%   { top: 49.5%; left: 49.5%; }
-  62.5% { top: 50%; left: 49.5%; }
-  75%   { top: 50.5%; left: 49.5%; }
-  87.5% { top: 50.5%; left: 50%; }
-  100%  { top: 50.5%; left: 50.5%; }
+/* -------noise-------- */
+.kh-noise{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  top:0;left:0;
+  opacity: 0.3;
+}
+
+/* -------svg-------- */
+.kh-youtube-container{
+
+  position: absolute;
+  width: 80%;
+  max-width: 1200px;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0.8;
+  pointer-events: none;
+  overflow: hidden;
+}
+.kh-youtube-container .kh-ratio-img{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  min-width: 100%;
+  min-height: 100%;
+  display: none;
+}
+.kh-youtube-container iframe{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  height: 100%;
+}
+.kh-youtube-container .kh-youtubemask{
+  -webkit-mask-image: url(../img/khk/intro/video-mask.png);
+  -webkit-mask-size: 100%;
+  -webkit-mask-repeat: no-repeat;
+  z-index: 2;
+}
+
+.kh-svg{
+  position: relative;
+  display: block;
+  width: 100%;
+  z-index: 1;
+}
+
+.kh-svg path{
+  stroke: wheat;
+  fill: none;
+  stroke-width: 3px;
+  stroke-dasharray: 1;
+  stroke-dashoffset: 1;
+  animation: drawing 20s infinite linear;
+}
+
+@keyframes drawing{
+  0%{stroke-dashoffset: -1;}
+  50%{stroke-dashoffset: 0;}
+  100%{stroke-dashoffset: 1;}
 }
