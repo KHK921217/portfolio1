@@ -1,3 +1,5 @@
+
+/* -------- section1 ---------- */
 .kh-intro-section{
   position: relative;
   height: 100%;
@@ -91,42 +93,45 @@ figure.khkindexlogo img:nth-of-type(3){ /* yellow */
   opacity: 0.3;
 }
 
-/* -------svg-------- */
+/* -------youtube container-------- */
 .kh-youtube-container{
-
   position: absolute;
   width: 80%;
   max-width: 1200px;
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
-  opacity: 0.8;
+  opacity: 1;
   pointer-events: none;
   overflow: hidden;
 }
-.kh-youtube-container .kh-ratio-img{
+.kh-youtube-container .kh-youtube-wrap{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0%;
+  top: 0%;
+}
+.kh-youtube-container .kh-youtube-wrap .kh-ratio-img{
   position: absolute;
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
   min-width: 100%;
   min-height: 100%;
-  display: none;
 }
-.kh-youtube-container iframe{
+.kh-youtube-container .kh-youtube-wrap iframe{
   position: absolute;
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
-  width: 100%;
-  height: 100%;
 }
-.kh-youtube-container .kh-youtubemask{
-  -webkit-mask-image: url(../img/khk/intro/video-mask.png);
+.kh-youtube-container .kh-youtube-wrap{
+  -webkit-mask-image: url(../img/khk/intro/video-mask.svg);
   -webkit-mask-size: 100%;
   -webkit-mask-repeat: no-repeat;
   z-index: 2;
-}
+} 
 
 .kh-svg{
   position: relative;
@@ -148,4 +153,48 @@ figure.khkindexlogo img:nth-of-type(3){ /* yellow */
   0%{stroke-dashoffset: -1;}
   50%{stroke-dashoffset: 0;}
   100%{stroke-dashoffset: 1;}
+}
+
+/* -------- section2 ---------- */
+.kh-intro-section2{
+  height: 100%;
+  background-color: #000;
+}
+.kh-intro-section2 .kh-youtube-wrap{
+  position: relative;
+  width: 100%;
+  height: 50%;
+  overflow: hidden;
+}
+.kh-intro-section2 .kh-ratio-img{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  min-width: 100%;
+  min-height: 100%;
+}
+.kh-intro-section2 .kh-youtube-wrap iframe{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+.kh-intro-section2 .kh-gold-bottom{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 50%;
+  background-color: #e6ded3;
+}
+.kh-intro-section2 .jador-img{
+  position: absolute;
+  top: -90%;
+  height: 180%;
+}
+.kh-intro-section2 figcaption{
+  position: absolute;
+  bottom: 5%;
 }
