@@ -1,38 +1,37 @@
 <?php include 'sub-header.php' ?>
 <link rel="stylesheet" href="./css/about_man.css">
-<section class="ydr-sauvage">
-  <section class="ydr-sauvage-video">
-    dior
-  </section>
 
-  <main class="ydr-sauvage-purfume">
-    <ul class="ydr-sauvage-purfume-img">
+<section class="ydr-sauvage">
+  <div class="ydr-youtube-container">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/dBTBOAE-XK4?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  </div>
+
+<main class="ydr-sauvage-main">
+    <ul>
       <li>
         <img src="./img/yoodareen/savage/3348901567572_0.jpg" alt="">
-        <h3><a href="#"> SAUVAGE</a></h3>
-        <em>elixir</em>
+        <h3><a href="#">SAUVAGE</a></h3>
+        <em>Elixir</em>
       </li>
       <li>
         <img src="./img/yoodareen/savage/product-2_1440_1200_500x500_crop_center.jpg" alt="">
-        <h3><a href="#"> SAUVAGE</a></h3>
+          <h3><a href="#">SAUVAGE</a></h3>
         <em>Eau de toilette</em>
       </li>
-      <li class="ydr-sauvage-lemon">
+      <li>
         <img src="./img/yoodareen/savage/edt-1_1440_1200_500x_crop_center.jpg" alt="">
       </li>
- <!--      <li class="ydr-sauvage-lemon2">
-        <img src="./img/yoodareen/savage/edt-3_1440_1200_500x_crop_center.jpg" alt="">
-      </li>
-      <li class="ydr-sauvage-lemon3">
-        <img src="./img/yoodareen/savage/diorparfums_sauvage_borninthewil_1440x.jpg" alt="">
-      </li> -->
     </ul>
   </main>
-   <nav class="ydr-sauvage-banner">
-    <img src="./img/yoodareen/savage/01Sauvage_depp.jpg" alt="">
+
+  <section class="ydr-sauvage-banner">
+   <nav>
+     <img src="./img/yoodareen/savage/banner1.jpg" alt="">
+    <button><a href="#">MORE</a></button>
    </nav>
-</section>
-<section>1</section>
+  </section>
+  </section>
+
 
 <!--   <section class="ydr-collection">
     <section class="ydr-collection-water">
