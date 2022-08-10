@@ -17,29 +17,66 @@
 <hr class="lee-line" size="1"></div>
 
   <nav class="lee-container1">
-      <h6>JULY2022</h6>
-      <div>
+    <h6>JULY2022</h6>
+     <div>
        <div>
         <figure>
-          <img src="./img/leeseongjin/model/women2.png" alt="">
+          <a href="#"><img src="./img/leeseongjin/model/women2.png" alt=""></a>
         </figure>
         <span>
-         <h3>그녀들은 Dior를 만들었습니다</h3><br>
-         <p>DIOR UNTOLD THE power of red<br>DIOR UNTOLD THE power of red</p><br>
+         <h3><a href="#">그녀들은 Dior를 만들었습니다</a></h3><br>
+         <p>DIOR UNTOLD THE power of red</p><br>
+          <p>DIOR UNTOLD THE power of red</p><br>
          <button class="leebtn">상세보기</button>
         </span>
        </div>
        <div>
         <figure>
-          <img src="./img/leeseongjin/model/women3.jpg" alt="">
+          <a href="#"><img src="./img/leeseongjin/model/women5.jpg" alt=""></a>
         </figure>
        <span>
-         <h3>꽃이 만발한 디올</h3><br>
-         <p>In the opening episode<br>Dior in Bloom</p>
+         <h3><a href="#">꽃의 향이 만발한 디올</a></h3><br>
+         <p>In the opening episode Dior in Bloom</p>
          <br>
          <button class="leebtn">상세보기</button> 
        </span>
        </div>
       </div>
-    </nav> 
-<!-- <?php include 'sub-footer.php' ?> -->
+    </nav>
+
+    <hr class="lee-line2" size="1"></div>
+
+   <nav class="lee-container2">
+    <h6>JULY2022</h6>
+    <div>
+       <ul>
+        <li>
+        <a href="#">
+        <figure>
+          <img src="./img/leeseongjin/model/women1.jpg" alt=""></a>
+        </figure>
+      </a>
+        <span>
+          <h3><a href="#">그녀들은 Dior를 만들었습니다</a></h3><br>
+          <p>DIOR UNTOLD THE power of red</p><br>
+          <p>DIOR UNTOLD THE power of red</p><br>
+          <button class="leebtn">상세보기</button>
+        </span>
+       </li>
+       <li>
+       <a href="#">
+        <figure>
+          <img src="./img/leeseongjin/model/women4.jpg" alt=""></a>
+        </figure>
+      </a>
+        <span>
+          <h3><a href="#">그녀들은 Dior를 만들었습니다</a></h3><br>
+          <p>DIOR UNTOLD THE power of red</p><br>
+          <p>DIOR UNTOLD THE power of red</p><br>
+          <button class="leebtn">상세보기</button>
+        </span>
+       </li>
+    </ul>
+    </nav>  
+
+<<?php include 'sub-footer.php' ?> 
