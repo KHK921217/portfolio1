@@ -11,11 +11,10 @@
 .about-woman-section1 ul li {
   position: relative;
   box-sizing: border-box;
-  border: 1px solid red;
+  border: 1px solid #FFF;
 }
-@media screen and (min-width: 500px) {
+@media screen and (min-width: 700px) {
   .about-woman-section1 ul li {
-    /* 정사각형 */
     float: left;
   }
   .about-woman-section1 ul li::before {
@@ -39,8 +38,7 @@
     height: 100%;
     object-fit: cover;
     object-position: center;
-    filter: grayscale(0.6);
-    border-radius: 20%;
+    filter: grayscale(0.7);
   }
 }
 @media screen and (min-width: 1000px) {
@@ -52,51 +50,66 @@
     margin-left: 33.33%;
   }
   .about-woman-section1 ul li:nth-child(4) {
-    float: right;
+    width: 66.66%;
+    background: green;
   }
-  .about-woman-section1 ul li:nth-child(5) {
+  .about-woman-section1 ul li:nth-child(4)::before {
+    padding-top: 50%;
+  }
+  .about-woman-section1 ul li:nth-child(6) {
     clear: both;
   }
-  .about-woman-section1 ul li:nth-child(7) {
+  .about-woman-section1 ul li:nth-child(8) {
     clear: both;
     margin-left: 33.33%;
   }
+  .about-woman-section1 ul li .missdiol-textbox { /* 나중수정 */
+    position: absolute;
+    top: 0;
+  }
 }
-@media screen and (min-width: 500px) and (max-width: 1000px) {
+@media screen and (min-width: 700px) and (max-width: 1000px) {
   .about-woman-section1 ul li {
     width: 50%;
   }
-}
-@media screen and (max-width: 500px) {
-  .about-woman-section1 ul li {
+  .about-woman-section1 ul li:nth-child(2) {
+    clear: both;
+  }
+  .about-woman-section1 ul li:nth-child(4) {
     width: 100%;
+    height: 200px;
+    object-fit: contain;
+    object-position: center;
+    background: red;
+    border: 1px solid salmon;
+  }
+  .about-woman-section1 ul li:nth-child(4)::before {
+    padding-top: 100%;
+  }
+  .about-woman-section1 ul li:nth-child(5) {
+    clear: both;
+    margin-left: 25%;
+  }
+  .about-woman-section1 ul li:nth-child(7) {
+    clear: both;
+    margin-left: 50%;
+  }
+  .about-woman-section1 ul li .missdiol-textbox { /* 나중수정 */
+    position: absolute;
+    top: 0;
   }
 }
-.about-woman-section1 ul li .missdiol-textbox1 {
-  position: absolute;
-  background: white;
-  top: 50%;
-  right: 0;
-  width: 325px;
-  height: 195px;
-  transform: translate(50%, -50%);
-  border: 1px solid black;
-}
-.about-woman-section1 ul li .missdiol-textbox1 h4 {
-  margin: 40px 40px;
-}
-.about-woman-section1 ul li .missdiol-textbox1 span {
-  font-size: 15px;
-  font-weight: 600;
-}
-.about-woman-section1 ul li .missdiol-textbox1 p {
-  margin: 5px auto;
-  font-size: 10px;
-}
-.about-woman-section1 ul li .missdiol-textbox1 .more1 {
-  position: absolute;
-  transform: translate(60%, -70%);
-  background: black;
-  padding: 10px;
-  color: white;
+@media screen and (max-width: 700px) {
+  .about-woman-section1 ul li a {
+    display: block;
+  }
+  .about-woman-section1 ul li a figure {
+    width: 100%;
+  }
+  .about-woman-section1 ul li a figure img {
+    width: 100%;
+  }
+  .about-woman-section1 ul li .missdiol-textbox {
+    background: red;
+  }
 }
