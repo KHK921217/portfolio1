@@ -31,6 +31,11 @@ $(function(){
   grained('#kh-noise', options)
   console.log("tt");
 
+  /* 스크롤 모션 */
+  
 
-})//fn
+
+
+
+})//ready
 

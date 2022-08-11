@@ -111,7 +111,7 @@ figure.khkindexlogo img:nth-of-type(3){ /* yellow */
   height: 100%;
   left: 0%;
   top: 0%;
-}
+} 
 .kh-youtube-container .kh-youtube-wrap .kh-ratio-img{
   position: absolute;
   left: 50%;
@@ -156,7 +156,9 @@ figure.khkindexlogo img:nth-of-type(3){ /* yellow */
 }
 
 /* -------- section2 ---------- */
+
 .kh-intro-section2{
+  position: relative;
   height: 100%;
   background-color: #000;
 }
@@ -188,13 +190,62 @@ figure.khkindexlogo img:nth-of-type(3){ /* yellow */
   width: 100%;
   height: 50%;
   background-color: #e6ded3;
+  
 }
 .kh-intro-section2 .jador-img{
   position: absolute;
-  top: -90%;
-  height: 180%;
+  left:50%;
+  top: 0%;
+  transform: translate(-50%,-50%);
+  width: 80%;
+  max-width: 800px;
+  margin-bottom: 10px;
+  filter:  drop-shadow(6px 8px 2px #333);
+  opacity: 0;
 }
+
 .kh-intro-section2 figcaption{
   position: absolute;
-  bottom: 5%;
+  bottom: 11%;
+  text-align: center;
+}
+@media screen and (min-width:800px) {
+  .kh-intro-section2 figcaption p{
+    font-size: 2em;
+    font-weight: 400;
+    line-height: 1.2;
+  }
+}
+@media screen and (min-width:400px) and (max-width: 800px) {
+  .kh-intro-section2 figcaption p{
+    font-size: 6vw;
+    font-weight: 400;
+    line-height: 1.2;
+  }
+}
+@media screen and (max-width:500px) {
+  .kh-intro-section2 figcaption p{
+    width: 300px;
+    font-size: 6.5vw;
+    font-weight: 400;
+    line-height: 1.2;
+  }
+}
+.wave-bg{
+  position: absolute;
+  width: 100%;
+  height: 5%;
+  bottom: 49.9%;
+  background-image: url(../img/khk/intro/wave-bg.png);
+  background-size: 150% 100%;
+  background-repeat: repeat-x;
+  animation: wave-bg 2000s infinite linear;
+} 
+@keyframes wave-bg{
+  0%{
+    background-position: 0 0;
+  }
+  100%{
+    background-position: -100000% 0;
+  }
 }
