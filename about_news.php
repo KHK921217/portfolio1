@@ -1,5 +1,6 @@
 <?php include 'sub-header.php' ?>
 <link rel="stylesheet" href="./css/about_news.css">
+<nav class="lee-container">
   <nav class="lee-container0">
     <div>
   <h1>
@@ -24,7 +25,7 @@
           <a href="#"><img src="./img/leeseongjin/model/women2.png" alt=""></a>
         </figure>
         <span>
-         <h3><a href="#">그녀들은 Dior를 만들었습니다</a></h3><br>
+        <a href="#"><h3>그녀들은 Dior를 만들었습니다</h3></a><br>
          <p>DIOR UNTOLD THE power of red</p><br>
           <p>DIOR UNTOLD THE power of red</p><br>
          <button class="leebtn">상세보기</button>
@@ -35,7 +36,7 @@
           <a href="#"><img src="./img/leeseongjin/model/women5.jpg" alt=""></a>
         </figure>
        <span>
-         <h3><a href="#">꽃의 향이 만발한 디올</a></h3><br>
+       <a href="#"><h3>꽃의 향이 만발한 디올</h3></a><br>
          <p>In the opening episode Dior in Bloom</p>
          <br>
          <button class="leebtn">상세보기</button> 
@@ -48,35 +49,29 @@
 
    <nav class="lee-container2">
     <h6>JULY2022</h6>
-    <div>
        <ul>
         <li>
-        <a href="#">
-        <figure>
-          <img src="./img/leeseongjin/model/women1.jpg" alt=""></a>
+            <figure>
+          <a href="#"><img src="./img/leeseongjin/model/women1.jpg" alt=""></a>
         </figure>
-      </a>
         <span>
-          <h3><a href="#">그녀들은 Dior를 만들었습니다</a></h3><br>
+        <a href="#"><h3>그녀들은 Dior를 만들었습니다</h3></a><br>
           <p>DIOR UNTOLD THE power of red</p><br>
           <p>DIOR UNTOLD THE power of red</p><br>
           <button class="leebtn">상세보기</button>
         </span>
        </li>
        <li>
-       <a href="#">
-        <figure>
-          <img src="./img/leeseongjin/model/women4.jpg" alt=""></a>
+          <figure>
+          <a href="#"><img src="./img/leeseongjin/model/women4.jpg" alt=""></a>
         </figure>
-      </a>
         <span>
-          <h3><a href="#">그녀들은 Dior를 만들었습니다</a></h3><br>
-          <p>DIOR UNTOLD THE power of red</p><br>
-          <p>DIOR UNTOLD THE power of red</p><br>
+        <a href="#"><h3>꽃의 향이 만발한 디올</h3></a><br>
+          <p>In the opening episode Dior in Bloom</p>
           <button class="leebtn">상세보기</button>
         </span>
        </li>
     </ul>
-    </nav>  
-
+  </nav>  
+</nav>
 <<?php include 'sub-footer.php' ?> 
