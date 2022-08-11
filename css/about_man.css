@@ -22,10 +22,18 @@
     width: 100%;
     height: 100%;
   } 
+  div.ydr-youtube-container img{
+    position: absolute;
+    top: 2%;
+    right: 25%;
+    width: 50%;
+    z-index: 1;
+  }
    main.ydr-sauvage-main ul{
     display: flex;
     justify-content: space-between;
     width: 100%;
+    height: 30%;
    }
    main.ydr-sauvage-main ul li{
     flex: 1;
@@ -58,9 +66,10 @@
     font-size: 0.8em;
     color: rgba(0, 0, 0, 0.5);
    }
-   main.ydr-sauvage-main ul li:last-child img{
+   main.ydr-sauvage-main ul li.ydr-lemon img{
     width: 100%;
     height: 100%;
+
    }
    section.ydr-sauvage-banner{
    position: relative;
@@ -76,17 +85,24 @@
     width: 100%;
     height: 100%;
    }
-   section.ydr-sauvage-banner nav img{
+   section.ydr-sauvage-banner nav img.ydr-depp{
     width: 100%;
     height: 100%;
     object-fit: cover;
     object-position: top center;
    }
+
+   section.ydr-sauvage-banner nav img.ydr-perfum{
+    position: absolute;
+    width: 30%;
+    top: 20px;
+    right: 10px;
+   }
    section.ydr-sauvage-banner nav button{
     position: absolute;
     top: 50%;
-    right: 18%;
-    width: 100px;
+    right: 30px;
+    width: 80px;
     background: black;
     color: white;
    }
@@ -95,93 +111,86 @@
     color: black;
    }
  
-   @media screen and (min-width:1000px){
-    main.ydr-sauvage-main ul{
-      height: 500px;
-    }
-  }
   @media screen and (min-width:500px) and (max-width:1000px) {
-    main.ydr-sauvage-main ul{
-      height: 450px;
-    }
-    main.ydr-sauvage-main ul li:last-child{
+  
+    main.ydr-sauvage-main ul li.ydr-lemon{
       display: none;
     }
     }
     @media screen and (max-width:500px) {
-      main.ydr-sauvage-main ul li:last-child{
+      main.ydr-sauvage-main ul li.ydr-lemon{
+        display: none;
+      }
+      section.ydr-sauvage-banner nav img.ydr-perfum{
         display: none;
       }
     }
-  
-/*   
-  main.ydr-sauvage-purfume{
-    margin: 0 auto;
-    margin-bottom: 30px;
-  }
-  ul.ydr-sauvage-purfume-img{
-    margin: 0 auto;
-    width: 100%;
-    height: 500px;
-    display: flex;
-  }
-  ul.ydr-sauvage-purfume-img li img{
-    width: 80%;
-    height: 80%;
-    margin: 0 auto;
-  }
-  ul.ydr-sauvage-purfume-img li h3{
-    width: 70px;
-    font-weight: 600;
-    font-size: 1em;
-    transition: width 0.5s, background 0.5s, color 0.5s;
-  }
-  ul.ydr-sauvage-purfume-imgs li em{
-    display: block;
-    font-weight: bold;
-    font-size: 0.8em;
-  }
-  ul.ydr-sauvage-purfume-img li h3:hover {
-    width: 100px;
-    background: black;
-    color: white;
-    transition-delay: 0.5s, 0.5s, 0.5s;
-  }
-  li.ydr-sauvage-lemon{
-    width: 100%;
-   object-fit: cover;
-   object-position: center center;
-  }
-  nav.ydr-sauvage-banner{
-    display: flex;
+
+  /* -------------------------------------------------collection */
+  section.ydr-collection{
     width: 95%;
-    height: 500px;
-    position: relative;
-    left: 0;
-    top: 0;
-    background: red;
+    max-width: 1500px;
+    margin: 0 auto;
   }
-  nav.ydr-sauvage-banner img{
+  section.ydr-collection-water {
+    width: 100%;
+    height: 50%;
+    position: relative;
+  }
+  section.ydr-collection-water figure img{
     width: 100%;
     object-fit: cover;
-    object-position: top center;
+    object-position: center center;
   }
-  @media screen and (min-width:1000px){
-    ul.ydr-sauvage-purfume-img li{ 
-      display: flex;
-      flex-direction: column;
+  section.ydr-collection-water figure img:first-child{
+    position: absolute;
+  }
+  section.ydr-collection-water figure img:last-child{
+    filter:url(#filter);
+    transform: scale(0.97);
+  }
+  ul.ybr-colection-wrap{
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100%;
+    top: 0;
+  }
+
+  ul.ybr-colection-wrap li img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center center;
+  }
+  ul.ybr-colection-wrap li:nth-child(even){
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.8);
+  }
+  ul.ybr-colection-wrap li h3{
+    font-size: 2vw;
+  }
+  @media screen and (min-width:1000px) {
+    ul.ybr-colection-wrap li{
       width: 33.3%;
+      height: 50%;
     }
+  
   }
   @media screen and (min-width:500px) and (max-width:1000px) {
-    ul.ydr-sauvage-purfume-img li{
-      width: 50%;
+    ul.ybr-colection-wrap li{
+     width: 50%;
+     height: 50%;
     }
-    li.ydr-sauvage-lemon{
-      display: none;
-    }
-  } */
-  /* -------------------------------------------------collection */
+  }
+  @media screen and (max-width:500px) {
+   
+  }
  /*  section.ydr-collection{
     width: 95%;
     margin: 30px auto;

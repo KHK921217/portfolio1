@@ -1,9 +1,11 @@
 <?php include 'sub-header.php' ?>
 <link rel="stylesheet" href="./css/about_man.css">
+<script src="./js/about_man_script.js"></script>
 
 <section class="ydr-sauvage">
   <div class="ydr-youtube-container">
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/dBTBOAE-XK4?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <iframe src="https://www.youtube.com/embed/dBTBOAE-XK4?controls=0?autoplay=1 " title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <img src="./img/yoodareen/savage/text1.png" alt="">
   </div>
 
 <main class="ydr-sauvage-main">
@@ -18,23 +20,53 @@
           <h3><a href="#">SAUVAGE</a></h3>
         <em>Eau de toilette</em>
       </li>
-      <li>
+      <li class="ydr-lemon 1">
         <img src="./img/yoodareen/savage/edt-1_1440_1200_500x_crop_center.jpg" alt="">
       </li>
     </ul>
   </main>
 
+
   <section class="ydr-sauvage-banner">
    <nav>
-     <img src="./img/yoodareen/savage/banner1.jpg" alt="">
+     <img class="ydr-depp" src="./img/yoodareen/savage/banner3.jpg" alt="">
+     <img class="ydr-perfum" src="./img/yoodareen/savage/banner2-1.png" alt="">
+    
     <button><a href="#">MORE</a></button>
    </nav>
   </section>
+
   </section>
 
-
-<!--   <section class="ydr-collection">
+  <section class="ydr-collection">
     <section class="ydr-collection-water">
+      <figure>
+      <img src="./img/yoodareen/collection/water.jpg" alt="">
+      <img src="./img/yoodareen/collection/water.jpg" alt="">
+      </figure>
+      <ul class="ybr-colection-wrap">
+        <li><img src="./img/yoodareen/collection/LCP_DiorRiviera_discovery_slider-1-2_800x.jpg" alt=""></li>
+        <li>
+          <h3>LA COLLECTION PRIVEE</h3>
+           <em>CHRISTIAN DIOR</em>
+        </li>
+        <li><img src="./img/yoodareen/collection/LCP_DiorRiviera_discovery_slider-1-3_800x.jpg" alt=""></li>
+        <li>
+          <h6>태양빛을 가득 담은 향기</h6>
+          <em>디올의 여름 컬러로 물든 5가지 라 콜렉시옹 프리베 크리스챤 디올의 아이코닉 향수를 만나보세요. 5가지 리미티드 에디션 향수가 꿈에 그리던 휴식의 순간처럼 감각적인 행복과 마법 같은 여정으로 당신을 초대합니다.</em>
+        </li>
+        <li><img src="./img/yoodareen/collection/3348901629874_2.jpg" alt=""></li>
+        <li>
+          <p>
+            EDEN LOCK <br>
+            BOIS D'ARGENT <br>
+            TOVACOLOR
+          </p>
+        </li>
+      </ul>
+    </section>
+    1
+<!--     <section class="ydr-collection-marble">
       <ul class="ybr-colection-wrap">
         <li></li>
         <li></li>
@@ -43,19 +75,9 @@
         <li></li>
         <li></li>
       </ul>
-    </section>
-    <section class="ydr-collection-marble">
-      <ul class="ybr-colection-wrap">
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-      </ul>
-    </section>
+    </section> -->
   </section>
-
+<!-- 
 
   <figure class="ydr-homme">
     <img src="./img/91e91562d5295933c89ec3649e8045eb.jpg" alt="">
@@ -90,4 +112,12 @@
       <li>3</li>
     </ul>
   </section> -->
+  <svg>
+    <filter id="filter">
+    <feTurbulence id="water" numOctaves="5" seed="3" baseFrequency="0.02 0.5" />
+    <feDisplacementMap scale="20" in="SourceGraphic" />
+    <animate href="#water" attributeName="baseFrequency" keyTimes="0;0.5;1"
+    values="0.002;0.008;0.002" dur="7s" repeatCount="indefinite"/>
+    </filter>
+  </svg>
 <?php include 'sub-footer.php' ?>
