@@ -1,6 +1,7 @@
 .about-woman-section1 {
   position: relative;
   padding: 50px 0;
+  
   ul {
     width: 95%;
     max-width: 1200px;
@@ -9,6 +10,16 @@
       position: relative;
       box-sizing: border-box;
       border:1px solid #FFF;
+      .missdiol-textbox{
+        box-sizing: border-box;
+        padding: 5px;
+        border:1px solid #CCC;
+        box-shadow: 0 0 10px rgba(0,0,0,0.2);
+        >div{
+          padding:5px ;
+          border:1px solid #DDD;
+        }
+      }/* 공통으로 주고 싶은 텍스트 박스 디자인 되도록 수정은 미디어 쿼리 내에서 */
       @media screen and (min-width: 700px) {
         float: left;
         &::before {
@@ -34,6 +45,194 @@
             }
           } //figure
         } //a
+        &:nth-child(1){
+          .missdiol-textbox{
+            position: absolute;
+            top:50%;
+            transform: translateY(-50%);
+            width: 100%;
+            background: #FFF;
+            border:1px solid #CCC;
+            left:70%;
+            >div{position: relative;
+              background: whitesmoke;
+              >h2{
+                font-size: large;
+                font-weight: 600;
+                letter-spacing: 5px;
+             
+              }//ㅗ2
+              >p{
+                  font-weight:400;
+                  
+              
+                }//p
+                .more{
+                  
+                    top: 80%;
+                    width: 25%;
+                    border: 1px solid black;
+                    background-color: black;
+                    margin:20px 10px ;
+                    margin-top: 10px;
+                    
+                    >p{
+                      padding: 2px;
+                      color: white;
+                     text-align: center;
+                    }
+                }
+            }//div
+          }//textbox1
+        }//li1
+          &:nth-child(7){
+            .missdiol-textbox{
+              position: absolute;
+              width: 100%;
+              top:50%;
+              transform: translateY(-50%);
+              left: 70%;
+              border: 1px solid #DDD;
+              background: #FFF;
+              >div{
+                background:whitesmoke;
+                >h2{
+                  font-size:large;
+                  font-weight: 600;
+                  letter-spacing: 5px;
+               
+                }//ㅗ2
+                >p{
+                    font-weight:400;
+                    
+                
+                  }//p
+                  .more{
+                  
+                    top: 80%;
+                    width: 25%;
+                    border: 1px solid black;
+                    background-color: black;
+                    margin:20px 10px ;
+                    margin-top: 10px;
+                    
+                    >p{
+                      padding: 2px;
+                      color: white;
+                     text-align: center;
+                    }
+                }
+              }
+            }
+          }//li7
+          &:nth-child(8){
+            .missdiol-textbox{
+              position: absolute;
+              width: 100%;
+              top: 50%;
+              transform: translateY(-50%);
+              left: -70%;
+              border: 2px solid #ddd;
+              background: #FFF;
+              >div{
+                background: whitesmoke;
+                >h2{
+                  font-size:large;
+                  font-weight: 600;
+                  letter-spacing: 5px;
+               
+                }//ㅗ2
+                >p{
+                    font-weight:400;
+                    
+                
+                  }//p
+                  .more{
+                  
+                    top: 80%;
+                    width: 25%;
+                    border: 1px solid black;
+                    background-color: black;
+                    margin:20px 10px ;
+                    margin-top: 10px;
+                    
+                    >p{
+                      padding: 2px;
+                      color: white;
+                     text-align: center;
+                    }
+                }
+              }
+            }
+          }//li8
+          &:nth-child(3){
+            .missdiol-textbox{
+              position: absolute;
+              width: 100%;
+              top: -20%;
+              left:45%;
+              transform: translateY(50%);
+              rotate: 90deg;
+              border: 1px solid #ddd;
+              background:rgba(255, 250, 250, 0.7);
+             
+              >div{
+                
+                background: rgba(150, 150, 150, 0.4);
+               
+              }
+            }
+          }/* longtextbox;li3 */
+          &:nth-child(4)
+          .missdiol-textbox{
+            position: absolute;
+            width: 100%;
+            top:50%;
+            transform: translateY(-50%);
+            border: 1px solid black;
+            background: #eee;
+            >div{
+              background: rgba(255, 255, 255, 0.9);
+              
+              text-align: center;
+              letter-spacing: 2px;
+              em{
+                line-height: 50px;
+                font-weight: 600;
+              }
+              p{
+                word-spacing: 100px;
+                line-height: 60px;
+                font-weight: 500;
+              }
+            
+            }
+
+          }/* large textbox;li4 */
+          &:nth-child(2)
+          .missdiol-textbox{
+            width: 40%;
+            top: 65%;
+            left: -30%;
+            border: 1px solid #fff;
+            background:rgba(200, 200, 200, 0.4);
+            
+            rotate: -90deg;
+            >div{
+              background: rgba(200, 200, 200, 0.5);
+              border: 1px solid white;
+              
+              >p{
+                color: white;
+                text-decoration:underline;
+                letter-spacing: 3px;
+              }
+            }
+          }
+          &:nth-child(5)
+          .hidden{
+
+          }
       } //li min-width: 700px
 
       @media screen and (min-width: 1000px) {
@@ -45,7 +244,7 @@
         }
         &:nth-child(4) {
           width: 66.66%;
-          background: green;
+          background: grey;
           &::before{
             padding-top: 50%;
           }
@@ -71,13 +270,13 @@
         }
         &:nth-child(4){
           width: 100%;
-          height:200px;
-          object-fit: contain;
+          object-fit:cover;
           object-position: center;
-          background: red;
-          border: 1px solid salmon;
+          border: 3px solid  darkgreen;
+          
           &::before{
-            padding-top: 100%;
+            padding-top:50%;
+            border: 4px solid aqua;
           }
 
         }
@@ -97,18 +296,25 @@
         }
       } //li 3칸
       @media screen and (max-width: 700px) {
-    
-        a {
+          width: 100%;
+         &::before{
           display: block;
+          padding-top: 50%;
+          border: 2px solid saddlebrown;
+         }
+        a {
+          width: 100%;
           figure {
             width: 100%;
             img {
               width: 100%;
-            }
+              object-fit: contain;
+            } object-position:center;
           }
         }//a
         .missdiol-textbox{
           background: red;
+
         }
       } //li max-width: 700px
     } //li
