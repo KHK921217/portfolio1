@@ -39,10 +39,33 @@
         <p>부드럽게 피부를 감싸는 고급스럽고 우아한 향기를 선사하는 시그니쳐 향수</p>
       </figcaption>
     </figure>
-
-    
   </section>
 
+ <!-- section3 --> 
+  <section class="kh-intro-section3">
+      <ul class="kh-img-container">
+        <li><img src="./img/khk/intro/f_sova1.png" alt="diorimg3"></li>
+
+        <li><img src="./img/khk/intro/f_mis1.png" alt="diorimg1"></li>
+        <li><img src="./img/khk/intro/f_mis2.png" alt="diorimg2"></li>
+        <li><img src="./img/khk/intro/f_sova1.png" alt="diorimg3"></li>
+        
+        <li><img src="./img/khk/intro/f_mis1.png" alt="diorimg1"></li>
+      </ul>
+
+    <button class="kh-next">
+      <i class="fa-solid fa-circle-chevron-right"></i>
+    </button>
+    <button class="kh-prev">
+    <i class="fa-solid fa-circle-chevron-left"></i>
+    </button>
+
+    <div class=kh-controls>
+      <button data-n=1 class="kh-btn kh-btn1 kh-btn4 active"></button>
+      <button data-n=2 class="kh-btn kh-btn2"></button>
+      <button data-n=3 class="kh-btn kh-btn3 kh-btn0"></button>
+    </div>
+  </section><!-- section3 -->
 
 
 <?php include 'footer.php' ?>

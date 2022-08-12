@@ -31,11 +31,84 @@ $(function(){
   grained('#kh-noise', options)
   console.log("tt");
 
-  /* 스크롤 모션 */
-  
+  /* 슬라이드모션 */
+/*   var n=1
+  var isClick=true
+  var timeoutId
+  var interval = setInterval(function(){
+    n++
+    change()
+  },2000)
 
+  function change(){
+    if(n>4){
+      n=1
+    }
+    if(){}
+  } */
 
+  var n=1
+  var isClick =true
+  var timeoutId
+  var interval=setInterval(function(){
+    n++
+    change()
+  },2000)
 
+  function change(){
+    if(n>4){
+      n=1
+      $('.kh-img-container').addClass('none').css({'left':(n-1)*-100+'%'})
+      $('.kh-img-container').css('left')
+      $('.kh-img-container').removeClass('none')
+      n=2
+    }
+    if(n<0){
+      n=3
+      $('.kh-img-container').addClass('none').css({'left':(n-1)*-100+'%'})
+      $('.kh-img-container').css('left')
+      $('.kh-img-container').removeClass('none')
+      n=4
+    }
+    $('.kh-img-container').css({'left': (n-1)*-100+'%'})
 
+    $('.kh-controls button').removeClass('active')
+    $('.kh-controls .kh-btn' + n).addClass('active')
+  }//fn
+
+  function autoPlay(){
+    clearInterval(interval)
+    clearTimeout(timeoutId)
+    timeoutId=setTimeout(function(){
+      interval = setInterval(function(){
+        n++
+        change()
+      },2000)
+    },3000)
+  }
+
+  $('.kh-next').click(function(){
+    if(isClick===false) return false
+    isClick=false
+    setTimeout(function(){isClick=ture},500)
+    n++
+    change()
+    autoPlay()
+  })
+
+  $('.kh-prev').click(function(){
+    if(isClick===false) return false
+    isClick = false
+    setTimeout(function(){isClick=ture},500)
+    n--
+    change()
+    autoPlay()
+  })
+
+  $('.kh-controls button').click(function(){
+    n=$(this).attr('data-n')
+    change()
+    autoPlay()
+  })
 })//ready
 
