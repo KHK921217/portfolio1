@@ -1,0 +1,72 @@
+.lee-header{
+  position: absolute;
+  top: 0;
+  z-index: 100;
+  width: 100%;
+}
+.lee-header.active{
+  position: fixed;
+  top:0px;
+}
+.lee-header div.active-bg{
+  background: aliceblue;
+}
+.lee-header .lee-member{
+  width: 100%;
+  height: 35px;
+  background-color: rgba(255, 255, 255, 0.85);
+}
+.lee-header .lee-member h1{
+  height: 100%;
+}
+.lee-header .lee-member h1 img{
+  margin: 0 auto;
+  height: 100%;
+}
+.lee-header .lee-member ul{
+  display: flex;
+  justify-content: flex-end;
+  margin-top: -35px;
+  margin-right: 50px;
+  height: inherit;
+}
+.lee-header .lee-member ul li{
+  margin: 0 10px;
+  font-size: 0.8em;
+  line-height: 35px;
+}
+.lee-header .lee-member ul li:hover{
+  color:aliceblue;
+}
+.lee-header div{
+  width: 100%;
+  height: 65px;
+  background-color: rgba(255, 255, 255, 0);
+}
+.lee-header div .search-area{
+  margin: 0 auto;
+  width: 240px;
+  line-height: 65px;
+}
+.lee-header div .search-area fieldset{
+  border: 0;
+  border-bottom: 0.5px solid white;
+}
+.lee-header div .search-area fieldset form input{
+  border: 0;
+  background: transparent;
+}
+.lee-header div .mbtn{
+  float: right;
+  line-height: 65px;
+  margin-top: -65px;
+  margin-right: 50px;
+}
+.lee-header div .mbtn i{
+  transform: scale(175%);
+}
+.lee-header div .search-area .search .searchbox{
+  border: opacity(0);
+}
+
+
