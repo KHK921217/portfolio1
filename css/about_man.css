@@ -29,6 +29,7 @@
     width: 50%;
     z-index: 1;
   }
+
    main.ydr-sauvage-main ul{
     display: flex;
     justify-content: space-between;
@@ -48,6 +49,7 @@
     height: 90%;
     object-fit: cover;
     object-position: center center;
+    transition: filter 0.5s ;
    }
    main.ydr-sauvage-main ul li h3{
      font-weight: 600;
@@ -69,7 +71,10 @@
    main.ydr-sauvage-main ul li.ydr-lemon img{
     width: 100%;
     height: 100%;
-
+   }
+   main.ydr-sauvage-main ul li img:hover{
+    filter: opacity(0.7);
+    transition-delay: 0.3s ;
    }
    section.ydr-sauvage-banner{
    position: relative;
@@ -133,21 +138,100 @@
     margin: 0 auto;
   }
   section.ydr-collection-water {
+    position: relative;
     width: 100%;
     height: 50%;
+  }
+  section.ydr-collection-marble {
+    width: 100%;
+    height: 50%;
+  }
+  section.ydr-collection-water figure{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+  }
+  section.ydr-collection-water figure img{
+    width: 100%;
+    height: 100%;
+  }
+  section.ydr-collection-water figure img:last-child{
+    position: absolute;
+    filter:url(#filter);
+    top: 0;
+    transform: scale(0.97);
+  }
+  ul.ybr-colection-wrap{
     position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+    top: 0;
+  }
+  ul.ybr-colection-wrap li img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center center;
+  }
+  ul.ybr-colection-wrap li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.7);
+  }
+  ul.ybr-colection-wrap li h3{
+    font-weight: 600;
+    font-size: 2.5vw;
+    margin-bottom: 10px;
+  }
+  ul.ybr-colection-wrap li em{
+   margin: 5px auto;
+   font-size: 0.8vw;
+   font-weight: 100;
+   width: 80%;
+  }
+  ul.ybr-colection-wrap li h6{
+    font-size: 1.2vw;
+  }
+  ul.ybr-colection-wrap li p{
+    font-size: 1.8vw;
+    font-weight: 400;
+    margin-bottom: 10px;
+  }
+  @media screen and (min-width:1000px) {
+    ul.ybr-colection-wrap li{
+      width: 33.3%;
+    }
+  }
+  @media screen and (min-width:500px) and (max-width:1000px){
+    ul.ybr-colection-wrap li{
+      width: 50%; 
+    }
+  }
+  @media screen and (max-width:500px){
+    ul.ybr-colection-wrap li{
+      width: 100%;   
+    }
+  }
+/*   section.ydr-collection-water {
+    width: 100%;
+    height: 100%;
+    position: relative;
+  }
+  section.ydr-collection-water figure{
+    width: 100%;
+    height: 100%;
+    background: red;
   }
   section.ydr-collection-water figure img{
     width: 100%;
     object-fit: cover;
     object-position: center center;
-  }
-  section.ydr-collection-water figure img:first-child{
-    position: absolute;
-  }
-  section.ydr-collection-water figure img:last-child{
-    filter:url(#filter);
-    transform: scale(0.97);
   }
   ul.ybr-colection-wrap{
     position: absolute;
@@ -190,7 +274,7 @@
   }
   @media screen and (max-width:500px) {
    
-  }
+  } */
  /*  section.ydr-collection{
     width: 95%;
     margin: 30px auto;

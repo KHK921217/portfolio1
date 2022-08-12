@@ -4,12 +4,12 @@
 
 <section class="ydr-sauvage">
   <div class="ydr-youtube-container">
-  <iframe src="https://www.youtube.com/embed/dBTBOAE-XK4?controls=0?autoplay=1 " title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <iframe src="https://www.youtube.com/embed/dBTBOAE-XK4?=3&autoplay=1&mute=1&loop=1&rel=0&showinfo=0&color=white&controls=0 " title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     <img src="./img/yoodareen/savage/text1.png" alt="">
   </div>
 
 <main class="ydr-sauvage-main">
-    <ul>
+    <ul class="ydr-parallax">
       <li>
         <img src="./img/yoodareen/savage/3348901567572_0.jpg" alt="">
         <h3><a href="#">SAUVAGE</a></h3>
@@ -41,8 +41,8 @@
   <section class="ydr-collection">
     <section class="ydr-collection-water">
       <figure>
-      <img src="./img/yoodareen/collection/water.jpg" alt="">
-      <img src="./img/yoodareen/collection/water.jpg" alt="">
+       <img src="./img/yoodareen/collection/water.jpg" alt="">
+       <img src="./img/yoodareen/collection/water.jpg" alt="">
       </figure>
       <ul class="ybr-colection-wrap">
         <li><img src="./img/yoodareen/collection/LCP_DiorRiviera_discovery_slider-1-2_800x.jpg" alt=""></li>
@@ -50,32 +50,42 @@
           <h3>LA COLLECTION PRIVEE</h3>
            <em>CHRISTIAN DIOR</em>
         </li>
-        <li><img src="./img/yoodareen/collection/LCP_DiorRiviera_discovery_slider-1-3_800x.jpg" alt=""></li>
+        <li><img src="./img/yoodareen/collection/LCP_DiorRiviera_discovery_slider-1-1_800x (2).jpg" alt=""></li>
         <li>
-          <h6>태양빛을 가득 담은 향기</h6>
-          <em>디올의 여름 컬러로 물든 5가지 라 콜렉시옹 프리베 크리스챤 디올의 아이코닉 향수를 만나보세요. 5가지 리미티드 에디션 향수가 꿈에 그리던 휴식의 순간처럼 감각적인 행복과 마법 같은 여정으로 당신을 초대합니다.</em>
+          <h6>새로운 스타일의 블루와 화이트</h6>
+          <em>투왈 드 주이 패턴 또는 마리아 그라치아 치우리가 디올을 위해 디자인한 바야데르 모티브를 입은 향수 케이스는 여름 햇살처럼 따사로운 풍경을 선사합니다.</em>
         </li>
         <li><img src="./img/yoodareen/collection/3348901629874_2.jpg" alt=""></li>
         <li>
-          <p>
-            EDEN LOCK <br>
-            BOIS D'ARGENT <br>
-            TOVACOLOR
-          </p>
+          <p>EDEN LOCK</p>
+          <p>BOIS D'ARGENT</p>
+          <p>TOVACOLOR</p>
         </li>
       </ul>
     </section>
-    1
-<!--     <section class="ydr-collection-marble">
+   <section class="ydr-collection-water">
+       <figure>
+        <img src="./img/yoodareen/collection/8bfd264098445fbcca8157fc25374abc.jpg" alt="">
+        <img src="./img/yoodareen/collection/8bfd264098445fbcca8157fc25374abc.jpg" alt="">
+      </figure> 
       <ul class="ybr-colection-wrap">
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
+      <li><img src="./img/yoodareen/collection/3348901629898_0 (1).jpg" alt=""></li>
+        <li>
+        <h6>태양빛을 가득 담은 향기</h6>
+          <em>디올의 여름 컬러로 물든 5가지 라 콜렉시옹 프리베 크리스챤 디올의 아이코닉 향수를 만나보세요. 5가지 리미티드 에디션 향수가 꿈에 그리던 휴식의 순간처럼 감각적인 행복과 마법 같은 여정으로 당신을 초대합니다.</em>
+        </li>
+        <li><img src="./img/yoodareen/collection/3348901629928_0 (1).jpg" alt=""></li>
+        <li>
+         
+        </li>
+        <li><img src="./img/yoodareen/collection/3348901629997_0 (1).jpg" alt=""></li>
+        <li>
+          <p>
+           
+          </p>
+        </li>
       </ul>
-    </section> -->
+    </section> 
   </section>
 <!-- 
 
@@ -117,7 +127,7 @@
     <feTurbulence id="water" numOctaves="5" seed="3" baseFrequency="0.02 0.5" />
     <feDisplacementMap scale="20" in="SourceGraphic" />
     <animate href="#water" attributeName="baseFrequency" keyTimes="0;0.5;1"
-    values="0.002;0.008;0.002" dur="7s" repeatCount="indefinite"/>
+    values="0.002;0.008;0.002" dur="15s" repeatCount="indefinite"/>
     </filter>
   </svg>
 <?php include 'sub-footer.php' ?>
