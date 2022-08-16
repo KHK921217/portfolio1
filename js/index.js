@@ -56,15 +56,15 @@ $(function(){
   },2000)
 
   function change(){
-    if(n>4){
-      n=1
+    if(n>3){
+      n=2
       $('.kh-img-container').addClass('none').css({'left':(n-1)*-100+'%'})
       $('.kh-img-container').css('left')
       $('.kh-img-container').removeClass('none')
       n=2
     }
     if(n<0){
-      n=3
+      n=4
       $('.kh-img-container').addClass('none').css({'left':(n-1)*-100+'%'})
       $('.kh-img-container').css('left')
       $('.kh-img-container').removeClass('none')

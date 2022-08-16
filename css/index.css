@@ -198,7 +198,7 @@ figure.khkindexlogo img:nth-of-type(3){ /* yellow */
   top: 0%;
   transform: translate(-50%,-50%);
   width: 80%;
-  max-width: 800px;
+  max-width: 600px;
   margin-bottom: 10px;
   filter:  drop-shadow(6px 8px 2px #333);
   opacity: 1;
