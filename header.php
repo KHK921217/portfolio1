@@ -32,7 +32,7 @@
 </head>
 
 <body>
-  <!-- <nav class="lee-header">
+  <nav class="lee-header">
     <nav class="lee-member">
       <h1>
         <span class="hidden">로고</span>
@@ -47,7 +47,7 @@
         <li><a href="#">Basket</a></li>
       </ul>
     </nav>
-    <div>
+    <nav class="gnb">
       <div class="search-area">
         <fieldset id="search">
           <form name="searchbox">
@@ -56,7 +56,7 @@
           </form>
         </fieldset>
       </div>
-      <nav class="gnb">
+      <nav class="lnb">
         <ul>
           <li class="menu">
             <ul>
@@ -78,9 +78,15 @@
           </li>
         </ul>
       </nav>
+      <h1>
+        <span class="hidden">로고</span>
+        <a href="./index.php">
+          <img src="./img/leeseongjin/etc/logo.png" alt="">
+        </a>
+      </h1>
       <button class="mbtn">
         <i class="fa-solid fa-bars"></i>
       </button>
-    </div>
+    </nav>
   </nav>
-  </div> -->
+  </div>
