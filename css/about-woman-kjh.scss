@@ -10,7 +10,7 @@
     li {
       position: relative;
       box-sizing: border-box;
-      border: 1px solid #fff;
+   
       .missdiol-textbox {
         box-sizing: border-box;
         padding: 5px;
@@ -34,6 +34,13 @@
           left: 0;
           width: 100%;
           height: 100%;
+          :hover{
+           transform: scale(1.2);
+           filter: contrast(85%);
+           overflow: hidden;
+           
+          }
+          
           figure {
             width: 100%;
             height: 100%;
@@ -42,7 +49,8 @@
               height: 100%;
               object-fit: cover;
               object-position: center;
-              filter: grayscale(0.7);
+              filter: grayscale(0.78);
+              
             }
           } //figure
         } //a
@@ -75,8 +83,7 @@
                 width: 25%;
                 border: 1px solid black;
                 background-color: black;
-                margin: 20px 10px;
-                margin-top: 10px;
+                border-radius: 50%;
 
                 > p {
                   padding: 2px;
@@ -115,8 +122,7 @@
                 width: 25%;
                 border: 1px solid black;
                 background-color: black;
-                margin: 20px 10px;
-                margin-top: 10px;
+                border-radius: 50%;
 
                 > p {
                   padding: 2px;
@@ -155,8 +161,7 @@
                 width: 25%;
                 border: 1px solid black;
                 background-color: black;
-                margin: 20px 10px;
-                margin-top: 10px;
+                border-radius: 50%;
 
                 > p {
                   padding: 2px;
@@ -504,4 +509,76 @@
       } //li max-width: 700px
     } //li
   } //ul
-} //section
+} //section1
+/* -------------------------------------------------------------------- */
+.about-woman-section2{
+  position: relative;
+  overflow: hidden;
+  padding: 50px 0;
+  background: black;
+  ul{
+    width: 95%;
+    margin: 0 auto;
+    max-width: 1200px;
+
+    li{
+     position: relative;
+     border: 1px solid #eee;
+     box-sizing: border-box;
+
+      @media screen and (min-width:700px){
+        float: left;
+        
+        &::before{
+          content: "";
+          display: block;
+          padding-top: 100%;
+          a{
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+
+            figure{
+              width: 100%;
+              height:100%;
+
+              img{
+                width: 100%;
+                height: 100%;
+                object-position: center;
+                object-fit: cover;
+                filter: grayscale(0.7);
+              }
+            }
+          }//a
+     
+
+        }
+      }//3칸
+      @media screen and (min-width:1000px){
+        width: 33%;
+        &:nth-child(3){
+         display: flex;
+         
+        }
+        &:nth-child(2){
+         display: flex;
+         z-index: 1;
+         width: 10%;
+         height: 5%;
+         
+        }
+      }
+      @media screen and (min-width:700px) and (max-width:1000px){
+        width: 50%;
+      }//2칸
+      @media screen and (max-width:700px){
+        width: 100%;
+      }//1칸
+    }//li
+  }//ul
+}//sction2
+
+
