@@ -3,7 +3,7 @@
       margin:0 auto ;
       width: 95%;
       max-width: 1500px;
-      background: rgb(237, 237, 239);
+      background: rgb(237, 237, 239); 
   }
   .ydr-sauvage div.ydr-youtube-container{
     padding-top: 50%;
@@ -28,6 +28,18 @@
     right: 25%;
     width: 50%;
     z-index: 1;
+    animation: round 30s linear infinite ;
+  }
+  @keyframes round{
+    0%{
+      transform: rotate(0deg);
+    }
+    50%{
+      transform: rotate(180deg);
+    }
+    100%{
+      transform: rotate(360deg);
+    }
   }
 
    main.ydr-sauvage-main ul{
@@ -49,7 +61,7 @@
     height: 90%;
     object-fit: cover;
     object-position: center center;
-    transition: filter 0.5s ;
+    transition: all 0.5s ;
    }
    main.ydr-sauvage-main ul li h3{
      font-weight: 600;
@@ -68,12 +80,13 @@
     font-size: 0.8em;
     color: rgba(0, 0, 0, 0.5);
    }
-   main.ydr-sauvage-main ul li.ydr-lemon img{
+   main.ydr-sauvage-main ul li:last-child img{
     width: 100%;
     height: 100%;
    }
-   main.ydr-sauvage-main ul li img:hover{
-    filter: opacity(0.7);
+   main.ydr-sauvage-main ul li img:hover:not(.ydr-lemon){
+    transform: scale(1.1) ;
+    filter: blur(3px);
     transition-delay: 0.3s ;
    }
    section.ydr-sauvage-banner{
@@ -106,9 +119,11 @@
    section.ydr-sauvage-banner nav button{
     position: absolute;
     top: 50%;
-    right: 30px;
-    width: 80px;
+    right: 10%;
+    width: 10%;
+    height: 25px;
     background: black;
+    border-radius: 30px;
     color: white;
    }
    section.ydr-sauvage-banner nav button:hover{
@@ -118,15 +133,15 @@
  
   @media screen and (min-width:500px) and (max-width:1000px) {
   
-    main.ydr-sauvage-main ul li.ydr-lemon{
+    main.ydr-sauvage-main ul li:last-child{
       display: none;
     }
     }
     @media screen and (max-width:500px) {
-      main.ydr-sauvage-main ul li.ydr-lemon{
+      main.ydr-sauvage-main ul li:last-child{
         display: none;
       }
-      section.ydr-sauvage-banner nav img.ydr-perfum{
+      main.ydr-sauvage-main ul li:last-child{
         display: none;
       }
     }
@@ -175,6 +190,7 @@
     height: 100%;
     object-fit: cover;
     object-position: center center;
+    transition: all 0.5s;
   }
   ul.ybr-colection-wrap li {
     display: flex;
@@ -186,7 +202,7 @@
   }
   ul.ybr-colection-wrap li h3{
     font-weight: 600;
-    font-size: 2.5vw;
+    font-size: 2vw;
     margin-bottom: 10px;
   }
   ul.ybr-colection-wrap li em{
@@ -203,6 +219,35 @@
     font-weight: 400;
     margin-bottom: 10px;
   }
+  img.ydr-dior-logo{
+    width: 100%;
+    transition: transform 15s;
+  }
+  img.ydr-dior-logo:hover{
+    transform: rotate(100deg);
+    transition-delay: 0.5s;
+  }
+  li.ydr-marble-text h6{
+    color: black;
+  }
+  li.ydr-marble-text em{
+    color: black;
+  }
+  ul.ybr-colection-wrap li button{
+    width: 20%;
+    height: 8%;
+    background: black;
+    border-radius: 30px;
+  }
+  ul.ybr-colection-wrap li button:hover{
+    background: #ededef;
+    color: black;
+   }
+   section.ydr-collection-water ul li img:hover:not(.ydr-dior-logo){
+    transform: scale(1.1) ;
+    filter: blur(3px);
+    transition-delay: 0.3s ;
+   }
   @media screen and (min-width:1000px) {
     ul.ybr-colection-wrap li{
       width: 33.3%;
@@ -215,99 +260,108 @@
   }
   @media screen and (max-width:500px){
     ul.ybr-colection-wrap li{
-      width: 100%;   
+      width: 100%;  
     }
   }
-/*   section.ydr-collection-water {
-    width: 100%;
-    height: 100%;
-    position: relative;
+  /* ---------------------------------------------------dior-homme */
+  section.ydr-homme{
+     margin:30px auto ;
+      width: 95%;
+      max-width: 1500px;
   }
-  section.ydr-collection-water figure{
-    width: 100%;
-    height: 100%;
-    background: red;
+  section.ydr-homme figure{
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+    padding-top: 10px;
   }
-  section.ydr-collection-water figure img{
-    width: 100%;
+  img.ydr-figure-img{
+    width: 50%;
     object-fit: cover;
     object-position: center center;
   }
-  ul.ybr-colection-wrap{
-    position: absolute;
+  figcaption.ydr-home-text{
     display: flex;
-    flex-wrap: wrap;
-    width: 100%;
-    height: 100%;
-    top: 0;
-  }
-
-  ul.ybr-colection-wrap li img{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    object-position: center center;
-  }
-  ul.ybr-colection-wrap li:nth-child(even){
-    display: flex;
+    width: 50%;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
     text-align: center;
-    color: rgba(255, 255, 255, 0.8);
   }
-  ul.ybr-colection-wrap li h3{
-    font-size: 2vw;
+  figcaption.ydr-home-text h3{
+    width: 40%;
+    margin-bottom: 10%;
+  }
+  figcaption.ydr-home-text h3 img{
+    width: 100%;
+  }
+  figcaption.ydr-home-text p{
+    width: 80%;
+  }
+  nav.ydr-homme-nav{
+    display: flex;
+  }
+  nav.ydr-homme-nav img{
+    width: 45%;
+    object-fit: cover;
+    object-position: center center;
+  }
+  div.ydr-homme-name{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   text-align: center;
+  }
+  div.ydr-homme-name span{
+    padding: 10px;
+  }
+  div.ydr-homme-name span a{
+    font-size: 1.2vw;
+    font-weight: 100;
+    color: #acacac;
+    transition: color 0.5s;
+  }
+  div.ydr-homme-name p{
+    width: 70%;
+    margin-top: 20px;
+    color: #acacac;
+  }
+  div.ydr-homme-name span a:hover{
+    transition-delay: 0.5s;
+    color: black;
+  }
+  div.ydr-homme-name span a::after{
+    content: " /";
+  }
+  div.ydr-homme-name span a:last-child::after{
+    content: none;
   }
   @media screen and (min-width:1000px) {
-    ul.ybr-colection-wrap li{
-      width: 33.3%;
-      height: 50%;
-    }
-  
-  }
-  @media screen and (min-width:500px) and (max-width:1000px) {
-    ul.ybr-colection-wrap li{
-     width: 50%;
-     height: 50%;
-    }
-  }
-  @media screen and (max-width:500px) {
-   
-  } */
- /*  section.ydr-collection{
-    width: 95%;
-    margin: 30px auto;
-    background: blue;
-  }
-  ul.ybr-colection-wrap{
-     display: flex;
-     flex-wrap: wrap;
-     width: 100%;
-  }
-  ul.ybr-colection-wrap li:nth-child(odd){
-    background: gray;
-  }
-  @media screen and (min-width:1000px) {
-    ul.ybr-colection-wrap li{
-      width: 33.3%;
-      padding-top: 33.3%;
-    }
+    
   }
   @media screen and (min-width:500px) and (max-width:1000px){
-    ul.ybr-colection-wrap li{
-      width: 50%;
-      padding-top: 50%;
-    }
+   
   }
   @media screen and (max-width:500px){
-    ul.ybr-colection-wrap li{
-      width: 100%;
-      padding-top: 100%;
+    section.ydr-homme figure{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
     }
-  } */
-  /* ---------------------------------------------------dior-homme */
-  
+    img.ydr-figure-img{
+      width: 100%;
+      height: 300px;
+      object-fit: cover;
+      object-position: center center;
+    }
+    figcaption.ydr-home-text p{
+      width: 100%;
+    }
+  }
+
   /* figure.ydr-homme{
     display: flex;
     justify-content: space-between;

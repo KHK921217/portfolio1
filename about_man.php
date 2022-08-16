@@ -4,11 +4,11 @@
 
 <section class="ydr-sauvage">
   <div class="ydr-youtube-container">
-  <iframe src="https://www.youtube.com/embed/dBTBOAE-XK4?=3&autoplay=1&mute=1&loop=1&rel=0&showinfo=0&color=white&controls=0 " title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe src="https://www.youtube.com/embed/dBTBOAE-XK4?=3&autoplay=1&mute=1&loop=1&rel=0&showinfo=0&color=white&controls=0 " title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     <img src="./img/yoodareen/savage/text1.png" alt="">
   </div>
 
-<main class="ydr-sauvage-main">
+  <main class="ydr-sauvage-main">
     <ul class="ydr-parallax">
       <li>
         <img src="./img/yoodareen/savage/3348901567572_0.jpg" alt="">
@@ -17,93 +17,92 @@
       </li>
       <li>
         <img src="./img/yoodareen/savage/product-2_1440_1200_500x500_crop_center.jpg" alt="">
-          <h3><a href="#">SAUVAGE</a></h3>
+        <h3><a href="#">SAUVAGE</a></h3>
         <em>Eau de toilette</em>
       </li>
-      <li class="ydr-lemon 1">
-        <img src="./img/yoodareen/savage/edt-1_1440_1200_500x_crop_center.jpg" alt="">
+      <li>
+        <img class="ydr-lemon" src="./img/yoodareen/savage/edt-1_1440_1200_500x_crop_center.jpg" alt="">
       </li>
     </ul>
   </main>
 
 
   <section class="ydr-sauvage-banner">
-   <nav>
-     <img class="ydr-depp" src="./img/yoodareen/savage/banner3.jpg" alt="">
-     <img class="ydr-perfum" src="./img/yoodareen/savage/banner2-1.png" alt="">
-    
-    <button><a href="#">MORE</a></button>
-   </nav>
+    <nav>
+      <img class="ydr-depp" src="./img/yoodareen/savage/banner3.jpg" alt="">
+      <img class="ydr-perfum" src="./img/yoodareen/savage/banner2-1.png" alt="">
+
+      <button><a href="#">MORE</a></button>
+    </nav>
   </section>
 
-  </section>
+</section>
 
-  <section class="ydr-collection">
-    <section class="ydr-collection-water">
-      <figure>
-       <img src="./img/yoodareen/collection/water.jpg" alt="">
-       <img src="./img/yoodareen/collection/water.jpg" alt="">
-      </figure>
-      <ul class="ybr-colection-wrap">
-        <li><img src="./img/yoodareen/collection/LCP_DiorRiviera_discovery_slider-1-2_800x.jpg" alt=""></li>
-        <li>
-          <h3>LA COLLECTION PRIVEE</h3>
-           <em>CHRISTIAN DIOR</em>
-        </li>
-        <li><img src="./img/yoodareen/collection/LCP_DiorRiviera_discovery_slider-1-1_800x (2).jpg" alt=""></li>
-        <li>
-          <h6>새로운 스타일의 블루와 화이트</h6>
-          <em>투왈 드 주이 패턴 또는 마리아 그라치아 치우리가 디올을 위해 디자인한 바야데르 모티브를 입은 향수 케이스는 여름 햇살처럼 따사로운 풍경을 선사합니다.</em>
-        </li>
-        <li><img src="./img/yoodareen/collection/3348901629874_2.jpg" alt=""></li>
-        <li>
-          <p>EDEN LOCK</p>
-          <p>BOIS D'ARGENT</p>
-          <p>TOVACOLOR</p>
-        </li>
-      </ul>
-    </section>
-   <section class="ydr-collection-water">
-       <figure>
-        <img src="./img/yoodareen/collection/8bfd264098445fbcca8157fc25374abc.jpg" alt="">
-        <img src="./img/yoodareen/collection/8bfd264098445fbcca8157fc25374abc.jpg" alt="">
-      </figure> 
-      <ul class="ybr-colection-wrap">
+<section class="ydr-collection">
+  <section class="ydr-collection-water">
+    <figure>
+      <img src="./img/yoodareen/collection/water.jpg" alt="">
+      <img src="./img/yoodareen/collection/water.jpg" alt="">
+    </figure>
+    <ul class="ybr-colection-wrap">
+      <li><img src="./img/yoodareen/collection/LCP_DiorRiviera_discovery_slider-1-2_800x.jpg" alt=""></li>
+      <li>
+        <h3>LA COLLECTION PRIVEE</h3>
+        <em>CHRISTIAN DIOR</em>
+      </li>
+      <li><img src="./img/yoodareen/collection/LCP_DiorRiviera_discovery_slider-1-1_800x (2).jpg" alt=""></li>
+      <li>
+        <h6>새로운 스타일의 블루와 화이트</h6>
+        <em>투왈 드 주이 패턴 또는 마리아 그라치아 치우리가 디올을 위해 디자인한 바야데르 모티브를 입은 향수 케이스는 여름 햇살처럼 따사로운 풍경을 선사합니다.</em>
+      </li>
+      <li><img src="./img/yoodareen/collection/3348901629874_2.jpg" alt=""></li>
+      <li>
+        <p>EDEN LOCK</p>
+        <p>BOIS D'ARGENT</p>
+        <p>TOVACOLOR</p>
+      </li>
+    </ul>
+  </section>
+  <section class="ydr-collection-water">
+    <figure>
+      <img src="./img/yoodareen/collection/8bfd264098445fbcca8157fc25374abc.jpg" alt="">
+      <img src="./img/yoodareen/collection/8bfd264098445fbcca8157fc25374abc.jpg" alt="">
+    </figure>
+    <ul class="ybr-colection-wrap">
       <li><img src="./img/yoodareen/collection/3348901629898_0 (1).jpg" alt=""></li>
-        <li>
+      <li class="ydr-marble-text">
         <h6>태양빛을 가득 담은 향기</h6>
-          <em>디올의 여름 컬러로 물든 5가지 라 콜렉시옹 프리베 크리스챤 디올의 아이코닉 향수를 만나보세요. 5가지 리미티드 에디션 향수가 꿈에 그리던 휴식의 순간처럼 감각적인 행복과 마법 같은 여정으로 당신을 초대합니다.</em>
-        </li>
-        <li><img src="./img/yoodareen/collection/3348901629928_0 (1).jpg" alt=""></li>
-        <li>
-         
-        </li>
-        <li><img src="./img/yoodareen/collection/3348901629997_0 (1).jpg" alt=""></li>
-        <li>
-          <p>
-           
-          </p>
-        </li>
-      </ul>
-    </section> 
+        <em>디올의 여름 컬러로 물든 5가지 라 콜렉시옹 프리베 크리스챤 디올의 아이코닉 향수를 만나보세요. 5가지 리미티드 에디션 향수가 꿈에 그리던 휴식의 순간처럼 감각적인 행복과 마법 같은 여정으로 당신을 초대합니다.</em>
+      </li>
+      <li><img src="./img/yoodareen/collection/3348901629928_0 (1).jpg" alt=""></li>
+      <li>
+        <img class="ydr-dior-logo" src="./img/yoodareen/savage/text1.png" alt="">
+      </li>
+      <li><img src="./img/yoodareen/collection/3348901629997_0 (1).jpg" alt=""></li>
+      <li>
+        <button>MORE</button>
+      </li>
+    </ul>
   </section>
-<!-- 
+</section>
 
-  <figure class="ydr-homme">
-    <img src="./img/91e91562d5295933c89ec3649e8045eb.jpg" alt="">
+
+<section class="ydr-homme">
+  <figure>
+    <img class="ydr-figure-img" src="./img/yoodareen/homme/91e91562d5295933c89ec3649e8045eb.jpg" alt="">
     <figcaption class="ydr-home-text">
-      <h3>DIOR HOMME</h6>
+      <h3><img src="./img/yoodareen/homme/diorhomme-text.png" alt=""></h3>
         <p>
           디올 옴므는 가공되지 않은 우드와 다채로운 부드러움으로 관능적인 남성성을 새롭게 재해석합니다. <br>
           부드러운 우드 노트의 중심에는, 남성적인 아틀라스 시더가 스파이스 향이 감도는 아이티산 베티버의 따뜻함을 감싸줍니다. 마치 다듬어 지지 않은 목재가 디올에 의해 수작업으로 정교히 조각된 듯한 느낌을
-          선사합니다. <br>
+          선사합니다.
           디올 옴므는 현대 남성의 다채로운 모습을 담아내었습니다. 남성미가 넘치는 시그니처 향뿐만 아니라 강인함과 부드러움이 교차하는 부드럽고 센슈얼한 느낌도 함께 선사합니다. <br>
           디올 옴므 오 드 뚜왈렛은 대담한 향기를 지닌 향수로 관능적인 인상을 남깁니다. <br>
         </p>
     </figcaption>
   </figure>
 
-  <nav class="ydr-homme-nav">
+    <nav class="ydr-homme-nav">
     <div class="ydr-homme-name">
       <span>
         <a href="#">DIOR HOMME COLOGNE</a>
@@ -112,9 +111,9 @@
       </span>
       <p>디올 옴므는 마치 우아하고 모던한 수트와 같이 향이 퍼지는 곳마다 우아함을 선사합니다. 디올 옴므 인텐스 오 드 퍼퓸은 극도로 장엄한 세련미를 대담하고 강렬하게 표출합니다. 감각적인 엠버 노트와 고귀한 우드 베이스로 강조된 인텐스 아이리스는 강렬한 매력을 선사합니다. 향기롭고 관능적인 향기가 끊임없이 이어집니다.</p>
     </div>
-    <img src="./img/3348901419147_2.webp" alt="">
+    <img  src="./img/yoodareen/homme/3348901419147_2.jpg" alt="">
   </nav>
-
+<!-- 
   <section class="ydr-homme-purfume">
     <ul class="ydr-homme-ul">
       <li>1</li>
@@ -122,12 +121,12 @@
       <li>3</li>
     </ul>
   </section> -->
-  <svg>
-    <filter id="filter">
+</section>
+<svg>
+  <filter id="filter">
     <feTurbulence id="water" numOctaves="5" seed="3" baseFrequency="0.02 0.5" />
     <feDisplacementMap scale="20" in="SourceGraphic" />
-    <animate href="#water" attributeName="baseFrequency" keyTimes="0;0.5;1"
-    values="0.002;0.008;0.002" dur="15s" repeatCount="indefinite"/>
-    </filter>
-  </svg>
+    <animate href="#water" attributeName="baseFrequency" keyTimes="0;0.5;1" values="0.002;0.008;0.002" dur="15s" repeatCount="indefinite" />
+  </filter>
+</svg>
 <?php include 'sub-footer.php' ?>
