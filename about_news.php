@@ -1,4 +1,4 @@
-<?php include 'sub-header.php' ?>
+<?php include 'sub-header-test.php' ?>
 <link rel="stylesheet" href="./css/about_news.css">
 <nav class="lee-container">
   <nav class="lee-container0">
