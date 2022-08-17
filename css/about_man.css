@@ -61,7 +61,7 @@
     height: 90%;
     object-fit: cover;
     object-position: center center;
-    transition: all 0.5s ;
+    transition: filter 0.5s ;
    }
    main.ydr-sauvage-main ul li h3{
      font-weight: 600;
@@ -85,7 +85,6 @@
     height: 100%;
    }
    main.ydr-sauvage-main ul li img:hover:not(.ydr-lemon){
-    transform: scale(1.1) ;
     filter: blur(3px);
     transition-delay: 0.3s ;
    }
@@ -113,6 +112,7 @@
    section.ydr-sauvage-banner nav img.ydr-perfum{
     position: absolute;
     width: 30%;
+    height: 90%;
     top: 20px;
     right: 10px;
    }
@@ -120,7 +120,7 @@
     position: absolute;
     top: 50%;
     right: 10%;
-    width: 10%;
+    width: 100px;
     height: 25px;
     background: black;
     border-radius: 30px;
@@ -175,6 +175,7 @@
     filter:url(#filter);
     top: 0;
     transform: scale(0.97);
+    opacity: 0.3;
   }
   ul.ybr-colection-wrap{
     position: relative;
@@ -202,40 +203,38 @@
   }
   ul.ybr-colection-wrap li h3{
     font-weight: 600;
-    font-size: 2vw;
+    font-size: 2.5em;
     margin-bottom: 10px;
   }
   ul.ybr-colection-wrap li em{
-   margin: 5px auto;
-   font-size: 0.8vw;
-   font-weight: 100;
+   margin: 10px auto;
+   font-size: 1.2em;
+   font-weight: 600;
    width: 80%;
   }
   ul.ybr-colection-wrap li h6{
     font-size: 1.2vw;
   }
   ul.ybr-colection-wrap li p{
-    font-size: 1.8vw;
-    font-weight: 400;
-    margin-bottom: 10px;
+    margin: 5px auto;
+    font-size: 0.9em;
+    font-weight: 100;
+    width: 80%;
   }
   img.ydr-dior-logo{
     width: 100%;
-    transition: transform 15s;
+    animation: round 30s linear infinite ;
   }
-  img.ydr-dior-logo:hover{
-    transform: rotate(100deg);
-    transition-delay: 0.5s;
-  }
+
   li.ydr-marble-text h6{
     color: black;
   }
-  li.ydr-marble-text em{
+  li.ydr-marble-text p{
     color: black;
   }
   ul.ybr-colection-wrap li button{
-    width: 20%;
-    height: 8%;
+    width: 100px;
+    height: 25px;
     background: black;
     border-radius: 30px;
   }
@@ -261,6 +260,7 @@
   @media screen and (max-width:500px){
     ul.ybr-colection-wrap li{
       width: 100%;  
+      height: 400px;
     }
   }
   /* ---------------------------------------------------dior-homme */
@@ -275,7 +275,7 @@
     justify-content: space-between;
     padding-top: 10px;
   }
-  img.ydr-figure-img{
+  img.ydr-figure-img1{
     width: 50%;
     object-fit: cover;
     object-position: center center;
@@ -290,13 +290,15 @@
   }
   figcaption.ydr-home-text h3{
     width: 40%;
-    margin-bottom: 10%;
+    margin-bottom: 10px;
   }
   figcaption.ydr-home-text h3 img{
     width: 100%;
   }
   figcaption.ydr-home-text p{
     width: 80%;
+    font-size: 0.8em;
+    color: #acacac;
   }
   nav.ydr-homme-nav{
     display: flex;
@@ -316,7 +318,7 @@
   div.ydr-homme-name span{
     padding: 10px;
   }
-  div.ydr-homme-name span a{
+  span.ydr-button button{
     font-size: 1.2vw;
     font-weight: 100;
     color: #acacac;
@@ -325,17 +327,37 @@
   div.ydr-homme-name p{
     width: 70%;
     margin-top: 20px;
+    font-size: 0.9em;
     color: #acacac;
   }
-  div.ydr-homme-name span a:hover{
-    transition-delay: 0.5s;
+  span.ydr-button button:hover{
+    transition-delay: 0.3s;
     color: black;
   }
-  div.ydr-homme-name span a::after{
+  span.ydr-button button::after{
     content: " /";
   }
-  div.ydr-homme-name span a:last-child::after{
+  span.ydr-button button:last-child::after{
     content: none;
+  }
+  .ydr-homme-purfume{
+    margin-top: 15px;
+    width: 100%;
+  }
+  .ydr-homme-ul{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: red;
+  }
+  .ydr-homme-ul li{
+    flex: 1;
+    margin-left: 10px;
+    background: black;
+  }
+  .ydr-homme-ul li:first-child{
+    margin-left: 0;
   }
   @media screen and (min-width:1000px) {
     
@@ -351,87 +373,17 @@
       justify-content: center;
       text-align: center;
     }
-    img.ydr-figure-img{
+    img.ydr-figure-img1{
       width: 100%;
       height: 300px;
       object-fit: cover;
       object-position: center center;
     }
-    figcaption.ydr-home-text p{
+    figcaption.ydr-home-text{
+      margin-top: 10px;
       width: 100%;
     }
+   .ydr-homme-nav{
+      margin-top: 10px;
+    } 
   }
-
-  /* figure.ydr-homme{
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
-    margin-top: 50px;
-  }
-  figure.ydr-homme img{
-    width: 50%;
-    height: 100%;
-  }
-  figcaption.ydr-home-text{
-    width: 50%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-  }
-  figcaption.ydr-home-text h3{
-    font-weight: 600;
-    font-size: 2em;
-    margin-bottom: 30px;
-  }
-  figcaption.ydr-home-text p{
-   margin: 0 auto;
-    width: 80%;
-  }
-  nav.ydr-homme-nav{
-    display: flex;
-    margin-top: 50px ;
-    width: 100%;
-  }
-  div.ydr-homme-name{
-    width: 50%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
-    align-items: center;
-  }
-  div.ydr-homme-name span{
-    margin-bottom: 30px;
-  }
-  div.ydr-homme-name span a::after{
-   content: "/";
-  }
-  nav.ydr-homme-nav img{
-    width: 50%;
-  }
-  .ydr-homme-purfume{
-    width: 100%;
-  }
-  ul.ydr-homme-ul{
-    display: flex;
-    width: 100%;
-    justify-content: space-between;
-  }
-  ul.ydr-homme-ul li{
-    width: 30%;
-  }
-  @media screen and (min-width:1000px) {
-    ul.ydr-homme-ul li{
-      width: 30%;
-      padding-top: 30%;
-    }
-  }
-  
-  @media screen and (max-width:500px){
-    ul.ydr-homme-ul li{
-      width: 100%;
-      padding-top: 50%;
-    }
-  } */

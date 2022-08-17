@@ -31,7 +31,6 @@
     <nav>
       <img class="ydr-depp" src="./img/yoodareen/savage/banner3.jpg" alt="">
       <img class="ydr-perfum" src="./img/yoodareen/savage/banner2-1.png" alt="">
-
       <button><a href="#">MORE</a></button>
     </nav>
   </section>
@@ -53,13 +52,13 @@
       <li><img src="./img/yoodareen/collection/LCP_DiorRiviera_discovery_slider-1-1_800x (2).jpg" alt=""></li>
       <li>
         <h6>새로운 스타일의 블루와 화이트</h6>
-        <em>투왈 드 주이 패턴 또는 마리아 그라치아 치우리가 디올을 위해 디자인한 바야데르 모티브를 입은 향수 케이스는 여름 햇살처럼 따사로운 풍경을 선사합니다.</em>
+        <p>투왈 드 주이 패턴 또는 마리아 그라치아 치우리가 디올을 위해 디자인한 바야데르 모티브를 입은 향수 케이스는 여름 햇살처럼 따사로운 풍경을 선사합니다.</p>
       </li>
       <li><img src="./img/yoodareen/collection/3348901629874_2.jpg" alt=""></li>
       <li>
-        <p>EDEN LOCK</p>
-        <p>BOIS D'ARGENT</p>
-        <p>TOVACOLOR</p>
+        <em>EDEN LOCK</em>
+        <em>BOIS D'ARGENT</em>
+        <em>TOVACOLOR</em>
       </li>
     </ul>
   </section>
@@ -72,7 +71,7 @@
       <li><img src="./img/yoodareen/collection/3348901629898_0 (1).jpg" alt=""></li>
       <li class="ydr-marble-text">
         <h6>태양빛을 가득 담은 향기</h6>
-        <em>디올의 여름 컬러로 물든 5가지 라 콜렉시옹 프리베 크리스챤 디올의 아이코닉 향수를 만나보세요. 5가지 리미티드 에디션 향수가 꿈에 그리던 휴식의 순간처럼 감각적인 행복과 마법 같은 여정으로 당신을 초대합니다.</em>
+        <p>디올의 여름 컬러로 물든 5가지 라 콜렉시옹 프리베 크리스챤 디올의 아이코닉 향수를 만나보세요. 5가지 리미티드 에디션 향수가 꿈에 그리던 휴식의 순간처럼 감각적인 행복과 마법 같은 여정으로 당신을 초대합니다.</p>
       </li>
       <li><img src="./img/yoodareen/collection/3348901629928_0 (1).jpg" alt=""></li>
       <li>
@@ -89,7 +88,7 @@
 
 <section class="ydr-homme">
   <figure>
-    <img class="ydr-figure-img" src="./img/yoodareen/homme/91e91562d5295933c89ec3649e8045eb.jpg" alt="">
+    <img class="ydr-figure-img1" src="./img/yoodareen/homme/91e91562d5295933c89ec3649e8045eb.jpg" alt="">
     <figcaption class="ydr-home-text">
       <h3><img src="./img/yoodareen/homme/diorhomme-text.png" alt=""></h3>
         <p>
@@ -104,23 +103,23 @@
 
     <nav class="ydr-homme-nav">
     <div class="ydr-homme-name">
-      <span>
-        <a href="#">DIOR HOMME COLOGNE</a>
-        <a href="#">DIOR HOMME</a>
-        <a href="#">DIOR HOMME INTENSE</a>
+      <span class="ydr-button">
+        <button href="#">DIOR HOMME COLOGNE</button>
+        <button href="#">DIOR HOMME</button>
+        <button href="#">DIOR HOMME INTENSE</button>
       </span>
       <p>디올 옴므는 마치 우아하고 모던한 수트와 같이 향이 퍼지는 곳마다 우아함을 선사합니다. 디올 옴므 인텐스 오 드 퍼퓸은 극도로 장엄한 세련미를 대담하고 강렬하게 표출합니다. 감각적인 엠버 노트와 고귀한 우드 베이스로 강조된 인텐스 아이리스는 강렬한 매력을 선사합니다. 향기롭고 관능적인 향기가 끊임없이 이어집니다.</p>
     </div>
-    <img  src="./img/yoodareen/homme/3348901419147_2.jpg" alt="">
+    <img class="ydr-figure-img2" src="./img/yoodareen/homme/3348901419147_2.jpg" alt="">
   </nav>
-<!-- 
+
   <section class="ydr-homme-purfume">
     <ul class="ydr-homme-ul">
       <li>1</li>
       <li>2</li>
       <li>3</li>
     </ul>
-  </section> -->
+  </section> 
 </section>
 <svg>
   <filter id="filter">
