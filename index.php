@@ -21,8 +21,8 @@
 
     <figure class="khkindexlogo">
       <img src="./img/khk/intro/logo-white.png" alt="logo-white">
-      <img src="./img/khk/intro/logo-blue.png" alt="logo-blue">
-      <img src="./img/khk/intro/logo-yellow.png" alt="logo-yellow">
+      <img src="./img/khk/intro/logo-black.png" alt="logo-black">
+      <img src="./img/khk/intro/logo-red.png" alt="logo-red">
     </figure>
   </section>
 

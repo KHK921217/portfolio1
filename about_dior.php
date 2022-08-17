@@ -1,18 +1,19 @@
 <?php include 'sub-header.php' ?>
-<link rel="stylesheet" href="./css/about_dior.css">  
+<link rel="stylesheet" href="./css/about_dior.css"> 
+<script src="./js/about_dior.js"></script> 
 
 <div class="kh-about-dior">
     <div class="kh-title">
       <img src="./img/khk/brand/title1.png" alt="title">
     </div><!-- 제목 -->
 
-    <section class="kh-brand-sec1">
+    <section class="kh-brand-section1" data-n="1">
       <figure>
         <img src="./img/khk/brand/dior123 copy.png" alt="img1">
       </figure>
     </section><!-- section1-->
 
-    <section class="kh-brand-sec2">
+    <section class="kh-brand-section2" data-n="2">
       <figure>
         <img src="./img/khk/brand/brand.png" alt="img2">
         <figcaption>
@@ -21,7 +22,7 @@
       </figure>
     </section><!-- section2-->
 
-    <section class="kh-brand-sec3">
+    <section class="kh-brand-section3" data-n="3">
       <figure>
         <img src="./img/khk/brand/brand1.png" alt="img3">
         <figcaption>
@@ -32,7 +33,7 @@
       </figure>
     </section><!-- section3-->
 
-    <section class="kh-brand-sec4">
+    <section class="kh-brand-section4" data-n="4">
       <div class="kh-div1">
         <figure>
           <img src="./img/khk/brand/brand3.png" alt="img4">
@@ -51,5 +52,12 @@
       </div>
     </section><!-- section4-->
 
+    <nav class="kh-scrollspy">
+      <div class="kh-progress"></div>
+      <button class="kh-btn1" data-n="1"></button>
+      <button class="kh-btn2" data-n="2"></button>
+      <button class="kh-btn3" data-n="3"></button>
+      <button class="kh-btn4" data-n="4"></button>
+    </nav>
   </div><!-- 전체 -->
 <?php include 'sub-footer.php' ?>
