@@ -78,7 +78,7 @@
   transform: scale(175%);
   margin-right: 40px;
 }
-.lee-header .gnb .lnb>ul>li>ul>li{
+.lee-header .gnb .lnb{
   display: none;
 }
 

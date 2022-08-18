@@ -31,6 +31,7 @@
   <script src="https://kit.fontawesome.com/cc7c7e940e.js" crossorigin="anonymous"></script>
   <script src="./js/header.js"></script>
   <script src="./js/header-test.js"></script>
+  <script src="./js/nav.js"></script>
   <title>Document</title>
 </head>
 
@@ -51,45 +52,50 @@
       </ul>
     </nav>
     <div class="gnb">
-        <div class="search-area">
-          <fieldset id="search">
-            <form name="searchbox">
-              <input type="text" class="search_input" name="sch" id="sch" maxlength="30" placeholder="검색어를 입력해주세요" autocomplete="off">
-              <button type="submit" class="search_btn" value="검색"><i class="fa-solid fa-magnifying-glass"></i></button>
-            </form>
-          </fieldset>
-        </div>
-        <nav class="lnb">
-          <ul>
-            <li class="menu">
-              <ul>
-                <li href="about_dior" class="menu1-1"></li>
-                <li href="about_dior" class="menu1-2"></li>
-              </ul>
-              <ul>
-                <li href="about_woman" class="menu2-1"></li>
-                <li href="about_woman" class="menu2-2"></li>
-                <li href="about_woman" class="menu2-3"></li>
-                <li href="about_woman" class="menu2-4"></li>
-              </ul>
-              <ul>
-                <li href="about_man" class="menu3-1"></li>
-                <li href="about_news" class="menu3-2"></li>
-                <li href="about_news" class="menu3-3"></li>
-                <li href="about_news" class="menu3-4"></li>
-              </ul>
-            </li>
-          </ul>
-        </nav>
-        <h1>
-          <span class="hidden">로고</span>
-          <a href="./index.php">
-            <img src="./img/leeseongjin/etc/logo.png" alt="">
-          </a>
-        </h1>
-        <button class="mbtn">
-          <i class="fa-solid fa-bars"></i>
-        </button>
-</div>
+      <div class="search-area">
+        <fieldset id="search">
+          <form name="searchbox">
+            <input type="text" class="search_input" name="sch" id="sch" maxlength="30" placeholder="검색어를 입력해주세요" autocomplete="off">
+            <button type="submit" class="search_btn" value="검색"><i class="fa-solid fa-magnifying-glass"></i></button>
+          </form>
+        </fieldset>
+      </div>
+      <nav class="lnb">
+        <ul>
+          <li class="menu1">
+            <a href="">Company</a>
+            <ul>
+              <li href="about_dior" class="menu1-2">Dior 소개</li>
+              <li href="about_dior" class="menu1-3">뉴스 페이지</li>
+            </ul>
+          </li>
+          <li class="menu2">
+            <a href="">Woman's product</a>
+            <ul>
+              <li href="about_woman" class="menu2-2">미스 디올</li>
+              <li href="about_woman" class="menu2-3">쟈도르</li>
+              <li href="about_woman" class="menu2-4">조이 바이 디올</li>
+            </ul>
+          </li>
+          <li class="menu3">
+            <a href="">Man's product</a>
+            <ul>
+              <li href="about_news" class="menu3-2">소바쥬</li>
+              <li href="about_news" class="menu3-3">라콜렉시옹</li>
+              <li href="about_news" class="menu3-4">디올옴므</li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <h1>
+        <span class="hidden">로고</span>
+        <a href="./index.php">
+          <img src="./img/leeseongjin/etc/logo.png" alt="">
+        </a>
+      </h1>
+      <button class="mbtn">
+        <!-- <i class="fa-solid fa-bars"></i> -->
+      </button>
+    </div>
   </nav>
   </div>
