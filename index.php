@@ -30,6 +30,7 @@
     <svg class="kh-svg" viewBox="0 0 758.29 499.06">
       <path pathLength="1" d="M423.38 481.4h89.18c128.01 0 231.78-103.77 231.78-231.78S640.57 17.85 512.56 17.85l-133.06-.2-.29 463.75H245.73c-128.01 0-231.78-103.77-231.78-231.78S117.72 17.85 245.73 17.85h84.62" />
     </svg>
+    <video src="./movie/intro2-movie.mp4" muted autoplay loop playsinline></video>
   </div>
   <figure class="kh-section2-center">
     <img class="rose" src="./img/khk/intro/section2-rose.png" alt="">

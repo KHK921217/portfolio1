@@ -104,7 +104,7 @@ figure.khkindexlogo img:nth-of-type(1){/* white */
   margin: 0 auto;
   animation: glitch2 0.3s infinite;
 }
-figure.khkindexlogo img:nth-of-type(2){ /* black */
+figure.khkindexlogo img:nth-of-type(2){ /* yellow */
   position: absolute;
   top:0%;
   left:0%;
@@ -120,23 +120,23 @@ figure.khkindexlogo img:nth-of-type(3){ /* red */
 }
 @keyframes glitch1{
   0%{
-    transform: translateX(1%);
+    transform: translateX(0%);
     clip-path:polygon( 0 0 , 100% 0 , 100% 60% , 0 60% );
   }
   10%{
-    transform: translateX(-1%);
+    transform: translateX(0.15%);
     clip-path:polygon( 0 5% , 100% 30% , 100% 70% , 0 70% );
   }
   20%{
-    transform: translateX(1%);
+    transform: translateX(0%);
     clip-path:polygon( 0 10% , 100% 25% , 100% 100% , 0 80% );
   }
   30%{
-    transform: translateX(-2%);
+    transform: translateX(0.1%);
     clip-path:polygon( 0 15% , 100% 20% , 100% 95% , 0 90% );
   }
   40%{
-    transform: translateX(-1.5%);
+    transform: translateX(0.11%);
     clip-path:polygon( 0 20% , 100% 15% , 100% 90% , 0 100% );
   }
   50%{
@@ -144,60 +144,38 @@ figure.khkindexlogo img:nth-of-type(3){ /* red */
     clip-path:polygon( 0 25% , 100% 10% , 100% 85% , 0 80% );
   }
   60%{
-    transform: translateX(1%);
+    transform: translateX(0.3%);
     clip-path:polygon( 0 30% , 100% 5% , 100% 30% , 0 70% );
   }
   70%{
-    transform: translateX(-1%);
+    transform: translateX(0.2%);
     clip-path:polygon( 0 25% , 100% 0% , 100% 20% , 0 60% );
   }
   80%{
-    transform: translateX(0%);
+    transform: translateX(0.5%);
     clip-path:polygon( 0 20% , 100% 5% , 100% 10% , 0 50% );
   }
   90%{
-    transform: translateX(1%);
+    transform: translateX(0.6%);
     clip-path:polygon( 0 10% , 100% 10% , 100% 5% , 0 40% );
   }
   100%{
-    transform: translateX(1.5%);
+    transform: translateX(0.4%);
     clip-path:polygon( 0 0 , 100% 15% , 100% 0% , 0 20% );
   }
 }
 @keyframes glitch2{
-  0%{
-    transform: translateX(1%);
-  }
-  10%{
-    transform: translateX(-1%);
-  }
-  20%{
-    transform: translateX(0%);
-  }
-  30%{
-    transform: translateX(-1%);
-  }
-  40%{
-    transform: translateX(0%); 
-  }
-  50%{
-    transform: translateX(1%);
-  }
-  60%{
-    transform: translateX(-1%); 
-  }
-  70%{
-    transform: translateX(0%);
-  }
-  80%{
-    transform: translateX(1%);
-  }
-  90%{
-    transform: translateX(-1%); 
-  }
-  100%{
-    transform: translateX(0%);
-  }
+  0%{transform: translateX(1%);}
+  10%{transform: translateX(-1%);}
+  20%{transform: translateX(0%);}
+  30%{transform: translateX(-1%);}
+  40%{transform: translateX(0%);}
+  50%{transform: translateX(1%);}
+  60%{transform: translateX(-1%);}
+  70%{transform: translateX(0%);}
+  80%{transform: translateX(1%);}
+  90%{transform: translateX(-1%);}
+  100%{transform: translateX(0%);}
 }
 
 /* -------noise-------- */
@@ -238,6 +216,7 @@ figure.khkindexlogo img:nth-of-type(3){ /* red */
   -webkit-mask-size: 100%;
   -webkit-mask-repeat: no-repeat;
   z-index: 2;
+  opacity: 0.5;
 } 
 
 .kh-youtube-container .kh-svg{
