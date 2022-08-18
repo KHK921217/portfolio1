@@ -12,8 +12,33 @@
   transform: translate(-50%,-50%);
   width:80%;
   max-width: 600px;
+  animation: mixblend 5s infinite;
+  /* animation:mixblend 5s infinite; */
   -webkit-box-reflect: below 0px linear-gradient(to bottom, rgba(0,0,0,0.0), rgba(0,0,0,0.2));
 }
+@keyframes mixblend{
+  0%{mix-blend-mode: normal;}
+  51%{mix-blend-mode: normal;}
+  52%{mix-blend-mode: difference;}
+  55%{mix-blend-mode: difference;}
+  56%{mix-blend-mode: normal;}
+  60%{mix-blend-mode: difference;}
+  61%{mix-blend-mode: difference;}
+  65%{mix-blend-mode: lighten;}
+  67%{mix-blend-mode: difference;}
+  70%{mix-blend-mode: difference;}
+  75%{mix-blend-mode: lighten;}
+  78%{mix-blend-mode: lighten;}
+  80%{mix-blend-mode: normal;}
+  81%{mix-blend-mode: overlay;}
+  86%{mix-blend-mode: difference;}
+  90%{mix-blend-mode: lighten;}
+  93%{mix-blend-mode: overlay;}
+  96%{mix-blend-mode: difference;}
+  100%{mix-blend-mode: normal;}
+}
+
+
 figure.khkindexlogo img{
   width: 100%;
 }
@@ -21,12 +46,13 @@ figure.khkindexlogo img:nth-of-type(1){/* white */
   position: relative;
   z-index: 1;
   margin: 0 auto;
+  animation: glitch2 0.3s infinite;
 }
 figure.khkindexlogo img:nth-of-type(2){ /* black */
   position: absolute;
   top:0%;
   left:0%;
-  animation: glitch1 0.6s infinite;
+  animation: glitch1 0.4s infinite;
 
 }
 figure.khkindexlogo img:nth-of-type(3){ /* red */
@@ -38,48 +64,94 @@ figure.khkindexlogo img:nth-of-type(3){ /* red */
 }
 @keyframes glitch1{
   0%{
-    transform: translateX(2%);
-    clip-path:polygon( 0 0 , 100% 0 , 100% 60% , 0 70% );
+    transform: translateX(1%);
+    clip-path:polygon( 0 0 , 100% 0 , 100% 60% , 0 60% );
   }
   10%{
-    transform: translateX(-4%);
-    clip-path:polygon( 0 20% , 100% 15% , 100% 70% , 0 80% );
+    transform: translateX(-1%);
+    clip-path:polygon( 0 5% , 100% 30% , 100% 70% , 0 70% );
   }
   20%{
     transform: translateX(1%);
-    clip-path:polygon( 0 25% , 100% 20% , 100% 80% , 0 90% );
+    clip-path:polygon( 0 10% , 100% 25% , 100% 100% , 0 80% );
   }
   30%{
     transform: translateX(-2%);
-    clip-path:polygon( 0 30% , 100% 25% , 100% 90% , 0 80% );
+    clip-path:polygon( 0 15% , 100% 20% , 100% 95% , 0 90% );
   }
   40%{
     transform: translateX(-1.5%);
-    clip-path:polygon( 0 35% , 100% 30% , 100% 100% , 0 70% );
+    clip-path:polygon( 0 20% , 100% 15% , 100% 90% , 0 100% );
   }
   50%{
-    transform: translateX(3%);
-    clip-path:polygon( 0 30% , 100% 25% , 100% 90% , 0 80% );
+    transform: translateX(0%);
+    clip-path:polygon( 0 25% , 100% 10% , 100% 85% , 0 80% );
   }
   60%{
     transform: translateX(1%);
-    clip-path:polygon( 0 25% , 100% 20% , 100% 80% , 0 100% );
+    clip-path:polygon( 0 30% , 100% 5% , 100% 30% , 0 70% );
   }
   70%{
-    transform: translateX(2%);
-    clip-path:polygon( 0 20% , 100% 15% , 100% 70% , 0 80% );
+    transform: translateX(-1%);
+    clip-path:polygon( 0 25% , 100% 0% , 100% 20% , 0 60% );
   }
   80%{
-    transform: translateX(-1%);
-    clip-path:polygon( 0 15% , 100% 10% , 100% 60% , 0 70% );
+    transform: translateX(0%);
+    clip-path:polygon( 0 20% , 100% 5% , 100% 10% , 0 50% );
   }
   90%{
-    transform: translateX(3%);
-    clip-path:polygon( 0 10% , 100% 5% , 100% 80% , 0 80% );
+    transform: translateX(1%);
+    clip-path:polygon( 0 10% , 100% 10% , 100% 5% , 0 40% );
   }
   100%{
     transform: translateX(1.5%);
-    clip-path:polygon( 0 0 , 100% 0% , 100% 55% , 0 55% );
+    clip-path:polygon( 0 0 , 100% 15% , 100% 0% , 0 20% );
+  }
+}
+@keyframes glitch2{
+  0%{
+    transform: translateX(1%);
+   
+  }
+  10%{
+    transform: translateX(-1%);
+   
+  }
+  20%{
+    transform: translateX(0%);
+    
+  }
+  30%{
+    transform: translateX(-1%);
+    
+  }
+  40%{
+    transform: translateX(0%);
+    
+  }
+  50%{
+    transform: translateX(1%);
+   
+  }
+  60%{
+    transform: translateX(-1%);
+    
+  }
+  70%{
+    transform: translateX(0%);
+    
+  }
+  80%{
+    transform: translateX(1%);
+    
+  }
+  90%{
+    transform: translateX(-1%);
+    
+  }
+  100%{
+    transform: translateX(0%);
+    
   }
 }
 

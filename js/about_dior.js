@@ -87,5 +87,22 @@ $(function(){
 
   /* 스크롤모션 */
   
+  function motion(){
+    $('.kh-brand-section2 figure').each(function(){
+      var t=$(this).offset().top
+      if(scrt>=t-winh){
+        $(this).addClass('active')
+      }else{
+        $(this).removeClass('active')
+      }
+    })//each
+  }//fn
+
+  motion()
+  $(window).scroll(function(){
+    motion()
+  }).resize(function(){
+    motion()
+  })
 
 })//ready

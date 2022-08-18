@@ -19,6 +19,12 @@ div.kh-about-dior{
   width: 100%;
 }
 
+.kh-brand-section1 figure img{
+  filter: url(#filter);
+}
+
+
+
 /* ----------sec2----------- */
 .kh-brand-section2 figure {
   margin: 20px 0;
@@ -180,6 +186,26 @@ div.kh-about-dior{
 }
 /* -----scrollmotion---- */
 
+.kh-brand-section2 figure img{
+  opacity: 0;
+  transform: scale(0);
+  transition: transform 3s, opacity 1s;
+}
+.kh-brand-section2 figure.active img{
+  opacity: 1;
+  transform: scale(1);
+}
+.kh-brand-section2 figure p{
+  opacity: 0;
+  transition: opacity 6s;
+}
+.kh-brand-section2 figure.active p{
+  opacity: 1;
+}
+
+.kh-brand-section3 figure img{
+  
+}
 
 
 

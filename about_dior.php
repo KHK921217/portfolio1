@@ -11,6 +11,7 @@
       <figure>
         <img src="./img/khk/brand/dior123 copy.png" alt="img1">
       </figure>
+      
     </section><!-- section1-->
 
     <section class="kh-brand-section2" data-n="2">
@@ -60,4 +61,12 @@
       <button class="kh-btn4" data-n="4"></button>
     </nav>
   </div><!-- 전체 -->
+  <svg>
+    <filter id="filter">
+    <feTurbulence id="water" numOctaves="3" seed="1" baseFrequency="0.02 0.5" />
+    <feDisplacementMap scale="10" in="SourceGraphic" />
+    <animate href="#water" attributeName="baseFrequency" keyTimes="0;0.5;1"
+    values="0.002;0.008;0.002" dur="10s" repeatCount="indefinite"/>
+    </filter>
+  </svg>
 <?php include 'sub-footer.php' ?>
