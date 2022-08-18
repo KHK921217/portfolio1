@@ -11,18 +11,18 @@
       <a href="#">
         <figure>
           <img src="./img/HBJ/Miss^diol/missdiol^eaude^parpum.jpg" alt="">
-        </figure> 
+        </figure>
       </a>
-        <div class="missdiol-textbox">
-          <div>
-            <h2>"올 뉴 미스디올 오 드 퍼퓸"</h2> <br>
-            <p>싱그러운 은방울 꽃과 선명한 피오니가 장미의 꽃잎처럼 부드럽게 센슈얼틱한 매력을 이끌어내고 
-              파우더리스한 아이리스가 향기를 한 층 더 풍성하게 피워냅니다.</p> <br>
-            <button class="more">
-              <div>more</div>
-            </button>
-          </div>
-        </div><!-- textbox -->
+      <div class="missdiol-textbox">
+        <div>
+          <h2>"올 뉴 미스디올 오 드 퍼퓸"</h2> <br>
+          <p>싱그러운 은방울 꽃과 선명한 피오니가 장미의 꽃잎처럼 부드럽게 센슈얼틱한 매력을 이끌어내고
+            파우더리스한 아이리스가 향기를 한 층 더 풍성하게 피워냅니다.</p> <br>
+          <button class="more">
+            <div>more</div>
+          </button>
+        </div>
+      </div><!-- textbox -->
     </li><!-- 1 -->
     <li class="missdiol-pic2">
       <a href="#">
@@ -88,7 +88,7 @@
       <div class="missdiol-textbox">
         <div>
           <h2>"올 뉴 미스디올 오 드 뚜왈렛"</h2> <br>
-          <p>탑 노트에서 블러드 오렌지와 만다린이 눈부신 매력을 더해주며, 
+          <p>탑 노트에서 블러드 오렌지와 만다린이 눈부신 매력을 더해주며,
             미들 노트에서 은방울꽃 어코드가 그라스산 로즈의 향에 가볍고 산뜻한 향기를 더해줍니다.
             베이스 노트의 선명한 패츌리 어코드가 행복으로 가득하게 만들어 줍니다.</p><br>
           <button class="more">
@@ -107,7 +107,7 @@
       <div class="missdiol-textbox">
         <div>
           <h2>"올 뉴 미스디올 로즈 에쌍스"</h2><br>
-          <p>그라스의 마농 농장에서 수확한 메이로즈와 싱그럽고 매혹적인 플로럴과 우디의 베티버,패츌리 그리고 가이악 향기까지... 
+          <p>그라스의 마농 농장에서 수확한 메이로즈와 싱그럽고 매혹적인 플로럴과 우디의 베티버,패츌리 그리고 가이악 향기까지...
             조화롭게 어우러진 가운데 머스크 노트가 부드럽게 감싸진 특별한 향기를 선사하는 최초의 미스 디올 빈티지 리미티드 향수입니다.</p><br>
           <!-- 일반 박스 형태 텍스트박스 -->
           <button class="more">
@@ -134,14 +134,16 @@
     <li>
       <a href="">
         <figure>
-          <img src="" alt="">
-          <img src="" alt="">
+
+          <img src="./img/HBJ/ja^dor/ja^dor_model.jpg" alt="">
         </figure>
       </a>
-      <div class="textbox">
-        <h3>쟈도르 디올...  <br>
-        인근 매장에서 만나보세요!</h3>
+      <div class="jador-textbox">
+        <div>
+        <h3>쟈도르 디올... <br>
+          인근 매장에서 만나보세요!</h3>
         <p>쟈도르만의 여전사같은 에너제틱함..!</p>
+      </div>
       </div>
       <button class="more">
         <div>more</div>
@@ -150,8 +152,7 @@
     <li>
       <a href="">
         <figure>
-          <img src="./img/HBJ/ja^dor/ja^dor_model.jpg" alt="">
-          <img src="" alt="">
+          <img src="./img/HBJ/ja^dor/ja^dor^model^background.jpg" alt="">
         </figure>
       </a>
       <div class="textbox">
@@ -165,8 +166,8 @@
     <li>
       <a href="">
         <figure>
-          <img src="./img/HBJ/ja^dor/ja^dor^model^background.jpg" alt="">
-          <img src="" alt="">
+          <img src="./img/HBJ/ja^dor/ja^dor_orange.jpg" alt="">
+
         </figure>
       </a>
       <div class="textbox">
@@ -180,13 +181,14 @@
     <li>
       <a href="">
         <figure>
-          <img src="" alt="">
-          <img src="" alt="">
+          <img src="./img/HBJ/ja^dor/ja^dor^eau^de^toillet_shadow.ver.jpg" alt="">
         </figure>
       </a>
-      <div class="textbox">
-        <h3></h3>
-        <p></p>
+      <div class="jador-textbox">
+        <div>
+          <h3>쟈도르 오드 뚜왈렛</h3>
+          <p>디올의 오드 퍼퓨머-크리에이터 프랑소와드마쉬는 그라스에서 보낸 유년시절의 잊을 수 없는 추억이 되어준 비터오렌지 나무숲을 한병의 보틀에 담아냈습니다.</p>
+        </div>
       </div>
       <button class="more">
         <div>more</div>
@@ -195,8 +197,7 @@
     <li>
       <a href="">
         <figure>
-          <img src="" alt="">
-          <img src="" alt="">
+          <img src="./img/HBJ/ja^dor/vanila^been.jpg" alt="">
         </figure>
       </a>
       <div class="textbox">
@@ -210,13 +211,14 @@
     <li>
       <a href="">
         <figure>
-          <img src="" alt="">
-          <img src="" alt="">
+          <img src="./img/HBJ/ja^dor/ja^dor^lole^blackback.jpg" alt="">
         </figure>
       </a>
-      <div class="textbox">
-        <h3></h3>
-        <p></p>
+      <div class="jador-textbox">
+        <div>
+          <h3>쟈도르 로르</h3>
+          <p>쟈도르 로르 에는 그라스의 디올가든 에서 재배된 쟈스민과메이로즈가 블렌딩 되어있으며 바닐라와 듀베로즈가 오리엔탈 매력을 더해줍니다.</p>
+        </div>
       </div>
       <button class="more">
         <div>more</div>
@@ -225,78 +227,19 @@
     <li>
       <a href="">
         <figure>
-          <img src="" alt="">
-          <img src="" alt="">
+          <img src="./img/HBJ/ja^dor/womens-fragrance-jadore.jpg" alt="">
         </figure>
       </a>
-      <div class="textbox">
-        <h3></h3>
-        <p></p>
+      <div class="jador-textbox">
+        <div>
+          <h3>쟈도르의 스토리</h3>
+          <p>쟈도르,여성의 담대함과 아름다움의 찬사... 쟈도르 컬렉션은 그 두가지 모두를 관능적이면서도 동시에 산뜻함을 밸런스있게 이 한병에 담아냈습니다.</p>
+        </div>
       </div>
       <button class="more">
         <div>more</div>
       </button>
     </li><!-- li7 -->
-    <li>
-      <a href="">
-        <figure>
-          <img src="" alt="">
-          <img src="" alt="">
-        </figure>
-      </a>
-      <div class="textbox">
-        <h3></h3>
-        <p></p>
-      </div>
-      <button class="more">
-        <div>more</div>
-      </button>
-    </li><!-- li8 -->
-    <li>
-      <a href="">
-        <figure>
-          <img src="" alt="">
-          <img src="" alt="">
-        </figure>
-      </a>
-      <div class="textbox">
-        <h3></h3>
-        <p></p>
-      </div>
-      <button class="more">
-        <div>more</div>
-      </button>
-    </li><!-- li9 -->
-    <li>
-      <a href="">
-        <figure>
-          <img src="" alt="">
-          <img src="" alt="">
-        </figure>
-      </a>
-      <div class="textbox">
-        <h3></h3>
-        <p></p>
-      </div>
-      <button class="more">
-        <div>more</div>
-      </button>
-    </li><!-- li10 -->
-    <li>
-      <a href="">
-        <figure>
-          <img src="" alt="">
-          <img src="" alt="">
-        </figure>
-      </a>
-      <div class="textbox">
-        <h3></h3>
-        <p></p>
-      </div>
-      <button class="more">
-        <div>more</div>
-      </button>
-    </li><!-- li11 -->
   </ul>
 </section>
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
