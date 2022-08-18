@@ -21,13 +21,14 @@
     transform: translate(-50%,-50%);
     width: 100%;
     height: 100%;
+    z-index: 1;
   } 
   div.ydr-youtube-container img{
     position: absolute;
     top: 2%;
     right: 25%;
     width: 50%;
-    z-index: 1;
+    z-index: 2;
     animation: round 30s linear infinite ;
   }
   @keyframes round{
@@ -90,7 +91,7 @@
    }
    section.ydr-sauvage-banner{
    position: relative;
-   margin: 50px 0;
+   margin: 100px 0;
    width: 95%;
    padding-top: 30%;
    }
@@ -330,6 +331,7 @@
     font-size: 0.9em;
     color: #acacac;
   }
+
   span.ydr-button button:hover{
     transition-delay: 0.3s;
     color: black;
@@ -340,8 +342,8 @@
   span.ydr-button button:last-child::after{
     content: none;
   }
+  
   .ydr-homme-purfume{
-    margin-top: 15px;
     width: 100%;
   }
   .ydr-homme-ul{
@@ -349,21 +351,29 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background: red;
   }
-  .ydr-homme-ul li{
-    flex: 1;
-    margin-left: 10px;
-    background: black;
-  }
-  .ydr-homme-ul li:first-child{
-    margin-left: 0;
+  .ydr-homme-ul li img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center center;
   }
   @media screen and (min-width:1000px) {
-    
+    .ydr-homme-purfume{
+      margin-top: 30px;
+    }
+    .ydr-homme-ul li{
+      width: 32%;
+    }
   }
   @media screen and (min-width:500px) and (max-width:1000px){
-   
+    .ydr-homme-ul li{
+      margin-top: 25px;
+      width: 48%;
+    }
+    .ydr-homme-ul li:first-child{
+      display: none;
+    }
   }
   @media screen and (max-width:500px){
     section.ydr-homme figure{
@@ -372,6 +382,7 @@
       align-items: center;
       justify-content: center;
       text-align: center;
+      height: 50%;
     }
     img.ydr-figure-img1{
       width: 100%;
@@ -386,4 +397,13 @@
    .ydr-homme-nav{
       margin-top: 10px;
     } 
+    .ydr-homme-ul{
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+    }
+    .ydr-homme-ul li{
+      width: 100%;
+      margin-top: 20px;
+    }
   }
