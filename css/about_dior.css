@@ -184,8 +184,9 @@ div.kh-about-dior{
     font-weight: 700;
   }
 }
-/* -----scrollmotion---- */
 
+/* -----scrollmotion---- */
+/*section2*/
 .kh-brand-section2 figure img{
   opacity: 0;
   transform: scale(0);
@@ -202,13 +203,12 @@ div.kh-about-dior{
 .kh-brand-section2 figure.active p{
   opacity: 1;
 }
-
+/*section3*/
 .kh-brand-section3 figure img{
   
 }
 
-
-
+/*section4*/
 
 
 
@@ -221,13 +221,24 @@ div.kh-about-dior{
   transform: translateY(-50%);
   width: 2px;
   height: 200px;
+  
 }
-/* .kh-progress{
-  background-color: coral;
-} */
+.kh-scrollspy .kh-btn1{
+  top: 25%;
+}
+.kh-scrollspy .kh-btn2{
+  top: 50%;
+}
+.kh-scrollspy .kh-btn3{
+  top: 75%;
+}
+.kh-scrollspy .kh-btn4{
+  top: 100%;
+}
 .kh-scrollspy button{
   position: absolute;
   left: 50%;
+  top: 50%;
   transform: translate(-50%,-50%);
   width: 20px;
   height: 20px;
@@ -238,4 +249,7 @@ div.kh-about-dior{
 .kh-scrollspy button.active{
     background-color: pink;
     opacity: 0.8;
+  }
+  @media screen and (max-width:1000px) {
+    .kh-scrollspy{display: none;}
   }

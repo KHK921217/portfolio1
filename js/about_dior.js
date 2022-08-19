@@ -30,27 +30,6 @@ $(function(){
 /* ------ 스크롤 스파이--------- */
 
   function scrollProgress(){
-    /*스크롤 범위*/
-    var scrStart=0
-    var scrEnd=doch-winh
-    var scrRange=scrEnd-scrStart
-    var scrRatio=(scrt-scrStart)/scrRange
-  
-    /*progress*/
-    var heStart=0
-    var heEnd=100
-    var heRange=heEnd-heStart
-    var prHeight=scrRatio*heRange+heStart
-
-    $('.kh-progress').css({"height":prHeight+'%'})
-
-  /*버튼*/
-  $('.kh-scrollspy button').each(function(){
-    var n=$(this).attr('data-n')
-    var location=$('.kh-brand-section'+n).offset().top
-    var secPer=location/doch*100
-    $(this).css({'top':secPer+'%'})
-  })//each
 
   /*스크롤스파이*/
   var offset1=$('.kh-brand-section1').offset().top
