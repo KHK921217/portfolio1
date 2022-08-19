@@ -41,7 +41,7 @@
       <h1>
         <span class="hidden">로고</span>
         <a href="./index.php">
-          <img src="./img/leeseongjin/etc/logo2.png" alt="">
+          <img src="./img/leeseongjin/etc/logo2.png">
         </a>
       </h1>
       <ul class="center-width">
@@ -63,7 +63,7 @@
       <nav class="lnb">
         <ul>
           <li class="menu1">
-            <a href="">Company</a>
+            <a href="">Dior 소개</a>
             <ul>
               <li href="about_dior" class="menu1-2">Dior 소개</li>
               <li href="about_dior" class="menu1-3">뉴스 페이지</li>
@@ -94,7 +94,9 @@
         </a>
       </h1>
       <button class="mbtn">
-        <!-- <i class="fa-solid fa-bars"></i> -->
+        <span class="line1"></span>
+        <span class="line2"></span>
+        <span class="line3"></span>
       </button>
     </div>
   </nav>
