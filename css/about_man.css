@@ -3,7 +3,8 @@
       margin:0 auto ;
       width: 95%;
       max-width: 1500px;
-      background: rgb(237, 237, 239); 
+    background: #EDEDEF;
+    overflow: hidden;
   }
   .ydr-sauvage div.ydr-youtube-container{
     padding-top: 50%;
@@ -52,32 +53,32 @@
    main.ydr-sauvage-main ul li{
     flex: 1;
     display: flex;
+    margin: 0 auto;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
+    transition: all 0.5s;
    }
-   main.ydr-sauvage-main ul li img{
+ 
+   main.ydr-sauvage-main ul li figure img{
     width: 90%;
     height: 90%;
     object-fit: cover;
     object-position: center center;
     transition: filter 0.5s ;
    }
-   main.ydr-sauvage-main ul li h3{
+   main.ydr-sauvage-main ul li a figcaption{
+    margin-top: 10px;
+    padding: 10px;
+    text-align: center;
+    width: 85%;
+  }
+   main.ydr-sauvage-main ul li a figcaption h3{
      font-weight: 600;
      font-size: 1em;
-     width: 70px;
-     transition: width 0.5s, background 0.5s, color 0.5s;
     }
-    main.ydr-sauvage-main ul li h3:hover {
-      width: 100px;
-      background: black;
-      color: white;
-      border-radius: 0 10px 0 0;
-      transition-delay: 0.5s, 0.5s, 0.5s;
-    }
-   main.ydr-sauvage-main ul li em{
+   main.ydr-sauvage-main ul li a figcaption em{
     font-size: 0.8em;
     color: rgba(0, 0, 0, 0.5);
    }
@@ -85,8 +86,10 @@
     width: 100%;
     height: 100%;
    }
-   main.ydr-sauvage-main ul li img:hover:not(.ydr-lemon){
+   main.ydr-sauvage-main ul li:hover:not(:last-child){
     filter: blur(3px);
+    transform: scale(1.1);
+  
     transition-delay: 0.3s ;
    }
    section.ydr-sauvage-banner{
@@ -102,6 +105,11 @@
     transform: translate(-50%,-50%);
     width: 100%;
     height: 100%;
+    transition: filter 0.5s;
+   }
+   section.ydr-sauvage-banner nav:hover{
+    filter: drop-shadow(4px 5px 6px rgb(35, 35, 35));
+    transition-delay: 0.3s;
    }
    section.ydr-sauvage-banner nav img.ydr-depp{
     width: 100%;
@@ -116,6 +124,7 @@
     height: 90%;
     top: 20px;
     right: 10px;
+    filter: drop-shadow(5px 6px 6px #000);
    }
    section.ydr-sauvage-banner nav button{
     position: absolute;
@@ -270,18 +279,30 @@
       width: 95%;
       max-width: 1500px;
   }
-  section.ydr-homme figure{
+  section.ydr-homme div{
     display: flex;
-    margin: 0 auto;
-    justify-content: space-between;
-    padding-top: 10px;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background: green;
   }
-  img.ydr-figure-img1{
-    width: 50%;
-    object-fit: cover;
-    object-position: center center;
+  section.ydr-homme div figure{
+    width: 45%;
+    height: 45%;
+    background: red;
   }
-  figcaption.ydr-home-text{
+  section.ydr-homme div figure img{
+     width: 100%;
+     object-fit: cover;
+  }
+  section.ydr-homme div figcaption{
+    width: 55%;
+    text-align: center;
+  }
+  section.ydr-homme div figcaption h3 img{
+    margin: 20px auto;
+  }
+/*   figcaption.ydr-home-text{
     display: flex;
     width: 50%;
     flex-direction: column;
@@ -291,7 +312,7 @@
   }
   figcaption.ydr-home-text h3{
     width: 40%;
-    margin-bottom: 10px;
+    margin-bottom: 30px ;
   }
   figcaption.ydr-home-text h3 img{
     width: 100%;
@@ -300,12 +321,13 @@
     width: 80%;
     font-size: 0.8em;
     color: #acacac;
-  }
-  nav.ydr-homme-nav{
+  } */
+ /*  nav.ydr-homme-nav{
     display: flex;
+    overflow: hidden;
   }
   nav.ydr-homme-nav img{
-    width: 45%;
+    width: 100%;
     object-fit: cover;
     object-position: center center;
   }
@@ -357,13 +379,14 @@
     height: 100%;
     object-fit: cover;
     object-position: center center;
-  }
+  } */
   @media screen and (min-width:1000px) {
     .ydr-homme-purfume{
       margin-top: 30px;
     }
     .ydr-homme-ul li{
       width: 32%;
+      overflow: hidden;
     }
   }
   @media screen and (min-width:500px) and (max-width:1000px){
@@ -371,39 +394,10 @@
       margin-top: 25px;
       width: 48%;
     }
-    .ydr-homme-ul li:first-child{
-      display: none;
-    }
   }
   @media screen and (max-width:500px){
-    section.ydr-homme figure{
+    .ydr-homme nav {
       display: flex;
       flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      text-align: center;
-      height: 50%;
-    }
-    img.ydr-figure-img1{
-      width: 100%;
-      height: 300px;
-      object-fit: cover;
-      object-position: center center;
-    }
-    figcaption.ydr-home-text{
-      margin-top: 10px;
-      width: 100%;
-    }
-   .ydr-homme-nav{
-      margin-top: 10px;
-    } 
-    .ydr-homme-ul{
-      width: 100%;
-      display: flex;
-      flex-direction: column;
-    }
-    .ydr-homme-ul li{
-      width: 100%;
-      margin-top: 20px;
     }
   }
