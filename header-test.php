@@ -11,6 +11,8 @@
   <link rel="stylesheet" href="./css/style.css">
   <link rel="stylesheet" href="./css/header.css">
   <link rel="stylesheet" href="./css/header-test.css">
+  <link rel="stylesheet" href="./css/footer.css">
+  <link rel="stylesheet" href="./css/footer-test.css">
   <link rel="stylesheet" href="./css/menu.css">
   <!--  <link rel="stylesheet" href="./css/footer.css">
   <link rel="stylesheet" href="./css/about_dior.css">
@@ -36,7 +38,7 @@
 </head>
 
 <body>
-  <nav class="lee-header">
+  <div class="lee-header">
     <nav class="lee-member">
       <h1>
         <span class="hidden">로고</span>
@@ -60,29 +62,56 @@
           </form>
         </fieldset>
       </div>
-      <nav class="lnb">
+      <nav class="lnb lnb-lg">
         <ul>
           <li class="menu1">
             <a href="">Dior 소개</a>
             <ul>
-              <li href="about_dior" class="menu1-2">Dior 소개</li>
-              <li href="about_dior" class="menu1-3">뉴스 페이지</li>
+              <li href="about_dior" class="menu1-2"><a href="">Dior 소개</a></li>
+              <li href="about_dior" class="menu1-3"><a href="">뉴스 페이지</a></li>
             </ul>
           </li>
           <li class="menu2">
             <a href="">Woman's product</a>
             <ul>
-              <li href="about_woman" class="menu2-2">미스 디올</li>
-              <li href="about_woman" class="menu2-3">쟈도르</li>
-              <li href="about_woman" class="menu2-4">조이 바이 디올</li>
+              <li href="about_woman" class="menu2-2"><a href="">미스 디올</a></li>
+              <li href="about_woman" class="menu2-3"><a href="">쟈도르</a></li>
+              <li href="about_woman" class="menu2-4"><a href="">조이 바이 디올</a></li>
             </ul>
           </li>
           <li class="menu3">
             <a href="">Man's product</a>
             <ul>
-              <li href="about_news" class="menu3-2">소바쥬</li>
-              <li href="about_news" class="menu3-3">라콜렉시옹</li>
-              <li href="about_news" class="menu3-4">디올옴므</li>
+              <li href="about_news" class="menu3-2"><a href="">소바쥬</a></li>
+              <li href="about_news" class="menu3-3"><a href="">라콜렉시옹</a></li>
+              <li href="about_news" class="menu3-4"><a href="">디올옴므</a></li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <nav class="lnb lnb-sm">
+        <ul>
+          <li class="menu1">
+            <a href="">Dior 소개</a>
+            <ul>
+              <li href="about_dior" class="menu1-2"><a href="">Dior 소개</a></li>
+              <li href="about_dior" class="menu1-3"><a href="">뉴스 페이지</a></li>
+            </ul>
+          </li>
+          <li class="menu2">
+            <a href="">Woman's product</a>
+            <ul>
+              <li href="about_woman" class="menu2-2"><a href="">미스 디올</a></li>
+              <li href="about_woman" class="menu2-3"><a href="">쟈도르</a></li>
+              <li href="about_woman" class="menu2-4"><a href="">조이 바이 디올</a></li>
+            </ul>
+          </li>
+          <li class="menu3">
+            <a href="">Man's product</a>
+            <ul>
+              <li href="about_news" class="menu3-2"><a href="">소바쥬</a></li>
+              <li href="about_news" class="menu3-3"><a href="">라콜렉시옹</a></li>
+              <li href="about_news" class="menu3-4"><a href="">디올옴므</a></li>
             </ul>
           </li>
         </ul>

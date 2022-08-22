@@ -1,6 +1,6 @@
 <?php include 'sub-header-test.php' ?>
 <link rel="stylesheet" href="./css/about_news.css">
-<nav class="lee-container">
+<div class="lee-container">
   <nav class="lee-container0">
     <div>
       <h1>
@@ -16,7 +16,6 @@
   </nav>
 
   <hr class="lee-line" size="1">
-  </div>
 
   <nav class="lee-container1">
     <h6>JULY2022</h6>
@@ -51,7 +50,6 @@
   </nav>
 
   <hr class="lee-line2" size="1">
-  </div>
 
   <nav class="lee-container2">
     <h6>JULY2022</h6>
@@ -83,5 +81,5 @@
       </li>
     </ul>
   </nav>
-</nav>
-<<?php include 'sub-footer.php' ?>
+</div>
+<?php include 'sub-footer-test.php' ?>

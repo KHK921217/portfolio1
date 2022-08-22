@@ -123,6 +123,9 @@
   .lee-header .gnb h1 a{
     display: none;
   } 
+  .lee-header .gnb .mbtn-sm{
+    display: none;
+  }
 }
 @media screen and (min-width:950px) and (max-width:1300px){
   .lee-header .lee-member{
@@ -163,6 +166,9 @@
   .lee-header .gnb .mbtn{
     margin-right: 50px;
   }
+  .lee-header .gnb .mbtn-sm{
+    display: none;
+  }
 }
   @media screen and (min-width:600px) and (max-width:950px){
   .lee-header .lee-member{
@@ -202,6 +208,9 @@
   }
   .lee-header .gnb .mbtn{
     margin-right: 40px;
+  }
+  .lee-header .gnb .mbtn-lg{
+    display: none;
   }
 }
   @media screen and (max-width:600px){
