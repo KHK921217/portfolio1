@@ -506,7 +506,8 @@
 .about-woman-section2 {
   position: relative;
   overflow: hidden;
-  background: rgba(0, 0, 0, 0.985);
+
+  background: rgba(0, 0, 0, 0.988);
 
   ul {
     width: 100%;
@@ -522,7 +523,7 @@
         border: 1px solid #eee;
         border-radius: 20px;
         color: #eee;
-        box-shadow: 0 0 10 rgba(255, 255, 255, 0.7);
+        box-shadow: 0 0 10px rgba(245, 182, 10, 0.966);
         > div {
           padding: 5px;
           border: 1px solid #eee;
@@ -530,7 +531,7 @@
         }
       }
 
-      @media screen and(min-width:700px) {
+      @media screen and (min-width: 700px) {
         float: left;
         &::before {
           content: "";
@@ -544,6 +545,10 @@
           width: 100%;
           height: 100%;
 
+          :hover {
+            overflow: hidden;
+          }
+
           figure {
             width: 100%;
             height: 100%;
@@ -556,6 +561,115 @@
             } //img
           } //figure
         } //a
+        &:nth-child(1) {
+          z-index: 1;
+          .jador-textbox {
+            position: absolute;
+            display: inline-block;
+            width: 50%;
+            top: 10%;
+            left: -50%;
+            transform: translateY(25%);
+
+            > div {
+              position: relative;
+              span {
+                color: rgb(244, 247, 110);
+                display: inline-block;
+                font-size: 1.1em;
+              }
+              h5 {
+                font-size: 1.5em;
+                font-weight: 600;
+              }
+              p {
+                font-size: 1.2em;
+                font-weight: 400;
+              }
+            }
+          }
+        }
+        &:nth-child(4) {
+          .jador-textbox {
+            position: absolute;
+            display: inline-block;
+            width: 50%;
+            top: 10%;
+            right: -50%;
+            transform: translateY(-50%);
+
+            > div {
+              position: relative;
+              span {
+                display: inline-block;
+                font-size: 1.1em;
+                color: rgb(244, 247, 110);
+              }
+              h5 {
+                font-size: 1.5em;
+                font-weight: 600;
+              }
+              p {
+                font-size: 1.2em;
+                font-weight: 400;
+              }
+            }
+          }
+        }
+        &:nth-child(6) {
+          .jador-textbox {
+            position: absolute;
+            width: 50%;
+            top: 30%;
+            left: 90%;
+            margin-right: 100px;
+            rotate: -180deg;
+
+            > div {
+              position: relative;
+              span {
+                display: inline-block;
+                font-size: 1.5em;
+                color: rgb(244, 247, 110);
+              }
+              h5 {
+                font-size: 1.5em;
+                font-weight: 600;
+              }
+              p {
+                font-size: 1.2em;
+                font-weight: 400;
+              }
+            }
+          }
+        }
+        &:nth-child(7) {
+          .jador-textbox {
+            position: absolute;
+            display: inline-block;
+            width: 20%;
+            top: 50%;
+            left: 0%;
+            transform: translateY(-50%);
+
+            > div {
+              position: relative;
+              span {
+                display: inline-block;
+                font-size: 1.1em;
+                color: rgb(244, 247, 110);
+              }
+              h5 {
+                font-size: 1.5em;
+                font-weight: 600;
+              }
+              p {
+                font-size: 1.2em;
+                font-weight: 400;
+              }
+            }
+          }
+        }
       } //700px min
       @media screen and (min-width: 1000px) {
         width: 33%;
@@ -563,11 +677,8 @@
 
         &:nth-child(1) {
           position: absolute;
-          width: 30%;
           top: 7%;
           left: 40%;
-          z-index: 1;
-
           filter: brightness(100%);
           &::before {
             display: block;
@@ -577,48 +688,47 @@
         &:nth-child(2) {
           float: right;
           opacity: 0.6;
-          width: 35%;
         }
         &:nth-child(3) {
           clear: both;
           width: 33%;
         }
         &:nth-child(4) {
-          width: 33%;
           margin-left: -33%;
-          margin-top: 15%;
-          opacity: 0.8;
+          margin-top: 15.55%;
+          opacity: 0.75;
           &::before {
             display: block;
-            padding-top: 25%;
+            padding-top: 30%;
           }
         }
         &:nth-child(5) {
           clear: both;
-          width: 80%;
-          opacity: 0.055;
+          float: left;
+          width: 60%;
+          opacity: 0.15;
           &::before {
+            display: block;
             padding-top: 60%;
           }
         }
         &:nth-child(6) {
+          float: left;
           position: absolute;
+          width: 35%;
           top: 40%;
-          left: 20%;
-          width: 50%;
-          margin-left: 33%;
-
+          left: 0%;
+          margin-left: 72%;
+          rotate: -180deg;
           filter: brightness(80%);
           &::before {
             display: block;
             padding-top: 100%;
           }
-        }
+        } /* 쟈도르 로르 돌려놨음 */
         &:nth-child(7) {
           width: 100%;
           clear: both;
-          object-fit: cover;
-
           &::before {
             display: block;
             padding-top: 35%;
@@ -633,8 +743,10 @@
           .jador-textbox {
             color: #888;
             position: absolute;
-            top: 25%;
+            top: 80%;
             left: 0%;
+            width: 40%;
+
             h5 {
               font-weight: 600;
             }
@@ -642,10 +754,9 @@
               color: rgba(241, 201, 20, 0.951);
             }
           }
-          width: 100%;
           &::before {
             display: block;
-            padding-top: 40%;
+            padding-top: 60%;
           }
         }
         &:nth-child(2) {
@@ -655,32 +766,39 @@
           opacity: 0.2;
         }
         &:nth-child(4) {
+          float: left;
+          margin-left: 33.33%;
           .jador-textbox {
             position: absolute;
             overflow: hidden;
-            width: 95%;
-            top: 30%;
-            left: 40%;
+            width: 60%;
+            top: 15%;
+            left: 55%;
             rotate: 90deg;
             color: #888;
-            clip-path: ellipse(210px 180px at 41% 20%);
+            text-align: center;
+            clip-path: ellipse(180px 140px at 50% 40%);
             transform: translateY(-10%);
             &::before {
               display: block;
-              padding-top: 60%;
+              padding-top: 50%;
             }
 
             > div {
               background: rgb(244, 247, 110);
+              span{
+                color: black;
+                font-size: 1.1em;
+              }
               h5 {
                 font-weight: 600;
-                font-size: 0.9em;
+                font-size: 1.5em;
               }
               p {
                 text-decoration: underline;
-                line-height: 20px;
-                letter-spacing: 0.2em;
-
+                font-size: 1.2em;
+                font-weight: 400;
+                word-spacing: 1.5px;
                 > strong {
                   display: inline-block;
                   color: orange;
@@ -722,6 +840,29 @@
             left: 80%;
             margin-left: 50%;
             box-shadow: 10px 10px 5px rgba(247, 215, 9, 0.966);
+            rotate: 45deg;
+            > div {
+              span {
+                font-size: 1.1em;
+              }
+              h5 {
+                font-size: 1.5em;
+                font-weight: 600;
+              }
+              p {
+                font-size: 1.2em;
+                font-weight: 400;
+
+                > strong {
+                  display: inline-block;
+                  color: wheat;
+                }
+                > em {
+                  display: inline-block;
+                  color: pink;
+                }
+              }
+            }
           }
         }
         &:nth-child(7) {
@@ -732,13 +873,13 @@
           }
           .jador-textbox {
             position: absolute;
-            top: 0;
+            top: 30%;
             left: 0;
-            width: 25%;
+            width: 40%;
           }
         }
       }
-      @media screen and(max-width:700px) {
+      @media screen and (max-width: 700px) {
         width: 100%;
         a {
           width: 100%;

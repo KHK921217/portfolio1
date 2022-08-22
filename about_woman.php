@@ -114,7 +114,6 @@
             <div> more </div>
           </button>
         </div>
-
       </div>
     </li>
     <li class="missdiol-pic9 ">
@@ -134,19 +133,18 @@
     <li>
       <a href="">
         <figure>
-
           <img src="./img/HBJ/ja^dor/ja^dor_model.jpg" alt="">
         </figure>
       </a>
       <div class="jador-textbox">
         <div>
-          <h5>쟈도르 디올... <br>
-            인근 매장에서 만나보세요!</h5>
+          <span>01</span>
+          <h5>쟈도르 디올 인근 매장에서 만나보세요!</h5>
           <p>쟈도르만의 여전사같은 에너제틱함..!</p>
+          <button class="more">
+            <div>more</div>
+          </button>
         </div>
-        <button class="more">
-          <div>more</div>
-        </button>
       </div>
     </li><!-- li1 -->
     <li>
@@ -159,24 +157,17 @@
         <h5></h5>
         <p></p>
       </div>
-      <button class="more">
-        <div>more</div>
-      </button>
     </li><!-- li2 -->
     <li>
       <a href="">
         <figure>
           <img src="./img/HBJ/ja^dor/ja^dor_orange.jpg" alt="">
-
         </figure>
       </a>
       <div class="textbox">
         <h5></h5>
         <p></p>
       </div>
-      <button class="more">
-        <div>more</div>
-      </button>
     </li><!-- li3 -->
     <li>
       <a href="">
@@ -186,26 +177,24 @@
       </a>
       <div class="jador-textbox">
         <div>
+          <span>02</span>
           <h5>쟈도르 오드 뚜왈렛</h5>
-          <p>퍼퓨머-크리에이터 프랑소와 드마쉬는 유년시절의 추억이 되어준 <strong>비터 오렌지</strong> <em>나무 숲</em>을 한병의 보틀에 담았습니다.</p>
+          <p>향수 크리에이터 프랑소와 드마쉬는 유년시절의 추억이 되어준 <strong>비터 오렌지</strong> <em>나무 숲</em>을 정성스레 담았습니다.</p>
+          <button class="more">
+            <div>more</div>
+          </button>
         </div>
-        <button class="more">
-          <div>more</div>
-        </button>
       </div>
     </li><!-- li4 -->
     <li>
       <a href="">
-        <figure>
+        <figure class="vanilabeen">
           <img src="./img/HBJ/ja^dor/vanila^been.jpg" alt="">
         </figure>
       </a>
       <div class="textbox">
         <h5></h5>
         <p></p>
-         <button class="more">
-        <div>more</div>
-      </button>
       </div>
     </li><!-- li5 -->
     <li>
@@ -216,12 +205,13 @@
       </a>
       <div class="jador-textbox">
         <div>
+          <span>03</span>
           <h5>쟈도르 로르</h5>
-          <p>쟈도르 로르 에는 그라스의 디올가든 에서 재배된 쟈스민과 <em> 메이로즈</em>가 블렌딩 되어있으며 <strong>바닐라</strong>와 <em>듀베로즈</em>가 오리엔탈 매력을 더해줍니다.</p>
+          <p>쟈도르 로르에는 그라스의 디올가든 에서 재배된 쟈스민과 <em> 메이로즈</em>가 블렌딩 되어있으며 <strong>바닐라</strong>와 <em>듀베로즈</em>가 오리엔탈 매력을 더해줍니다.</p>
+          <button class="more">
+            <div>more</div>
+          </button>
         </div>
-        <button class="more">
-          <div>more</div>
-        </button>
       </div>
     </li><!-- li6 -->
     <li>
@@ -232,12 +222,13 @@
       </a>
       <div class="jador-textbox">
         <div>
+          <span>04</span>
           <h5>쟈도르의 스토리</h5>
           <p>쟈도르,여성의 담대함과 아름다움의 찬사... 쟈도르 컬렉션은 그 두가지 모두를 관능적이면서도 동시에 산뜻함을 밸런스있게 이 한병에 담아냈습니다.</p>
-        </div>
         <button class="more">
           <div>more</div>
         </button>
+        </div>
       </div>
     </li><!-- li7 -->
   </ul>
