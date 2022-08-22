@@ -1,3 +1,47 @@
+/* section container layout------------------------------------------------------------ */
+.home-container{
+  position: relative;
+  height: 900%;/* 수정시 home-sticky높이, 스크립트 scrH 배율 수정 */
+  background: #000;
+}
+.home-container .home-sticky{
+  position: sticky;
+  height: 11.111%;
+  top:0;/* header 추가될 경우 수정 */
+}
+.home-container .home-sticky .home-section-container{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top:0;left:0;
+  overflow: hidden;
+}
+.home-container .home-section-container .kh-intro-section{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top:0;left:0;
+}
+
+/* 
+@media  ( orientaion : landscape){
+  main.home-container .home-section-container .kh-intro-section-org{
+    clip-path: polygon(0 0, 50% 0, 50% 100%, 0 100%);
+  } 
+  main.home-container .home-section-container .kh-intro-section-clone{
+    clip-path: polygon(50% 0, 100% 0, 100% 100%, 50% 100%);
+  } 
+}
+@media  ( orientaion : portrait){
+  main.home-container .home-section-container .kh-intro-section-org{
+    clip-path: polygon(0 0, 100% 0, 100% 50%, 0 50%);
+  } 
+  main.home-container .home-section-container .kh-intro-section-clone{
+    clip-path: polygon(0% 50%, 100% 50%, 100% 100%, 0% 100%);
+  } 
+}
+ */
+/* section desigin------------------------------------------------------------ */
 .kh-intro-section{
   position: relative;
   overflow: hidden;
