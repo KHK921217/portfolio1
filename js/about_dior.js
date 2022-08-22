@@ -84,4 +84,23 @@ $(function(){
     motion()
   })
 
+  function brdScrmotion(){
+  $('.kh-brand-section4 figure').each(function(){
+    var t=$(this).offset().top
+    if(scrt>=t-winh*0.5){
+      $(this).addClass('active')
+    }else{
+      $(this).removeClass('active')
+    }
+  })//each
+  }
+
+  brdScrmotion()
+  $(window).scroll(function(){
+    brdScrmotion()
+  }).resize(function(){
+    brdScrmotion()
+  })
+
+
 })//ready

@@ -209,7 +209,46 @@ div.kh-about-dior{
 }
 
 /*section4*/
-
+.kh-brand-section4{
+  overflow: auto;
+}
+.kh-brand-section4 .kh-div1 figure img{
+  transform: translateX(-100%);
+  opacity: 0.5;
+  transition: all 0.5s;
+}
+.kh-brand-section4 .kh-div1 figure.active img{
+  transform: translateX(0);
+  opacity: 1;
+}
+.kh-brand-section4 .kh-div1 figure figcaption p{
+  transform: translateX(100%);
+  opacity: 0.5;
+  transition: all 0.6s;
+}
+.kh-brand-section4 .kh-div1 figure.active figcaption p{
+  transform: translateX(0);
+  opacity: 1;
+}
+.kh-brand-section4 .kh-div2 figure img{
+  transform: translateX(100%);
+  opacity: 0.5;
+  transition: all 0.7s;
+}
+.kh-brand-section4 .kh-div2 figure.active img{
+  transform: translateX(0%);
+  opacity: 1;
+}
+.kh-brand-section4 .kh-div2 figure figcaption p{
+  transform: translateX(-100%);
+  opacity: 0.5;
+  transition: all 0.8s;
+}
+.kh-brand-section4.kh-brand-section4 .kh-div2 figure.active figcaption p{
+  transform: translateX(0%);
+  opacity: 1;
+  
+}
 
 
 /* -----scrollspy------ */
