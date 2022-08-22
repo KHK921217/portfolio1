@@ -65,11 +65,10 @@ $(function(){
   })//click
 
   /* 스크롤모션 */
-  
   function motion(){
-    $('.kh-brand-section2 figure').each(function(){
+    $('.kh-brand-section2 figure, .kh-brand-section3 figure, .kh-brand-section4 figure').each(function(){
       var t=$(this).offset().top
-      if(scrt>=t-winh){
+      if(scrt>=t-winh*0.5){
         $(this).addClass('active')
       }else{
         $(this).removeClass('active')
@@ -83,24 +82,5 @@ $(function(){
   }).resize(function(){
     motion()
   })
-
-  function brdScrmotion(){
-  $('.kh-brand-section4 figure').each(function(){
-    var t=$(this).offset().top
-    if(scrt>=t-winh*0.5){
-      $(this).addClass('active')
-    }else{
-      $(this).removeClass('active')
-    }
-  })//each
-  }
-
-  brdScrmotion()
-  $(window).scroll(function(){
-    brdScrmotion()
-  }).resize(function(){
-    brdScrmotion()
-  })
-
 
 })//ready

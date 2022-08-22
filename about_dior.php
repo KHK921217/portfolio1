@@ -53,13 +53,18 @@
       </div>
     </section><!-- section4-->
 
-    <nav class="kh-scrollspy">
-      <div class="kh-progress"></div>
-      <button class="kh-btn1" data-n="1"></button>
-      <button class="kh-btn2" data-n="2"></button>
-      <button class="kh-btn3" data-n="3"></button>
-      <button class="kh-btn4" data-n="4"></button>
-    </nav>
+      <div class="kh-scr-container">
+        <i class="fa-solid fa-computer-mouse mouse">
+          <p>scroll</p>
+        </i>
+        <nav class="kh-scrollspy">
+          <button class="kh-btn1" data-n="1"></button>
+          <button class="kh-btn2" data-n="2"></button>
+          <button class="kh-btn3" data-n="3"></button>
+          <button class="kh-btn4" data-n="4"></button>
+        </nav>
+      </div><!-- kh-scr-container -->
+
   </div><!-- 전체 -->
   <svg>
     <filter id="filter">

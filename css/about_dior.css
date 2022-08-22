@@ -1,4 +1,5 @@
 div.kh-about-dior{
+  position: relative;
   height: 100%;
 }
 .kh-about-dior div.kh-title img{
@@ -130,7 +131,7 @@ div.kh-about-dior{
   .kh-brand-section4 .kh-div1 figure img{
     position: relative;
     width: 100%;
-    z-index: 2;
+    z-index: 1;
   }
   .kh-brand-section4 .kh-div1 figure figcaption p{
     position: absolute;
@@ -198,24 +199,35 @@ div.kh-about-dior{
 }
 .kh-brand-section2 figure p{
   opacity: 0;
-  transition: opacity 6s;
+  transition: opacity 5s;
 }
 .kh-brand-section2 figure.active p{
   opacity: 1;
 }
 /*section3*/
 .kh-brand-section3 figure img{
-  
+  filter: blur(5px);
+  transition: 2s;
+}
+.kh-brand-section3 figure.active img{
+  filter: blur(1px);
+}
+.kh-brand-section3 figure figcaption p{
+  opacity: 0;
+  transition: 4s;
+}
+.kh-brand-section3 figure.active figcaption p{
+  opacity: 1;
 }
 
 /*section4*/
 .kh-brand-section4{
-  overflow: auto;
+  overflow: hidden;
 }
 .kh-brand-section4 .kh-div1 figure img{
   transform: translateX(-100%);
   opacity: 0.5;
-  transition: all 0.5s;
+  transition: all 2s;
 }
 .kh-brand-section4 .kh-div1 figure.active img{
   transform: translateX(0);
@@ -224,7 +236,7 @@ div.kh-about-dior{
 .kh-brand-section4 .kh-div1 figure figcaption p{
   transform: translateX(100%);
   opacity: 0.5;
-  transition: all 0.6s;
+  transition: all 3s;
 }
 .kh-brand-section4 .kh-div1 figure.active figcaption p{
   transform: translateX(0);
@@ -233,7 +245,7 @@ div.kh-about-dior{
 .kh-brand-section4 .kh-div2 figure img{
   transform: translateX(100%);
   opacity: 0.5;
-  transition: all 0.7s;
+  transition: all 3s;
 }
 .kh-brand-section4 .kh-div2 figure.active img{
   transform: translateX(0%);
@@ -242,37 +254,69 @@ div.kh-about-dior{
 .kh-brand-section4 .kh-div2 figure figcaption p{
   transform: translateX(-100%);
   opacity: 0.5;
-  transition: all 0.8s;
+  transition: all 4s;
 }
 .kh-brand-section4.kh-brand-section4 .kh-div2 figure.active figcaption p{
   transform: translateX(0%);
   opacity: 1;
-  
 }
-
 
 /* -----scrollspy------ */
-.kh-scrollspy{
+
+.kh-scr-container {
   position: fixed;
-  z-index: 90;
+  z-index: 5;
   left: 30px;
   top: 50%;
+  transform: translateY(-50px);
+  width: 50px;
+  height: 300px;
+}
+.kh-scr-container .mouse{
+  color: black;
+  position: absolute;
+  left: 50px; top: 50%;
   transform: translateY(-50%);
+  font-size: 2em;
+  animation: updown 2s infinite;
+}
+@keyframes updown{
+  0%{
+    top: 40%; opacity: 1;
+  }
+  100%{   
+    top: 70%; opacity: 0.2;
+  }
+}
+.kh-scr-container .mouse p{
+  margin-top: 5px;
+  font-size: 0.3em;
+  writing-mode:vertical-lr;
+}
+
+.kh-scr-container .kh-scrollspy{
+  position: relative;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
   width: 2px;
   height: 200px;
-  
 }
+
 .kh-scrollspy .kh-btn1{
-  top: 25%;
+  position: relative;
+  z-index: 105;
+  top: 50px;
 }
 .kh-scrollspy .kh-btn2{
-  top: 50%;
+  top: 100px;
 }
 .kh-scrollspy .kh-btn3{
-  top: 75%;
+  top: 150px;
 }
 .kh-scrollspy .kh-btn4{
-  top: 100%;
+  top: 200px;
+
 }
 .kh-scrollspy button{
   position: absolute;
@@ -290,5 +334,6 @@ div.kh-about-dior{
     opacity: 0.8;
   }
   @media screen and (max-width:1000px) {
-    .kh-scrollspy{display: none;}
+    .kh-scr-container{display: none;}
+
   }
