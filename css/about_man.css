@@ -278,126 +278,176 @@
      margin:30px auto ;
       width: 95%;
       max-width: 1500px;
+      overflow: hidden;
   }
   section.ydr-homme div{
     display: flex;
     justify-content: center;
     align-items: center;
     width: 100%;
-    background: green;
+    opacity: 0;
+    transform: translateX(-300px);
+    transition: transform 1s , opacity 1s;
   }
-  section.ydr-homme div figure{
-    width: 45%;
-    height: 45%;
-    background: red;
+  section.ydr-homme div.active{
+    opacity: 1;
+    transform: translateX(0);
+  }
+  section.ydr-homme div figcaption h3{
+    font-size: 4vw;
+    font-weight: 600;
+    margin-bottom: 20px;
   }
   section.ydr-homme div figure img{
      width: 100%;
+     height: 100%;
      object-fit: cover;
   }
   section.ydr-homme div figcaption{
     width: 55%;
     text-align: center;
   }
-  section.ydr-homme div figcaption h3 img{
-    margin: 20px auto;
-  }
-/*   figcaption.ydr-home-text{
-    display: flex;
-    width: 50%;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-  }
-  figcaption.ydr-home-text h3{
-    width: 40%;
-    margin-bottom: 30px ;
-  }
-  figcaption.ydr-home-text h3 img{
-    width: 100%;
-  }
-  figcaption.ydr-home-text p{
-    width: 80%;
-    font-size: 0.8em;
-    color: #acacac;
-  } */
- /*  nav.ydr-homme-nav{
-    display: flex;
-    overflow: hidden;
-  }
-  nav.ydr-homme-nav img{
-    width: 100%;
-    object-fit: cover;
-    object-position: center center;
-  }
-  div.ydr-homme-name{
-   display: flex;
-   flex-direction: column;
-   align-items: center;
-   justify-content: center;
-   text-align: center;
-  }
-  div.ydr-homme-name span{
-    padding: 10px;
-  }
-  span.ydr-button button{
-    font-size: 1.2vw;
-    font-weight: 100;
-    color: #acacac;
-    transition: color 0.5s;
-  }
-  div.ydr-homme-name p{
-    width: 70%;
-    margin-top: 20px;
+  section.ydr-homme div figcaption p {
+    width: 95%;
     font-size: 0.9em;
-    color: #acacac;
+    font-weight: 200;
   }
 
-  span.ydr-button button:hover{
-    transition-delay: 0.3s;
-    color: black;
+.ydr-homme-nav{
+  width: 100%;
+  display: flex;
+  opacity: 0;
+  transform: translateX(300px);
+  transition: transform 1s , opacity 1s;
+}
+.ydr-homme-nav.active{
+  opacity: 1;
+  transform: translateX(0);
+}
+.ydr-homme-name{
+  width: 65%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.ydr-homme-a{
+  margin-bottom: 20px;
+  font-size: 1.5em;
+  font-weight: 100;
+}
+.ydr-homme-a a::after{
+  content: " /";
+}
+.ydr-homme-a a:last-child::after{
+  content: none;
+}
+.ydr-homme-name p{
+  width: 80%;
+  font-size: 0.9em;
+  color: #acacac;
+}
+.ydr-homme-nav figure{
+  width: 35%;
+}
+.ydr-homme-nav figure img{
+  width: 100%;
+}
+.ydr-homme-purfume ul{
+  margin-top: 20px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.ydr-homme-purfume ul li{
+  margin-bottom: 10px;
+  overflow: hidden;
+}
+.ydr-homme-purfume ul li img{
+  width: 100%;
+  object-fit: cover;
+  object-position: center center;  
+}
+
+@media screen and (min-width:1000px) {
+  section.ydr-homme div figure{
+    width: 45%;
+    height: 50%;
   }
-  span.ydr-button button::after{
-    content: " /";
+  .ydr-homme-ul li{
+    width: 32%;
   }
-  span.ydr-button button:last-child::after{
-    content: none;
+}
+@media screen and (min-width:500px) and (max-width:750px) {
+  section.ydr-homme div{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
-  
-  .ydr-homme-purfume{
+  section.ydr-homme div figure{
     width: 100%;
+  }
+  section.ydr-homme div figure img{
+    opacity: 0.5;
+  }
+  section.ydr-homme div figcaption{
+   position: absolute;
+  }
+  section.ydr-homme div figcaption p{
+    font-weight: 500;
+  }
+  .ydr-homme-name{
+    margin-top: 15px;
+    width: 100%;
+  }
+  .ydr-homme-nav{
+    height: 300px;
+  }
+  .ydr-homme-nav figure{
+    display: none;
+  }
+}
+@media screen and (max-width:500px){
+  section.ydr-homme div{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  section.ydr-homme div figure{
+    width: 100%;
+  }
+  section.ydr-homme div figure img{
+    opacity: 0.5;
+  }
+  section.ydr-homme div figcaption{
+   position: absolute;
+  }
+  section.ydr-homme div figcaption p{
+    font-weight: 500;
+  }
+  .ydr-homme-name{
+    margin-top: 15px;
+    width: 100%;
+  }
+  .ydr-homme-nav{
+    height: 300px;
+  }
+  .ydr-homme-nav figure{
+    display: none;
   }
   .ydr-homme-ul{
-    width: 100%;
     display: flex;
-    align-items: center;
-    justify-content: space-between;
+    flex-direction: column;
   }
-  .ydr-homme-ul li img{
+  .ydr-homme-ul li{
     width: 100%;
-    height: 100%;
-    object-fit: cover;
-    object-position: center center;
-  } */
-  @media screen and (min-width:1000px) {
-    .ydr-homme-purfume{
-      margin-top: 30px;
-    }
-    .ydr-homme-ul li{
-      width: 32%;
-      overflow: hidden;
-    }
   }
-  @media screen and (min-width:500px) and (max-width:1000px){
-    .ydr-homme-ul li{
-      margin-top: 25px;
-      width: 48%;
-    }
-  }
-  @media screen and (max-width:500px){
-    .ydr-homme nav {
-      display: flex;
-      flex-direction: column;
-    }
-  }
+}
+
+
+
