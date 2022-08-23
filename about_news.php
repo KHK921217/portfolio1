@@ -81,5 +81,4 @@
       </li>
     </ul>
   </nav>
-</div>
 <?php include 'sub-footer-test.php' ?>
