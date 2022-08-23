@@ -4,7 +4,7 @@
 
 <section class="ydr-sauvage">
   <div class="ydr-youtube-container">
-    <iframe src="https://www.youtube.com/embed/dBTBOAE-XK4?=3&autoplay=1&mute=1&loop=1&rel=0&showinfo=0&color=white&controls=0 " title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+   <!--  <iframe src="https://www.youtube.com/embed/dBTBOAE-XK4?=3&autoplay=1&mute=1&loop=1&rel=0&showinfo=0&color=white&controls=0 " title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
     <img src="./img/yoodareen/savage/text1.png" alt="">
   </div>
 
@@ -50,6 +50,13 @@
 </section>
 
 <section class="ydr-collection">
+<svg>
+  <filter id="filter">
+    <feTurbulence id="water" numOctaves="5" seed="3" baseFrequency="0.02 0.5" />
+    <feDisplacementMap scale="20" in="SourceGraphic" />
+    <animate href="#water" attributeName="baseFrequency" keyTimes="0;0.5;1" values="0.002;0.008;0.002" dur="15s" repeatCount="indefinite" />
+  </filter>
+</svg>
   <section class="ydr-collection-water">
     <figure>
       <img src="./img/yoodareen/collection/water.jpg" alt="">
@@ -131,17 +138,11 @@
 
    <section class="ydr-homme-purfume">
     <ul class="ydr-homme-ul">
-      <li><img src="./img/yoodareen/homme/3348901126359_0.jpg" alt=""></li>
-      <li><img src="./img/yoodareen/homme/3348901419147_0.jpg" alt=""></li>
-      <li><img src="./img/yoodareen/homme/3348900838185_0.jpg" alt=""></li>
+      <li><a href="#"><img src="./img/yoodareen/homme/3348901126359_0.jpg" alt=""></a></li>
+      <li><a href="#"><img src="./img/yoodareen/homme/3348901419147_0.jpg" alt=""></a></li>
+      <li><a href="#"><img src="./img/yoodareen/homme/3348900838185_0.jpg" alt=""></a></li>
     </ul>
   </section> 
 </section>
-<svg>
-  <filter id="filter">
-    <feTurbulence id="water" numOctaves="5" seed="3" baseFrequency="0.02 0.5" />
-    <feDisplacementMap scale="20" in="SourceGraphic" />
-    <animate href="#water" attributeName="baseFrequency" keyTimes="0;0.5;1" values="0.002;0.008;0.002" dur="15s" repeatCount="indefinite" />
-  </filter>
-</svg>
+
 <?php include 'sub-footer.php' ?>

@@ -1,5 +1,5 @@
 $(function () {
-  responsive_carousel_horz(".home-visual", false, 8000, 15000)
+  responsive_carousel_horz(".ydr-homme", false, 8000, 15000)
      var boxt
     var boxh  
     var metaScale
@@ -12,12 +12,11 @@ $(function () {
       meta = 1 + (scrt - (boxt - winh*0.5 + boxh*0.5)) * 0.01
       $('.ydr-perfum').css({'opacity':meta})
 
-/*       boxt = $('.ydr-figure-img').offset().top
-      boxh = $('.ydr-figure-img').innerHeight()
-      metaY = 0 + (scrt - (boxt - winh*0.5 + boxh*0.5)) * 0.15
-      $('.ydr-figure-img').find('img').css({'transform':'translateY('+metaY+'px)'})
-   */
-      $('.ydr-homme div, .ydr-homme-nav').each(function(){
+/     $(window).load(function(){
+        $(".ydr-collection-water ul").masonry({itemSelector:".ydr-collection-water li"})
+    })//loads
+
+      $('.ydr-homme div, .ydr-homme-nav, .ydr-homme-purfume').each(function(){
         t = $(this).offset().top
         if(scrt >= t - winh){
           $(this).addClass('active')
