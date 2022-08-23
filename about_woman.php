@@ -142,7 +142,7 @@
           <h5>쟈도르 디올 인근 매장에서 만나보세요!</h5>
           <p>쟈도르만의 여전사같은 에너제틱함..!</p>
           <button class="more">
-            <div>more</div>
+            <div>더보기</div>
           </button>
         </div>
       </div>
@@ -181,7 +181,7 @@
           <h5>쟈도르 오드 뚜왈렛</h5>
           <p>향수 크리에이터 프랑소와 드마쉬는 유년시절의 추억이 되어준 <strong>비터 오렌지</strong> <em>나무 숲</em>을 정성스레 담았습니다.</p>
           <button class="more">
-            <div>more</div>
+            <div>더보기</div>
           </button>
         </div>
       </div>
@@ -192,9 +192,10 @@
           <img src="./img/HBJ/ja^dor/vanila^been.jpg" alt="">
         </figure>
       </a>
-      <div class="textbox">
-        <h5></h5>
-        <p></p>
+      <div class="jador-textbox">
+        <div>
+          <span> vanila</span>
+        </div>
       </div>
     </li><!-- li5 -->
     <li>
@@ -209,7 +210,7 @@
           <h5>쟈도르 로르</h5>
           <p>쟈도르 로르에는 그라스의 디올가든 에서 재배된 쟈스민과 <em> 메이로즈</em>가 블렌딩 되어있으며 <strong>바닐라</strong>와 <em>듀베로즈</em>가 오리엔탈 매력을 더해줍니다.</p>
           <button class="more">
-            <div>more</div>
+            <div>더보기</div>
           </button>
         </div>
       </div>
@@ -225,9 +226,9 @@
           <span>04</span>
           <h5>쟈도르의 스토리</h5>
           <p>쟈도르,여성의 담대함과 아름다움의 찬사... 쟈도르 컬렉션은 그 두가지 모두를 관능적이면서도 동시에 산뜻함을 밸런스있게 이 한병에 담아냈습니다.</p>
-        <button class="more">
-          <div>more</div>
-        </button>
+          <button class="more">
+            <div>더보기</div>
+          </button>
         </div>
       </div>
     </li><!-- li7 -->
