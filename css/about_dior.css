@@ -6,6 +6,9 @@ div.kh-about-dior{
   margin: 20px auto;
 }
 
+svg #filter{
+  display: none;
+}
 @media screen and (min-width:200px) and (max-width : 900px){
   .kh-about-dior div.kh-title img{
     width: 100%;

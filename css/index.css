@@ -1,12 +1,12 @@
 /* section container layout------------------------------------------------------------ */
 .home-container{
   position: relative;
-  height: 900%;/* 수정시 home-sticky높이, 스크립트 scrH 배율 수정 */
+  height: 1000%;/* 수정시 home-sticky높이, 스크립트 scrH 배율 수정 */
   background: #000;
 }
 .home-container .home-sticky{
   position: sticky;
-  height: 11.111%;
+  height: 10%;
   top:0;/* header 추가될 경우 수정 */
 }
 .home-container .home-sticky .home-section-container{
@@ -345,41 +345,73 @@ figure.khkindexlogo img:nth-of-type(3){ /* red */
   stroke: rgba(0,225,0,0.3);
 }
 
+/* ------ section4 ------- */
+.kh-intro-section4 filter#filter{
+  display: none;
+}
+.kh-intro-section4{
+  background: linear-gradient(#EFFFFD,#B8FFF9,#85F4FF,#42C2FF);
+}
 
+.kh-intro-section4::after{
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left:2.5%;
+  width: 95%;
+  height: 30px;
+  border-radius: 30px 30px 0 0;
+  background: #FFF;
+}
+.kh-section4-center{
+  position: absolute;
+  width: 70%;
+  max-width: 600px;
+  left:50%;
+  top:50%;
+  transform: translate(-50%,-50%);
+}
+.kh-section4-center img{
+  width: 100%;
+}
+.kh-intro-section4 .kh-svg path{
+  stroke: rgba(49,32,224,0.2);
+}
 
 /* ----------scrollspy----------- */
 .kh-intro-scrollspy{
   position: fixed;
   z-index: 90;
-  right: 50%;
-  top: 2px;
-  transform: translateX(-50%) rotate(-90deg);
+  right: 5%;
+  top: 50%;
+  transform: translateY(-50%) rotate(360deg);
   width: 2px;
   height: 200px;
 }
 
 .kh-intro-scrollspy button{
   position: absolute;
-  margin-right: 10px;
+  margin-right: 15px;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 20px;
-  height: 20px;
+  width: 10px;
+  height: 10px;
   background: linear-gradient(
     #7F7FD5,#86A8E7, #91eae4);
   border-radius: 50%;
   opacity: 0.5;
+  transition: width 1s, height 1s, background 2s;
 }
 .kh-intro-scrollspy button.active{
+  width: 20px;
+  height: 20px;
   background: linear-gradient(
     #833ab4,#fd1d1d
     ,#fcb045);
   opacity: 0.8;
 }
 
-.kh-intro-scrollspy .kh-index-btn2{
-  top:  50%;
-}
-.kh-intro-scrollspy .kh-index-btn3{
-  top:  100%;
-}
+.kh-intro-scrollspy .kh-index-btn1{top: 20%}
+.kh-intro-scrollspy .kh-index-btn2{top: 40%;}
+.kh-intro-scrollspy .kh-index-btn3{top: 60%;}
+.kh-intro-scrollspy .kh-index-btn4{top: 80%;}
