@@ -308,26 +308,18 @@ section.ydr-homme div figure img {
   opacity: 1;
   transform: translateX(0);
 }
-.ydr-homme-name {
+.ydr-homme-name{
   width: 65%;
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
   text-align: center;
 }
 .ydr-homme-a {
-  margin-bottom: 20px;
-  font-size: 1.5em;
-  font-weight: 100;
+  width: 100%;
 }
-.ydr-homme-a a::after {
-  content: " /";
-}
-.ydr-homme-a a:last-child::after {
-  content: none;
-}
-.ydr-homme-name p {
+
+.ydr-homme-a li p {
   width: 80%;
   font-size: 0.9em;
   color: #acacac;

@@ -124,12 +124,19 @@
 
   <nav class="ydr-homme-nav">
     <figcaption class="ydr-homme-name">
-      <span class="ydr-homme-a">
-        <a href="#">DIOR HOMME COLOGNE</a>
-        <a href="#">DIOR HOMME</a>
-        <a href="#">DIOR HOMME INTENSE</a>
-      </span>
-      <p>디올 옴므는 마치 우아하고 모던한 수트와 같이 향이 퍼지는 곳마다 우아함을 선사합니다. 디올 옴므 인텐스 오 드 퍼퓸은 극도로 장엄한 세련미를 대담하고 강렬하게 표출합니다. 감각적인 엠버 노트와 고귀한 우드 베이스로 강조된 인텐스 아이리스는 강렬한 매력을 선사합니다. 향기롭고 관능적인 향기가 끊임없이 이어집니다.</p>
+      <ul class="ydr-homme-a">
+        <li>
+          <a href="#">DIOR HOMME COLOGNE</a>
+          
+        </li>
+        <li>
+          <a href="#">DIOR HOMME</a>
+        </li>
+        <li>
+          <a href="#">DIOR HOMME INTENSE</a>
+        </li>
+      </ul>
+      
     </figcaption>
     <figure class="ydr-figure-img">
       <img src="./img/yoodareen/homme/3348901419147_2.jpg" alt="">
