@@ -35,22 +35,50 @@
     </section><!-- section3-->
 
     <section class="kh-brand-section4" data-n="4">
-      <div class="kh-div1">
-        <figure>
-          <img src="./img/khk/brand/brand3.png" alt="img4">
-          <figcaption>
-            <p>DIOR은 지속 가능한 뷰티를 위해 환경을 고려한 성분에 집중해야한다고 믿습니다.</p>
-          </figcaption>
-        </figure>
-      </div>
-      <div class="kh-div2">
-        <figure>
-          <img src="./img/khk/brand/dior12345.png" alt="img5">
-          <figcaption>
-            <p>DIOR은 생물의 다양성 및 사회에 더 나은 영향을 주기 위해 지속적으로 노력합니다.</p>
-          </figcaption>
-        </figure>
-      </div>
+      <div class='kh-sec4-container'>
+        <div class="kh-div1">
+          <figure>
+            <img src="./img/khk/brand/brand3.png" alt="img4">
+            <figcaption>
+              <p>DIOR은 지속 가능한 뷰티를 위해 환경을 고려한 성분에 집중해야한다고 믿습니다.</p>
+            </figcaption>
+          </figure>
+        </div>
+        <div class="kh-div2">
+          <figure>
+            <div><img src="./img/khk/brand/dior12345.png" alt="img5"></div>
+            <figcaption>
+              <p>DIOR은 생물의 다양성 및 사회에 더 나은 영향을 주기 위해 지속적으로 노력합니다.</p>
+            </figcaption>
+          </figure>
+        </div>
+      </div><!-- sec4 container -->
+
+      <div class="kh-info-wrap">
+        <div class="kh-info-box">
+          <div class="kh-up_txt">
+            <h4>SPEACIAL BENEFIT TO MEMBER!</h4>
+            <p>우수한 품질을 바탕으로 까다로운 소비자들을 만족시키고 유통 채널의 다각화와 전문화로
+피부타입은 개인의 관리나 계절의 변화에 따라 달라질 수 있으므로 아름다움과 건강함을 지켜보세요.</p>
+            <div class="kh-point">
+              <ul>
+                <li>
+                  <h2></h2>
+                  <img src="" alt="">
+                </li>
+                <li>
+                  <h2></h2>
+                  <img src="" alt="">
+                </li>
+                <li>
+                  <h2></h2>
+                  <img src="" alt="">
+                </li>
+              </ul>
+            </div><!-- kh-point -->
+          </div><!-- kh-up_txt -->
+        </div><!-- kh-info-box -->
+      </div><!-- kh-info-wrap -->
     </section><!-- section4-->
 
       <div class="kh-scr-container">
