@@ -49,14 +49,6 @@
   line-height: 65px;
   margin: 0 auto;
 }
-.lee-header .gnb .search-area.active-sr{
-  opacity:calc(0);
-  transition: 0.7s;
-} 
-.lee-header .gnb .search-area.active-sr:hover{
-  opacity:calc(100);
-  transition: 0.7s;
-} 
 .lee-header .gnb .search-area fieldset{
   width: 125%;
   border: 0;
@@ -126,6 +118,14 @@
   .lee-header .gnb .mbtn-sm{
     display: none;
   }
+  .lee-header .gnb .search-area.active-sr{
+    opacity:calc(0);
+    transition: 0.7s;
+  }  
+  .lee-header .gnb .search-area.active-sr:hover{
+    opacity:calc(100);
+    transition: 0.7s;
+  } 
 }
 @media screen and (min-width:950px) and (max-width:1300px){
   .lee-header .lee-member{
@@ -146,9 +146,6 @@
   .lee-header .gnb .search-area{
     margin-left: 40px;
   }
-  .lee-header .gnb .search-area.active-sr{
-    opacity:calc(100);
-  } 
   .lee-header .gnb .search-area fieldset{
     border-bottom: none;
   }
@@ -189,9 +186,6 @@
   .lee-header .gnb .search-area{
     margin-left: 40px;
   }
-  .lee-header .gnb .search-area.active-sr{
-    opacity:calc(100);
-  } 
   .lee-header .gnb .search-area fieldset{
     border-bottom: none;
   }
@@ -235,9 +229,6 @@
     .lee-header .gnb .search-area{
       margin-left: 20px;
     }
-    .lee-header .gnb .search-area.active-sr{
-      opacity:calc(100);
-    } 
     .lee-header .gnb .search-area fieldset{
       border-bottom: none;
     }
