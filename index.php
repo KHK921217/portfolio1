@@ -12,7 +12,6 @@
     <!-- section1 -->
     <div class="home-section-container home-section-1-container" data-n="1">
       <section class="kh-intro-section kh-intro-section1 kh-intro-section-org">
-        <h1 class="hidden">인덱스</h1>
         <div class="kh-noise" id="kh-noise"></div>
         <div class="kh-youtube-container">
           <svg class="kh-svg" viewBox="0 0 758.29 499.06">

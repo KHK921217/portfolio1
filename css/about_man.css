@@ -1,3 +1,9 @@
+section.ydr-sauvage,
+section.ydr-collection, 
+section.ydr-homme{
+  position: relative;
+  overflow: hidden;
+}
 /* -------------------------------------------sauvage */
 section.ydr-sauvage {
   margin: 0 auto;

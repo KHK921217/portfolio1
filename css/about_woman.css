@@ -1,125 +1,149 @@
-.about-woman-section1{
- background: #eee;
- position: relative;
-  
-}
-.about-woman-section1 ul{
-  margin: 10px auto;
-  width: 95%;
-  max-width: 1200px;
+/* visual-about-woman--------------------------------------------------- */
+.type1{font-family: 'Anton', sans-serif;}
+.type2{font-family: 'Raleway', sans-serif;}
+
+.visual-about-woman{ 
   overflow: hidden;
-  border: 1px solid black;
-  
+  position: relative;
+  height:100%;
+  background: black;
 }
-.about-woman-section1 ul li{
-  background: #eee;
-}
-
-.about-woman-section1 ul li img{
-  
- 
-  width: 33%;
-  height: 395px;
-   object-fit: cover;
-   filter: grayscale(0.6);
-   overflow: auto;
-
- 
-  
-}
-.missdiol-pic1 img{
- 
-  clear: both;
-  float: left;
-  
-}
-.missdiol-pic2 img{
-  clear: both;
-  float: right;
-  
-}
-.missdiol-pic3 img{
-  float: right;
-  
-}
-.missdiol-pic4 img{
-  clear: both;
-  float: right;
-  
-}
-.missdiol-pic5 img{
-  clear: both;
-  float: left;
-}
-.missdiol-pic6 img{
-  float: left;
-}
-.missdiol-pic7 img{
- clear: both;
- float: left;
- margin-left: 33%;
-}
-.missdiol-pic8 img{
- float: left;
- 
-}
-
-
-@media screen and (min-width:1000px) {
-  .about-woman-section1 ul li img{
-    width: 33%;
-    padding: 2px;
-    overflow: auto;
-  }
-}
-@media screen and (min-width:500px) and (max-width:1000px) {
-  .about-woman-section1 ul li img{
-    width: calc(50% - 20px); 
-    margin: 3px auto;
-    overflow: auto;
-  }
-  .missdiol-pic3 img{
-    margin-right: 10px;
-  }
-  
-}
-@media screen and (max-width:500px) {
-  .about-woman-section1 ul li img{
-    width: 100%;
-  }
-  .missdiol-pic7 img{
-    margin:0 auto;
-   }
-
-}
-/* --------------------img-------------------- */
-.about-woman-section1 .hbj-textbox1{
+.visual-about-woman .img_container{
   position: absolute;
-  width: 325px;
-  height: 195px;
-  background: #fff;
-  transform: translate(50%,50%);
+  width:50%;
+  max-width: 500px;
+  left:50%;top:50%;
+  transform: translate(-50%,-50%);
+}
+.visual-about-woman .img_container figure{
+  overflow: hidden;
+  position: absolute;
+  width:100%;
+  height: 100%;
+  top:0;
+}
+.visual-about-woman .img_container figure:nth-child(even){
+  z-index: 1;
+  transform: scale(0.6);
+}
+.visual-about-woman .img_container figure img{
+  display: block;
+  object-fit: cover;
+  object-position: center center;
+  width:100%;
+  height: 100%;
+  opacity: 0.2;
+  filter:blur(3px)
+}
+.visual-about-woman .img_container figure.active img{
+  opacity:1;
+  filter: blur(0);
+}
+.visual-about-woman .img_container figure.active_l img{
+  transform: scale(3);
+}
+.visual-about-woman .img_container figure.active_c img{
+  transform: scale(1.5);
+}
+.visual-about-woman .img_container figure.active_r img{
+  transform: scale(0.8);
+}
+
+.visual-about-woman h2{
+  position: absolute;
+  left:50%;top:50%;
+  transform: translate(-50%,-50%);
+  white-space: nowrap;
+  font-weight: lighter;
+  color:rgba(255,255,255,0.2);
+  -webkit-text-stroke:1px #DDD;
+  -webkit-text-fill-color:rgba(255,255,255,0);
+}
+.visual-about-woman .textbox_container{
+  position: absolute;
+  left:50%;bottom: 20px;
+  transform: translateX(-50%);
+  text-align: center;
   
 }
-@media screen and (min-width:1000px) {
-  .about-woman-section1 .hbj-textbox1{
-    top:0;
-  left:30%;
-    
-  }
+.visual-about-woman .textbox_container .textbox b{
+  display: block;
+  font-size:14px;
+  font-weight: 800;
+  color:rgb(133, 52, 6);
 }
-@media screen and (min-width:500px) and (max-width:1000px) {
-  .about-woman-section1 .hbj-textbox1{
-    top:0;
-    left:43%;
-
-  }
+.visual-about-woman .textbox_container .textbox span{
+  color:white;
+  font-size:12px;
 }
-@media screen and (max-width:500px) {
-  .about-woman-section1 .hbj-textbox1{
-    display: none;
-  }
-
-
+.visual-about-woman .textbox_container .textbox .more{
+  display: inline-block;
+  margin-top:5px;
+  color:white;
+  font-size: 11px;
+  color:#888;
 }
-/* ------------------hbj-textbox1-------------------------- */
+.visual-about-woman .textbox{display: none;}
+.visual-about-woman .textbox1{display: block;}
+.visual-about-woman .indicator{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  position: absolute;
+  width:60%;
+  max-width: 300px;
+  left:50%;
+  top:30px;
+  transform:translateX(-50%);
+}
+.visual-about-woman .indicator button{
+  font-size: 25px;
+  color:white;
+  opacity: 0.5;
+  transition: opacity 0.3s;
+}
+.visual-about-woman .indicator button:hover{
+  opacity: 1;
+}
+.visual-about-woman .indicator .progress{
+  position: relative;
+  width:70%;
+  height:1px;
+  background: rgba(255,255,255,0.2);
+}
+.visual-about-woman .indicator .progress span{
+  position: absolute;
+  width:0;
+  height: 100%;
+  background:rgba(255,255,255,0.8);
+}
+.visual-about-woman .indicator .cnt{
+  width:100%;
+  color:white;
+  text-align: center;
+  font-size: 0.8em;
+}
+.visual-about-woman .indicator .cnt sub{
+  opacity:0.5;
+}
+@media screen and (min-width:800px){
+
+  .visual-about-woman .img_container{
+    height:70% ;
+  }
+  .visual-about-woman h2{
+    font-size:100px;
+  }
+}/* lg */
+@media screen and (max-width:800px){
+
+  .visual-about-woman .img_container{
+    height:50% ;  
+  }
+  .visual-about-woman  h2{
+    font-size:9.5vw;
+  }
+}/* sm */
+/* visual-about-woman end--------------------------------------------------- */
+

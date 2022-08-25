@@ -229,7 +229,7 @@ figure.khkindexlogo img:nth-of-type(3){ /* red */
   height: 100%;
   overflow: hidden;
   top:0;left:0;
-  opacity: 0.3;
+  opacity: 0.4;
 }
 
 /* -------youtube container-------- */
@@ -259,8 +259,7 @@ figure.khkindexlogo img:nth-of-type(3){ /* red */
   -webkit-mask-image: url(../img/khk/intro/video-mask.svg);
   -webkit-mask-size: 100%;
   -webkit-mask-repeat: no-repeat;
-  z-index: 2;
-  opacity: 0.5;
+  /* opacity: 0.8; */
 } 
 
 .kh-youtube-container .kh-svg{
@@ -272,7 +271,7 @@ figure.khkindexlogo img:nth-of-type(3){ /* red */
 
 .kh-intro-section1 .kh-svg path{
   stroke: wheat;
-}
+} 
 
 @keyframes drawing{
   0%{stroke-dashoffset: -1;}

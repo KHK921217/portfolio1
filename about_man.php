@@ -104,7 +104,6 @@
   </section>
 </section>
 
-
 <section class="ydr-homme">
   <div>
     <figure class="ydr-figure-img">

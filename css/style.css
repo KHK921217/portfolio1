@@ -1,5 +1,5 @@
 body{
-  font-family: 'Noto Sans KR', sans-serif, 'Nanum Gothic', sans-serif;
+  font-family: 'Yantramanav','Noto Sans KR', sans-serif, 'Nanum Gothic', sans-serif;
   color:#333;
   font-size: 14px;
   font-weight: normal;
@@ -7,6 +7,48 @@ body{
   text-decoration: none;
   line-height: 160%;
 }
-main{
-  
+.anton{
+  font-family: 'Anton', sans-serif;
+}
+.bold{
+  font-family: 'Anton', sans-serif;
+}
+.em{
+  font-size: 1.5em;
+  font-style: italic;
+  color: #A56776;
+}
+.center_12{
+  width: 95%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.center_14{
+  width: 95%;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+.center_16{
+  width: 95%;
+  max-width: 1600px;
+  margin: 0 auto;
+}
+@media screen and (min-width:1000px){
+  br.sm{
+    display: none;
+  }
+}
+@media screen and (max-width:1000px) and (min-width:600px){
+  br.lg,
+  br.sm{
+    display: none;
+  }
+}
+@media screen and (max-width:600px){
+  br.lg{
+    display: none;
+  }
+}
+.path{
+  stroke-width: 5px;
 }

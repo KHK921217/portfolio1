@@ -77,10 +77,10 @@ $(function () {
   /* scrollspy------------------------- */
   function scrollSpy() {
 
-    var offset1 = scrH * 0
-    var offset2 = scrH * 1
-    var offset3 = scrH * 2
-    var offset4 = scrH * 3
+    var offset1 = scrH * 0 - 1 
+    var offset2 = scrH * 1 - 1 
+    var offset3 = scrH * 2 - 1 
+    var offset4 = scrH * 3 - 1 
  
     if (scrt < offset2) {
       section = 1

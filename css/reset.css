@@ -1,41 +1,62 @@
 html,body{
   height: 100%;
-  box-sizing: border-box;}
-
+  box-sizing: border-box;
+} 
 *{
-  margin: 0;
+  margin:0;
   padding: 0;
+  font-family:inherit;
+  font-size: inherit;;
   color:inherit;
-  font-family: inherit;
-  font-size: inherit;
-  font-weight: inherit;
-  font-style: inherit;
   text-decoration: inherit;
+  font-style: inherit;
+  font-weight: inherit;
+  line-height: inherit;
+  word-break: keep-all;
 }
-li{
-  list-style: none;
-}
-a{
+body{
   text-decoration: none;
+  font-style: normal;
+  font-weight: normal;
+} 
+li{list-style: none;}
+img,iframe{display: block;}
+table{
+  border-spacing: 0;
+  border-collapse: collapse;
 }
-input,textarea,select{
+select,textarea,input{
   box-sizing: border-box;
 }
 button{
+  border:none;
   background: none;
-  border:none;  
   cursor: pointer;
 }
-table{
-  border-collapse: collapse;
-}
-img,iframe{
-  display: block;
-}
-iframe{
+iframe,fieldset{
   border:none;
 }
 .hidden{
   position: fixed;
-  left:-10000px;
+  left:-10000px
 }
+.clearfix::after{
+  content:"";
+  display: block;
+  clear: both;
+}
+.icon-font::after,
+.icon-font::before{
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  font-family: "Font Awesome 5 Free"; 
+  font-weight: 900; 
+}
+.ellipis{
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+} 
