@@ -7,12 +7,12 @@
 <script src="./js/about-news.js"></script>
 <section class="about_news_visual">
   <ul class="img_container">
-    <li class="imgbox1"><img src="./img/news/w1.jpg" alt=""></li>
-    <li class="imgbox2"><img src="./img/news/w2.jpg" alt=""></li>
-    <li class="imgbox3"><img src="./img/news/w3.jpg" alt=""></li>
-    <li class="imgbox4"><img src="./img/news/w4.jpg" alt=""></li>
-    <li class="imgbox5"><img src="./img/news/w5.jpg" alt=""></li>
-    <li class="imgbox6"><img src="./img/news/w6.jpg" alt=""></li>
+    <li class="imgbox1"><img src="./img/news/model/women7.jpg" alt=""></li>
+    <li class="imgbox2"><img src="./img/news/model/thum2.png" alt=""></li>
+    <li class="imgbox3"><img src="./img/news/model/thum8.png" alt=""></li>
+    <li class="imgbox4"><img src="./img/news/model/thum4.jpg" alt=""></li>
+    <li class="imgbox5"><img src="./img/news/model/thum5.jpg" alt=""></li>
+    <li class="imgbox6"><img src="./img/news/model/thum6.jpg" alt=""></li>
   </ul><!-- img_contaienr -->
 
   <ul class="title_container type1">
@@ -107,7 +107,7 @@
       <li>
         <div class="inner">
           <figure>
-            <img src="./img/news/jewellery.jpg" alt="">
+            <img src="./img/news/perfurm/perfume4.jpg" alt="">
           </figure>
           <div class="textbox">
             <h3 class="bold">JEWELLERY</h3>
@@ -124,7 +124,7 @@
       <li>
         <div class="inner">
           <figure>
-            <img src="./img/news/sunglass.jpg" alt="">
+            <img src="./img/news/perfurm/perfume3.jpg" alt="">
           </figure>
           <div class="textbox">
             <h3 class="bold">SUNGLASSES</h3>
