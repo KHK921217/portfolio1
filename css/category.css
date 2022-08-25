@@ -1,0 +1,249 @@
+/*common-----------------------------------------------------------------  */
+.section_category {
+  overflow: hidden;
+}
+.section_category h2{
+  font-size: 100px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+@media screen and (max-width:650px){
+  .section_category h2{
+    font-size: 15vw;
+    text-align: center;
+    margin-bottom: 50px;
+  } 
+}
+.section_category ul li{
+  position: relative;
+  clear: both;
+  margin: 40px 0;
+  box-sizing: border-box;
+  padding: 15px;
+}
+.section_category ul.category_type1 li{
+  clear: both;
+}
+.section_category ul li:nth-child(odd){
+  float:left;
+}
+.section_category ul li:nth-child(even){
+  float:right;
+}
+@media screen and (min-width:1000px){
+  .section_category ul li{
+    width:65%;
+    height:250px;
+  }
+}
+@media screen and (min-width:700px) and (max-width:1000px){
+  .section_category ul li{
+    width:85%;
+    height:250px;
+  }
+}
+@media screen and (max-width:700px){
+  .section_category ul li{
+    width:100%;
+  }
+}
+
+.section_category ul li .inner{
+  overflow: hidden;
+}
+@media screen and (min-width:700px){
+  .section_category ul li .inner{
+    position: relative;
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: space-between;  
+  }
+  .section_category ul li:nth-child(odd) .inner{
+    flex-direction: row-reverse;
+  }
+}
+
+.section_category ul li .inner figure{
+  overflow: hidden;
+}
+@media screen and (min-width:700px){
+  .section_category ul li .inner figure{
+    width:220px;
+    height:220px;
+  }
+}
+@media screen and (max-width:700px){
+  .section_category ul li .inner figure{
+    width:100%;
+    margin-bottom: 20px;
+    height: 220px;
+  }
+}
+.section_category ul li .inner figure img{
+  display: block;
+  width:100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center center;
+}
+.section_category ul li .inner .textbox{
+  flex:1;
+}
+@media screen and (min-width:700px){
+  .section_category ul li:nth-child(odd) .inner .textbox{
+    text-align: right;
+    padding-right:25px;
+  }
+  .section_category ul li:nth-child(even) .inner .textbox{
+    padding-left:25px;
+  }
+}
+@media screen and (max-width:700px){
+  .section_category ul li .inner .textbox p{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+}
+.section_category ul li .inner .textbox h3{
+  font-size: 1.4em;
+  margin-bottom: 10px;
+}
+.section_category ul li .inner .textbox p{
+  margin-bottom: 20px;
+}
+.section_category ul li .inner .textbox a{
+  display: inline-block;
+  padding: 10px 20px;
+  border:1px solid #333;
+  transition: all 0.3s;
+}
+/* dark------------------------------------ */
+.section_category.dark{
+  color:white;
+  background: #000;
+}
+.section_category.dark ul li:nth-child(odd){
+  background: white;
+}
+.section_category.dark ul li:nth-child(even){
+  border:1px solid rgba(255,255,255,0.5);
+  background: black;
+}
+.section_category.dark ul li:nth-child(odd) .textbox{
+  color:#666;
+}
+.section_category.dark ul li:nth-child(even) .textbox a{
+  background: #333;
+  border:1px solid #CCC;
+}
+.section_category.dark ul li:nth-child(odd) .textbox a:hover{
+  background: #333;
+  color:white;
+}
+.section_category.dark ul li:nth-child(even) .textbox a:hover{
+  background: #FFF;
+  color:#333;
+}
+/* light------------------------------------ */
+.section_category.light{
+  color:#666;
+  background: #FFF;
+}
+.section_category.light h2,
+.section_category.light h3{color:black;}
+
+.section_category.light ul li:nth-child(odd){
+  border:1px solid #CCC;
+  background: white;
+}
+.section_category.light ul li:nth-child(even){
+  background: #EEE;
+}
+.section_category.light ul li:nth-child(odd) .textbox{
+  color:#666;
+}
+.section_category.light ul li:nth-child(even) .textbox a{
+  background: #FFF;
+}
+.section_category.light ul li .textbox a:hover{
+  background: #333;
+  color:white;
+}
+
+/* type1------------------------------------ */
+
+/* type2------------------------------------ */
+@media screen and (min-width:700px){
+  .section_category.type2 ul li:nth-child(odd){
+    border-radius: 0 200px 200px 0;
+  }
+  .section_category.type2 ul li:nth-child(even){
+    border-radius: 200px 0 0 200px;
+  }
+  .section_category.type2 ul li:nth-child(odd) figure{
+    border-radius: 0 200px 200px 0;
+  }
+  .section_category.type2 ul li:nth-child(even) figure{
+    border-radius: 200px 0 0 200px;
+  }
+}
+
+/* type3------------------------------------ */
+@media screen and (min-width:700px){
+  .section_category.type3 ul li:nth-child(odd){
+    border-radius: 0 200px 0 0;
+  }
+  .section_category.type3 ul li:nth-child(even){
+    border-radius: 0 0 0 200px;
+  }
+  .section_category.type3 ul li:nth-child(odd) figure{
+    border-radius: 0 200px 0 0;
+  }
+  .section_category.type3 ul li:nth-child(even) figure{
+    border-radius: 0 0 0 200px;
+  }
+}
+
+/* type4------------------------------------ */
+@media screen and (min-width:700px){
+  .section_category.type4 ul li::before{
+    content:"";
+    position: absolute;
+    width:176px;
+    height:176px;
+    top:50%;
+  }
+  .section_category.type4 ul li:nth-child(odd)::before{
+    left:100%;
+    transform: translateX(-50%) translateY(-50%) rotate(45deg) ;
+
+  }
+  .section_category.type4.dark ul li:nth-child(odd)::before{background: white;}
+  .section_category.type4.dark ul li:nth-child(even){border-left:none;}
+  .section_category.type4.light ul li:nth-child(odd)::before,
+  .section_category.type4.dark ul li:nth-child(even)::before{
+    border:1px solid #CCC;
+    border-bottom: none; 
+    border-left: none;
+  }  
+  .section_category.type4.light ul li:nth-child(even)::before{background: #EEE;}
+  .section_category.type4 ul li:nth-child(even)::before{ 
+    right:100%;
+    transform: translateX(50%) translateY(-50%) rotate(45deg) scale(-1);
+  }  
+  .section_category.type4 ul li:nth-child(odd){
+    border-right:none;
+  }
+}/* 700px over */
+
+
+
+.section_category ul li .inner{
+  max-height: 0; 
+  transition:max-height 1.5s;
+}
+.section_category ul li .inner.active{
+  max-height: 700px; 
+} 

@@ -1,2 +1,1 @@
-
 <?php include "footer.php"?>

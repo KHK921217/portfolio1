@@ -1,518 +1,211 @@
-body{
-  overflow-x: hidden;
+.type1 {
+  font-family: "Anton", sans-serif;
 }
-.lee-container{
-  background-color: black;
+.type2 {
+  font-family: "Raleway", sans-serif;
 }
-.lee-container0 div{
-  display: flex;
+/* about_news_visual----------------------------------------------------------------- */
+.about_news_visual {
   position: relative;
-  justify-content: space-between;
-  padding: 40px;
-  top:20px;
+  height: 100%;
+  background: black;
 }
-.lee-container0 div h1{
-  color: #fc8130;
+@media screen and (min-width: 800px) {
+  .about_news_visual {
+    min-height: 700px;
+  }
+} /* lg */
+@media screen and (max-width: 800px) {
+  .about_news_visual {
+    min-height: 500px;
+  }
+} /* sm */
+
+.about_news_visual .img_container {
+  position: absolute;
+  width: 80%;
+  height: 70%;
+  max-width: 450px;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  overflow: hidden;
 }
-.lee-container0 div h1 a:nth-child(1){
-  font-size: 3em;
+.about_news_visual .img_container li {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  z-index: auto;
+  background-size: cover;
 }
-.lee-container0 div h1 a:nth-child(2){
-  font-size: 1.5em;
-  margin-left: 20px;
-}
-.lee-container0 div ul{
-  position:relative;
-  display: flex;
-  top:4px;
-}
-.lee-container0 div ul li{
-  padding: 10px;
-  color: white; 
-  font-size: 0.5em;
-}
-.lee-container0 div ul li:nth-child(even){
-  color: #fc8130;
-}
-.lee-line{
-  margin: 0 auto; 
-  width: 92%;
-  color: lightgrey; 
-}
-@media screen and (min-width:600px) and (max-width:950px){
-  .lee-container0{
-    width: 100%;
-  }
-  .lee-container0 div{
-    display: block;
-    width: 50%;
-    padding: 40px 10% 40px 20%;
-    margin: 0 auto;
-  }
-  .lee-container0 div h1 a:nth-child(1){
-    font-size: 2em;
-  }
-  .lee-container0 div h1 a:nth-child(2){
-    font-size: 1em;
-    margin-left: 20px;
-  }
-  .lee-container0 ul{
-    width: 75%;
-    margin: 0 auto;
-  }
-}
-@media screen and (max-width:600px){
-  .lee-container0{
-    padding: 0 5px;
-  }
-  .lee-container0 div{
-    display: block;
-    width: 60%;
-    padding: 40px 10%; 
-    margin: 0 auto;
-  }
-  .lee-container0 div h1 a:nth-child(1){
-    font-size: 2em;
-  }
-  .lee-container0 div h1 a:nth-child(2){
-    font-size: 1em;
-    margin-left: 20px;
-  }
-  .lee-container0 ul{
-    width: 65%;
-    margin: 0 auto;
-  }
+.about_news_visual .img_container li img {
+  position: absolute;
+  width:100%;
+  /* height script*/
+  object-fit: cover;
+  object-position: center center;
 }
 
-/* ---- nav ---- */
-.lee-container1{
-  display: flex;
-  justify-content: space-between;
-  padding: 80px 0;
-}
-.lee-container1 h6{
-  font-size: 1.2em;
-  color: #fc8130;
-  margin: 0 8%;
-}
-.lee-container1 div{
-  position: relative;
-  margin: 0 80px 0 0;
-}
-.lee-container1 div div{
-  display: flex;
-}
-.lee-container1 div div:nth-child(2){
-  top: 100px;
-}
-.lee-container1 div div figure{
+.title_container {
+  position: absolute;
+  width: 90%;
+  height: 80%;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
   overflow: hidden;
-  border: 1px solid #fc8130;
-  margin-right: 10px;
+  border:1px solid rgba(255,255,255,0.2);
+  background: rgba(255,255,255,0.1);
 }
-.lee-container1 div div figure img{
+.title_container li {
+  position: absolute;
+  transform: translate(-50%,-50%);
+}
+.title_container li h3 {
+
+  text-align: center;
+  line-height: 110%;
+  color:rgba(255,255,255,0.1);
+  font-weight: lighter;
+  -webkit-text-stroke: 1px white ;
+  -webkit-text-fill-color:rgba(255,255,255,0);
+}
+@media screen and (min-width: 800px) {
+  .title_container li h3 {font-size: 90px; }
+}/* lg */
+@media screen and (max-width: 800px) {
+  .title_container li h3 {font-size:11vw; }
+}
+/* sm */
+
+.digits_text_container{
+  position: absolute;
+  width:90%;
+  overflow: hidden;
+}
+@media screen and (min-width: 1100px) {
+  .digits_text_container{
+    left:7%;
+    bottom: 15%;
+    max-width: 250px;
+    height: 100px;
+  }
+}/* lg */
+@media screen and (max-width: 1100px) {
+  .digits_text_container{
+    left:50%;
+    height: 5%;
+    max-width: 500px;
+    transform: translateX(-50%);
+    bottom: 2.5%;
+  }
+}
+/* sm */
+.digits_container{
+  display: flex;
+  height: 30px;
+  overflow: hidden;
+}
+.digits_container ul{
+  position: relative;
+  width:17px;
+  height: 1000%;
+}
+.digits_container ul li{
+  height: 10%;
+  color:white;
+  font-size: 30px;
+  text-align: center;
+  line-height: 30px;
+}
+.text_container_wrap{
+  overflow: hidden;
+}
+.text_container_wrap ul{
+  width:100%;
+  position: relative;
+  height: 600%;
+}
+.text_container li{
+  display: flex;
+  float: left;
+  align-items: center;
+  height: 16.666%;
+  font-size: 0.8em;
+  color:#999;
+}
+@media screen and (min-width: 1100px) {
+  .text_container_wrap{margin-top: 10px;height: 60px;}
+}/* lg */
+@media screen and (max-width: 1100px) {
+  .text_container_wrap{position: absolute;top:0;left:50px;width:calc(100% - 50px);height: 100%;}
+}
+
+.about_news_visual .indicator {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  position: absolute;
+  width: 60%;
+  max-width: 300px;
+  left: 50%;
+  top: 30px;
+  transform: translateX(-50%);
+}
+.about_news_visual .indicator button {
+  font-size: 25px;
+  color: white;
+  opacity: 0.5;
+  transition: opacity 0.3s;
+}
+.about_news_visual .indicator button:hover {
+  opacity: 1;
+}
+.about_news_visual .indicator .progress {
+  position: relative;
+  width: 70%;
+  height: 1px;
+  background: rgba(255, 255, 255, 0.2);
+}
+.about_news_visual .indicator .progress span {
+  position: absolute;
+  width: 0;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.8);
+}
+.about_news_visual .indicator .cnt {
+  width: 100%;
+  color: white;
+  text-align: center;
+  font-size: 0.8em;
+}
+.about_news_visual .indicator .cnt sub {
+  opacity: 0.5;
+}
+/* section-about-news-1----------------------------------------------------------------------------- */
+.section-about-news-1,.section-about-news-2{
+  padding: 100px 0;
+  background: #FFF;
+}
+.section-about-news-1>div,
+.section-about-news-2>div{
+  position: relative;
+}
+
+.section-about-news-1 svg,
+.section-about-news-2 svg{
+  position: absolute;
+  top: 0%;
+  left: 0;
   width: 100%;
   height: 100%;
 }
-.lee-container1 div div span{
-  display: block;
-  margin-left: 50px;
+
+.section-about-news-1 .path,
+.section-about-news-2 .path{
+  stroke-dasharray: 1;
+  stroke-dashoffset: 1;
 }
-.lee-container1 div div span a h3{
-  color: white;
-  margin-bottom:5px;
-}
-.lee-container1 div div span h3:hover{
-  color: #fc8130;
-}
-.lee-container1 div div span p{
-  margin-top: -10px;
-} 
-.lee-container1 div div span .leebtn{
-  display: none;
-} 
-.lee-line2{
-  margin: 0 auto; 
-  width: 92%;
-  color: lightgrey; 
-}
-@media screen and (min-width:1300px){
-  .lee-line{
-    width: 95%;
-  }
-  .lee-container1{
-    height: 60%;
-    padding: 60px 0 200px 0;
-  }
-  .lee-container1 h6{
-    font-size: 1.8vw;
-    margin: 0 6%;
-  }
-  .lee-container1 div{
-    margin-left: 130px;
-  }
-  .lee-container1 div div figure{
-    overflow: hidden;
-    width: 23%;
-    height: 23%;
-    border: 1px solid #fc8130;
-  }
-  .lee-container1 div div span h3{
-    color: white;
-    font-size: 2.15vw;
-  }
-  .lee-container1 div div span p{
-    font-size: 1.55vw;
-  } 
-}
-@media screen and (min-width:950px) and (max-width:1300px){
-  .lee-container1{
-    height: 60%;
-    padding: 60px 0 200px 0;
-  }
-  .lee-container1 h6{
-    font-size: 1.8vw;
-    color: #fc8130;
-    margin: 0 6%;
-  }
-  .lee-container1 div{
-    margin-left: 90px;
-    margin-bottom: -20px;
-  }
-  .lee-container1 div div figure{
-    overflow: hidden;
-    width: 23%;
-    height: 23%;
-    border: 1px solid #fc8130;
-  }
-  .lee-container1 div div figure{
-    overflow: hidden;
-    width: 23%;
-    height: 23%;
-    border: 1px solid #fc8130;
-  }
-  .lee-container1 div div span{
-    display: block;
-    margin-left: 50px;
-  }
-  .lee-container1 div div span h3{
-    color: white;
-    font-size: 2.15vw;
-  }
-  .lee-container1 div div span p{
-    font-size: 1.55vw;
-    margin-top: -20px;
-  } 
-}
-@media screen and (min-width:600px) and (max-width:950px){
-  .lee-container1{
-    display: block;
-  }
-  .lee-container1 div{
-    margin: 0 3%; 
-  }
-  .lee-container1 div div{
-    display: block;
-    border: solid 1px lightgrey;
-    padding: 70px;
-    text-align: center;
-  }
-  .lee-container1 div div figure{
-    margin: 0 auto;
-    width: 70%;
-    height: 70%;
-  }
-  .lee-container1 div div span{
-    margin: 0px auto;
-  }
-  .lee-container1 div div span h3{
-    margin-top: 30px;
-    font-size: 1.6em;
-  }
-  .lee-container1 div div span p{
-    font-size: 1.2em;
-  }
-  .lee-container1 div div span .leebtn{
-    margin: 0 auto;
-    display: block;
-    width: 100px;
-    height: 40px;
-    font-weight: 500;
-    background-color: aliceblue;
-    border-radius: 10px;
-  } 
-  .lee-line2{
-    display: none;
-  }
-}
-@media screen and (max-width:600px){
-  .lee-container1{
-    display: block;
-  }
-  .lee-container1 div{
-    margin: 0 3%; 
-  }
-  .lee-container1 div div{
-    display: block;
-    border: solid 1px lightgrey;
-    padding: 70px;
-    text-align: center;
-  }
-  .lee-container1 div div figure{
-    margin: 0 auto;
-    width: 70%;
-    height: 70%;
-  }
-  .lee-container1 div div span{
-    margin: 0px auto;
-  }
-  .lee-container1 div div span h3{
-    margin-top: 30px;
-    font-size: 1.2em;
-  }
-  .lee-container1 div div span p{
-    margin-top: -20px;
-    font-size: 1em;
-  }
-  .lee-container1 div div span .leebtn{
-    margin: 0 auto;
-    display: block;
-    width: 100px;
-    height: 40px;
-    font-weight: 500;
-    background-color: aliceblue;
-    border-radius: 10px;
-  } 
-  .lee-line2{
-    display: none;
-  }
-}
-.lee-container2{
-  display: flex;
-  justify-content: space-between;
-}
-.lee-container2 h6{
-  font-size: 1.2em;
-  color: #fc8130;
-  margin: 0 6%;
-}
-.lee-container2 ul{
-  margin: 0 80px 0 0;
-  margin-bottom: -20px;
-}
-.lee-container2 ul li{
-  margin: 15px 0;
-  display: flex;
-}
-.lee-container2 ul li figure{
-  overflow: hidden;
-  border: 1px solid #fc8130;
-}
-.lee-container2 ul li figure a img{
-  width: 100%;
-}
-.lee-container2 ul li span{
-  display: block;
-  margin-left: 60px;
-}
-.lee-container2 ul li span h3{
-  color: white;
-  font-size: 1.75em;
-  margin-bottom:5px;
-}
-.lee-container2 ul li span h3:hover{
-  color: #fc8130;
-}
-.lee-container2 ul li span p{
-  font-size: 1.3em;
-  margin-top: -10px;
-} 
-.lee-container2 ul li span .leebtn{
-  display: none;
-} 
-@media screen and (min-width:1300px){
-  .lee-line{
-    width: 95%;
-  }
-  .lee-container2{
-    position: relative;
-    padding: 60px 0 150px 0;
-  }
-  .lee-container2 h6{
-    font-size: 1.8vw;
-    margin: 0 6%;
-  }
-  .lee-container2 ul{
-    display: block;
-    margin-top: -85px;
-    margin-left: 187.5px;
-  }
-  .lee-container2 ul li{
-    padding: 70px;
-  }
-  .lee-container2 ul li:nth-child(2){
-    margin-top: -60px;
-  } 
-  .lee-container2 ul li figure{
-    overflow: hidden;
-    width: 23%;
-    height: 23%;
-    border: 1px solid #fc8130;
-  }
-  .lee-container2 ul li span h3{
-    color: white;
-    font-size: 2.15vw;
-    margin-bottom: -17px;
-  }
-  .lee-container2 ul li span p{
-    font-size: 1.55vw;
-    margin-top: 12px;
-    float: left;
-  } 
-}
-@media screen and (min-width:950px) and (max-width:1300px){
-  .lee-container2{
-    position: relative;
-    padding: 60px 0 60px 0;
-  }
-  .lee-container2 h6{
-    font-size: 1.8vw;
-    margin: 0 6%;
-  }
-  .lee-container2 ul{
-    display: block;
-    margin-top: -85px;
-    margin-left: 107.5px;
-  }
-  .lee-container2 ul li{
-    padding: 70px;
-  }
-  .lee-container2 ul li:nth-child(2){
-    margin-top: -60px;
-  } 
-  .lee-container2 ul li figure{
-    overflow: hidden;
-    width: 23%;
-    height: 23%;
-    border: 1px solid #fc8130;
-  }
-  .lee-container2 ul li span h3{
-    color: white;
-    font-size: 2.15vw;
-  }
-  .lee-container2 ul li span p{
-    font-size: 1.55vw;
-    margin-top: -20px;
-    float: left;
-  } 
-}
-@media screen and (min-width:600px) and (max-width:950px){
-  .lee-line2{
-    display: none;
-  }
-  .lee-container2{
-    display: block;
-    justify-content: none;
-    width: 100%;
-    height: 120%;
-    padding-top: 150px;
-  }
-  .lee-container2 h6{
-    font-size: 1em;
-  }
-  .lee-container2 ul{
-    display: flex;
-    position: relative;
-    margin: -47px auto;
-    justify-content: space-between; 
-    transform: scale(88%);
-  }
-  .lee-container2 ul li{
-    display: block;
-    border: solid 1px lightgrey;
-    width: 40%;
-    height: 100%;
-    text-align: center;
-    padding: 15px 15px 55px 15px;
-  }
-  .lee-container2 ul li figure{
-    margin: 20% auto;
-    width: 70%;
-    height: 70%;
-  }
-  .lee-container2 ul li span{
-    margin: 0px auto;
-  }
-  .lee-container2 ul li span h3{
-    margin-top: -40px;
-    font-size: 1.2em;
-  }
-  .lee-container2 ul li span p{
-    margin-top: -20px;
-    font-size: 1em;
-  }
-  .lee-container2 ul li span .leebtn{
-    margin: 0 auto;
-    display: block;
-    width: 100px;
-    height: 40px;
-    font-weight: 500;
-    background-color: aliceblue;
-    border-radius: 10px;
-  } 
-}
-@media screen and (max-width:600px){
-  .lee-line2{
-    display: none;
-  }
-  .lee-container2{
-    display: block;
-    justify-content: none;
-    width: 100%;
-    height: 120%;
-    padding:120px 0;
-  }
-  .lee-container2 h6{
-    font-size: 0.8em;
-  }
-  .lee-container2 ul{
-    display: flex;
-    position: relative;
-    margin: -43px auto;
-    justify-content: space-between; 
-    transform: scale(88%);
-  }
-  .lee-container2 ul li{
-    display: block;
-    border: solid 1px lightgrey;
-    width: 40%;
-    height: 100%;
-    text-align: center;
-    padding: 15px 15px 55px 15px;
-  }
-  .lee-container2 ul li figure{
-    margin: 20% auto;
-    width: 70%;
-    height: 70%;
-  }
-  .lee-container2 ul li span{
-    margin: 0px auto;
-  }
-  .lee-container2 ul li span h3{
-    margin-top: -20px;
-    font-size: 1em;
-  }
-  .lee-container2 ul li span p{
-    margin-top: -20px;
-    font-size: 0.9em;
-  }
-  .lee-container2 ul li span .leebtn{
-    margin: 0 auto;
-    display: block;
-    width: 100px;
-    height: 40px;
-    font-weight: 500;
-    background-color: aliceblue;
-    border-radius: 10px;
-  } 
-}
+/* section-about-news-2----------------------------------------------------------------------------- */

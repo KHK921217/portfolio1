@@ -1,56 +1,57 @@
-$(function () {
-  var cont = $("img").offset().top
-  var conh = $("img").innerHeight()
-  var ceta
-  function pallarex() {
-    $(".about-woman-section1 li").each(function () {
+$(function(){
+  var st
+  var en
+  var range
+  var value
+  var ratio
 
-      cont = $(this).offset().top
-      conh = $(this).innerHeight()
-      ceta = 1 + (scrt - (cont - winh * 0.5 + conh * 0.5)) * 0.085
-      $(this).find("img").css({ "transform": "scale(0.94) translateY(" + ceta + "px)" })
+ function draw(){
+   st=$('.section-about-woman-1 svg').offset().top-winh*0.5
+   en=$('.section-about-woman-2').offset().top-winh
+   range=en-st
+   value=scrt-st
+   ratio=value/range
+   target=1-ratio
 
-    })
+   if(scrt<st){
+     $('.section-about-woman-1 .path').css('stroke-dashoffset',1)
+   }
+   else if(scrt>=st && scrt<en){
+     $('.section-about-woman-1 .path').css('stroke-dashoffset',target)
+   }
+   else{
+     $('.section-about-woman-1 .path').css('stroke-dashoffset',0)
+   }
+ }//fn
 
+ draw()
+ $(window).resize(function(){
+   draw()
+ }).scroll(function(){
+   draw()
+ })
 
-  }//pallarex fn_
-  pallarex()
-  $(window).scroll(function () {
-    pallarex()
-  }).resize(function () {
-    pallarex()
-  })
+ ///////////////////////////////// svg /////////////////////////////
+ var objt
+ function motion(){
+   $('.section-about-woman-2 li').each(function(){
+     objt=$(this).offset().top
+     if(scrt>=objt-winh*0.9){
+       $(this).css({'transform':'translateX(0)','opacity':1})
+     }
+     else{
+       $(this).css({'transform':'translateX(-70%)','opacity':0})
+     }
+   })
 
+ }//fn
 
-
+ motion()
+ $(window).resize(function(){
+   motion()
+ }).scroll(function(){
+   motion()
+ })
 
 
 })
-$(function () {
-  function pallarex() {
-    $(".about-woman-section2 li").each(function () {
-    
-      cont = $(this).offset().top
-      conh = $(this).innerHeight()
-      ceta = 3 + (scrt - (cont - winh * 0.5 + conh * 0.5)) * 0.09
-      $(".vanilabeen").find("img").css({ "transform": "scale(1) translateY(" + ceta + "px)" })
-      
-    })
-
-  }//pallarex fn_
-  pallarex()
-  $(window).scroll(function () {
-    pallarex()
-  }).resize(function () {
-    pallarex()
-  })
-  
-
-
-})
-
-
-
-
-
-
