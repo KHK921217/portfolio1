@@ -54,7 +54,7 @@ $(function () {
 
       opacity = 1 - scrollRatio * 0.5
       scale = 1 - scrollRatio * 0.5
-      $(this).prev().css({ 'opacity': opacity, 'transform': 'scale(' + scale + ')' })
+      //$(this).prev().css({ 'opacity': opacity, 'transform': 'scale(' + scale + ')' })
 
       if (window.matchMedia('(orientation:landscape)').matches) {
         $(this).children('.kh-intro-section-org').css({
