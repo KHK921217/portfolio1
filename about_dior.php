@@ -2,7 +2,6 @@
 <link rel="stylesheet" href="./css/about_dior.css"> 
 <script src="./js/about_dior.js"></script> 
 
-<div class="kh-about-dior">
     <div class="kh-title">
       <img src="./img/khk/brand/title1.png" alt="title">
     </div><!-- 제목 -->
@@ -39,10 +38,10 @@
         <div class="kh-div1">
           <figure>
             <img src="./img/khk/brand/brand3.png" alt="img4">
-            <figcaption>
-              <p>DIOR은 지속 가능한 뷰티를 위해 환경을 고려한 성분에 집중해야한다고 믿습니다.</p>
-            </figcaption>
           </figure>
+          <figcaption>
+            <p>DIOR은 지속 가능한 뷰티를 위해 환경을 고려한 성분에 집중해야한다고 믿습니다.</p>
+          </figcaption>
         </div>
         <div class="kh-div2">
           <figure>
@@ -52,48 +51,48 @@
             </figcaption>
           </figure>
         </div>
+        <div class="kh-up_txt">
+      <h4>SPEACIAL BENEFIT TO MEMBER!</h4>
+      <p>우수한 품질을 바탕으로 까다로운 소비자들을 만족시키고 유통 채널의 다각화와 전문화로
+  피부타입은 개인의 관리나 계절의 변화에 따라 달라질 수 있으므로 아름다움과 건강함을 지켜보세요.</p>
+      <div class="kh-point">
+        <ul>
+          <li>
+            <figure>
+              <img src="./img/khk/brand/point1.png" alt="point_img1">
+            </figure>
+              <h2>New member</h2>
+          </li>
+          <li>
+            <figure>
+              <img src="./img/khk/brand/point2.png" alt="point_img2">
+            </figure>
+            <h2>Photo Review</h2>
+          </li>
+          <li>
+            <figure><img src="./img/khk/brand/point3.png" alt="point_img3"></figur>
+            <h2>Event</h2>
+          </li>
+        </ul>
+      </div><!-- kh-point -->
+    </div><!-- kh-up_txt -->
       </div><!-- sec4 container -->
+  </section><!-- section4-->
 
-      <div class="kh-info-wrap">
-        <div class="kh-info-box">
-          <div class="kh-up_txt">
-            <h4>SPEACIAL BENEFIT TO MEMBER!</h4>
-            <p>우수한 품질을 바탕으로 까다로운 소비자들을 만족시키고 유통 채널의 다각화와 전문화로
-피부타입은 개인의 관리나 계절의 변화에 따라 달라질 수 있으므로 아름다움과 건강함을 지켜보세요.</p>
-            <div class="kh-point">
-              <ul>
-                <li>
-                  <h2></h2>
-                  <img src="" alt="">
-                </li>
-                <li>
-                  <h2></h2>
-                  <img src="" alt="">
-                </li>
-                <li>
-                  <h2></h2>
-                  <img src="" alt="">
-                </li>
-              </ul>
-            </div><!-- kh-point -->
-          </div><!-- kh-up_txt -->
-        </div><!-- kh-info-box -->
-      </div><!-- kh-info-wrap -->
-    </section><!-- section4-->
 
-      <div class="kh-scr-container">
-        <i class="fa-solid fa-computer-mouse mouse">
-          <p>scroll</p>
-        </i>
-        <nav class="kh-scrollspy">
-          <button class="kh-btn1" data-n="1"></button>
-          <button class="kh-btn2" data-n="2"></button>
-          <button class="kh-btn3" data-n="3"></button>
-          <button class="kh-btn4" data-n="4"></button>
-        </nav>
-      </div><!-- kh-scr-container -->
 
-  </div><!-- 전체 -->
+    <div class="kh-scr-container">
+      <i class="fa-solid fa-computer-mouse mouse">
+        <p>scroll</p>
+      </i>
+      <nav class="kh-scrollspy">
+        <button class="kh-btn1" data-n="1"></button>
+        <button class="kh-btn2" data-n="2"></button>
+        <button class="kh-btn3" data-n="3"></button>
+        <button class="kh-btn4" data-n="4"></button>
+      </nav>
+    </div><!-- kh-scr-container -->
+
   <svg>
     <filter id="filter">
     <feTurbulence id="water" numOctaves="3" seed="1" baseFrequency="0.02 0.5" />

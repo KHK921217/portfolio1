@@ -1,22 +1,22 @@
-div.kh-about-dior{
-  position: relative;
-  height: 100%;
+div.kh-title{
+  width: 100%;
 }
-.kh-about-dior div.kh-title img{
-  margin: 20px auto;
+div.kh-title img{
+  width: 40%;
+  margin: 0 auto;
 }
 
-svg #filter{
+svg{
   display: none;
 }
 @media screen and (min-width:200px) and (max-width : 900px){
-  .kh-about-dior div.kh-title img{
+  div.kh-title img{
     width: 100%;
   }
 }
 
 /* ----------sec1----------- */
-.kh-about-dior .kh-brand-section1, .kh-about-dior .kh-brand-section1 figure{
+.kh-brand-section1, .kh-brand-section1 figure{
   width: 100%;
 }
 .kh-brand-section1 figure img{
@@ -118,20 +118,8 @@ svg #filter{
 /* -------sec4--------- */
 .kh-brand-section4{
   position: relative;
-  height: 100%;
-}
-.kh-brand-section4 .kh-sec4-container{
-  height: 100%;
 }
 
-.kh-brand-section4 .kh-info-wrap {
-  padding: 20px 20px;
-  height: 100%;
-  border: 1px solid red;
-}
-.kh-brand-section4 .kh-info-wrap .kh-info-box{
-  border: 1px solid blue;
-}
 @media screen and (min-width:1000px){
   .kh-brand-section4 .kh-div1{
     padding: 20px 20px;
@@ -214,6 +202,80 @@ svg #filter{
     font-weight: 700;
   }
 }
+
+/* --------kh-up_txt---------- */
+
+.kh-sec4-container .kh-up_txt{
+  position: relative;
+  margin: 30px auto;
+  width: 80%;
+  max-width: 1200px;
+}
+
+.kh-sec4-container .kh-up_txt h4, .kh-sec4-container .kh-up_txt p{
+  text-align: center;
+}
+.kh-sec4-container .kh-up_txt h4{
+  font-size: 2em;
+  color: #f19cb9;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+.kh-sec4-container .kh-up_txt p{
+  font: 1.5em;
+  font-weight: 400;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+.kh-sec4-container .kh-point ul li{
+  margin: 20px auto;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+  padding: 8%;
+}
+.kh-sec4-container .kh-point ul li figure{
+  position: relative;
+  padding-top: 100%;
+  overflow: hidden;
+}
+
+.kh-sec4-container .kh-point ul li img{
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  max-width: 100%;
+  height: auto;
+}
+
+.kh-sec4-container .kh-point ul li h2{
+  text-align: center;
+}
+@media screen and (min-width:1000px) {
+  .kh-sec4-container .kh-up_txt p{
+    width: 600px;
+  }
+  .kh-sec4-container .kh-point ul{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .kh-sec4-container .kh-point ul li{
+    width: 25%;
+  }
+}
+@media screen and (max-width:1000px) {
+  .kh-sec4-container .kh-point ul li{
+    flex: 100%;
+  }
+}
+
+
+
+
 
 /* -----scrollmotion---- */
 /*section2*/
