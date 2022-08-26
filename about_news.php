@@ -7,12 +7,12 @@
 <script src="./js/about-news.js"></script>
 <section class="about_news_visual">
   <ul class="img_container">
-    <li class="imgbox1"><img src="./img/news/model/women7.jpg" alt=""></li>
-    <li class="imgbox2"><img src="./img/news/model/thum2.png" alt=""></li>
-    <li class="imgbox3"><img src="./img/news/model/thum8.png" alt=""></li>
-    <li class="imgbox4"><img src="./img/news/model/thum4.jpg" alt=""></li>
-    <li class="imgbox5"><img src="./img/news/model/thum5.jpg" alt=""></li>
-    <li class="imgbox6"><img src="./img/news/model/thum6.jpg" alt=""></li>
+    <li class="imgbox1"><img src="./img/leeseongjin/model/model1.png" alt=""></li>
+    <li class="imgbox2"><img src="./img/leeseongjin/model/model2.png" alt=""></li>
+    <li class="imgbox3"><img src="./img/leeseongjin/model/model9.png" alt=""></li>
+    <li class="imgbox4"><img src="./img/leeseongjin/model/model11.png" alt=""></li>
+    <li class="imgbox5"><img src="./img/leeseongjin/model/model12.png" alt=""></li>
+    <li class="imgbox6"><img src="./img/leeseongjin/model/model10.png" alt=""></li>
   </ul><!-- img_contaienr -->
 
   <ul class="title_container type1">
@@ -64,22 +64,22 @@
     <div class="text_container_wrap">
       <ul class="text_container type2">
         <li class="text1">
-          They're made in Italy with pink flame-printed pendants suspended from gleaming gold-tone metal hoops.
+        The signature ingredients that make the House of Dior unique in the world of luxury beauty are sourced from flowers. 
         </li>
         <li class="text2">
-          Made in Italy from gold-tone brass, this padlock-inspired pair is embossed with the house’s signature B logo.
+        Our mission, to only leave beauty as a legacy, means being fully committed to reducing our carbon emissions by 46% full scope by 2030 and aligning our business with the 1.5°C pathway.
         </li>
         <li class="text3">
-          Crafted from brass, these earrings are enriched with the BB motif and sparkling elements.
+        At the heart of everything we do lies the limitless love of flowers that inspired Monsieur Dior. 
         </li>
         <li class="text4">
-          They’re crafted in Italy with marbled resin shells hallmarked with a gold-tone metal BB logo.
+        To craft Parfums Christian Dior’s sustainability vision and strategy, we worked from the ground up by consulting a wide panel of internal
         </li>
         <li class="text5">
-          This silver tone Balenciaga B chain necklace is crafted in Italy from brass.
+        We commit to monitoring our progress as we move forward, aware that ambitious action is required on all fronts.
         </li>
         <li class="text6">
-          Black acetate sunglasses with gold BB logo on the temples.
+        Parfums Christian Dior is particularly attentive to the local impact of its upstream supply chain.s
         </li>
       </ul>
     </div><!-- text-container-wrap -->
@@ -107,15 +107,13 @@
       <li>
         <div class="inner">
           <figure>
-            <img src="./img/news/perfurm/perfume4.jpg" alt="">
+            <img src="./img/leeseongjin/model/nmodel1.png" alt="">
           </figure>
           <div class="textbox">
-            <h3 class="bold">JEWELLERY</h3>
+            <h3 class="bold">AUTUMN-WINTER 2022-2023 HAUTE COUTURE</h3>
             <p>
-              Balenciaga’s silver-tone metal pin earrings depict BB logos which hallmark boots and pumps
-              throughout the sophisticated Resort 2020 lookbook.
-              They’re crafted in Italy and encrusted with round-cut crystals held in a pavé setting and
-              lead to dangling drops.
+            The tree of life is at the heart of Ukrainian artist Olesia Trofymenko’s work, 
+            and the starting point for the Dior autumn-winter 2022-2023 haute couture collection designed by Maria Grazia Chiuri.
             </p>
             <a href="#">View More</a>
           </div>
@@ -124,16 +122,15 @@
       <li>
         <div class="inner">
           <figure>
-            <img src="./img/news/perfurm/perfume3.jpg" alt="">
+            <img src="./img/leeseongjin/model/nmodel2.jpg" alt="">
           </figure>
           <div class="textbox">
-            <h3 class="bold">SUNGLASSES</h3>
+            <h3 class="bold">AUTUMN-WINTER 2022-2023 COLLECTION</h3>
             <p>
-              Balenciaga's silver-tone sunglasses are embellished with white crystals for an overtly
-              maximalist mood.
-              They're made in Italy from acetate with a metallic finish, then studded with sparking stones
-              and hallmarked with the label's logo at the wide temples.
-              Choose them to bring a glamorous note to an array of ensembles.
+            Through the Dior autumn-winter 2022-2023 ready-to-wear collection, Maria Grazia Chiuri opens the doors to a new era.
+            he iconic Bar jacket is reinvented with technical inserts created with the Italian start-up D-Air lab*. 
+            From clothing to accessories, the creations interweave aesthetics and technology, transforming Dior heritage. 
+            A fascinating exploration of past, present and future.
             </p>
             <a href="#">View More</a>
           </div>
@@ -142,16 +139,14 @@
       <li>
         <div class="inner">
           <figure>
-            <img src="./img/news/cap.jpg" alt="">
+            <img src="./img/leeseongjin/model/nmodel3.jpg" alt="">
           </figure>
           <div class="textbox">
-            <h3 class="bold">CAPS</h3>
+            <h3 class="bold">DIOR ESSENTIALS</h3>
             <p>
-              Demna Gvasalia's Balenciaga embraces logos as a central design feature, as observed in this
-              black baseball cap.
-              It's Italian-made from cotton twill to a six-panel construction and a curved brim that is
-              then embroidered with a grey logo – a reworked addition unveiled for SS18.
-              Wear it with a fitted top and baggy jeans to echo the house's modern look.
+            Staying true to the history of Dior, the Dior Essentials collection defines a new menswear style to reflect the spirit of the House. 
+            As a visionary designer, Christian Dior captured a set of iconic codes at the heart of his creations.
+            Reinterpreted now, these are codes to embody the essence of his couturier.
             </p>
             <a href="#n">View More</a>
           </div>
@@ -160,16 +155,13 @@
       <li>
         <div class="inner">
           <figure>
-            <img src="./img/news/belt.jpg" alt="">
+            <img src="./img/leeseongjin/model/nmodel4.jpg" alt="">
           </figure>
           <div class="textbox">
-            <h3 class="bold">BELTS</h3>
+            <h3 class="bold">ROSE DES VENTS</h3>
             <p>
-              Balenciaga’s black Hourglass belt takes its name from the strong-lined silhouettes created
-              by the eponymous designer in the 1950s and 1960s.
-              It’s made in Italy from glossy crocodile-effect leather and adorned with an the
-              antiqued-gold B-logo plaque buckle.
-              Style it to cinch in the waist over sharp tailoring.
+            Victoire de Castellane reimagines Christian Dior's lucky star in the form of a wind rose—a universal symbol of travel and adventure. 
+            This eight-pointed motif combines the couturier’s favorite number (eight), flower (a rose), and symbol (a star) into one timeless design.
             </p>
             <a href="#">View More</a>
           </div>
@@ -190,14 +182,14 @@
       <li>
         <div class="inner">
           <figure>
-            <img src="./img/news/triple.jpg" alt="">
+            <img src="./img/news/news4.jpg" alt="">
           </figure>
           <div class="textbox">
-            <h3 class="bold">TRIPLE S SNEAKERS</h3>
+            <h3 class="bold">DIOR IN BLOOM</h3>
             <p>
-              Balenciaga shoes have reached new heights, quite literally in the case of the Triple S
-              sneaker.The style comes in a selection of colorways, including multi-color, fluorescent and
-              white with a clear sole.
+            For the first time ever, the tales of Dior Perfumes are told in a Podcast series, 
+            Dior Untold. This series provides a unique opportunity to take us behind the scenes of the Dior Maison 
+            and its special savoir-faire. An immersion into the fascinating world of its creator and his innermost inspirations.
             </p>
             <a href="#">View More</a>
           </div>
@@ -206,14 +198,13 @@
       <li>
         <div class="inner">
           <figure>
-            <img src="./img/news/zen.jpg" alt="">
+            <img src="./img/news/news3.jpg" alt="">
           </figure>
           <div class="textbox">
-            <h3 class="bold">ZEN SNEAKERS</h3>
+            <h3 class="bold">AND WOMEN CREATED DIOR</h3>
             <p>
-              At its core you can see hints of a classic mesh-and-leather running shoe. Only it's been
-              overgrown with additional bits of leather, and then at its base, several wave-like strata of
-              rubber.
+              After having transported you through senses, it is now through encounters 
+              that this second episode "And Women Created Dior" takes you on a journey through time.
             </p>
             <a href="#">View More</a>
           </div>
@@ -225,13 +216,13 @@
       <li>
         <div class="inner">
           <figure>
-            <img src="./img/news/speed.png" alt="">
+            <img src="./img/news/news2.jpg" alt="">
           </figure>
           <div class="textbox">
-            <h3 class="bold">SPEED SNEAKERS</h3>
+            <h3 class="bold">THE POWER OF RED</h3>
             <p>
-              Right now the style is exemplified by Balenciaga's Speed Trainers. The shoe is basically an
-              elastic ankle sock, mounted to a sole.
+            "The Power of Red" is the third episode of the Dior Untold saga, 
+            this time imbued with the revolutionary hues that have guided women towards their quest for empowerment.
             </p>
             <a href="#">View More</a>
           </div>
@@ -240,12 +231,12 @@
       <li>
         <div class="inner">
           <figure>
-            <img src="./img/news/track.jpg" alt="">
+            <img src="./img/news/news1.jpg" alt="">
           </figure>
           <div class="textbox">
-            <h3 class="bold">TRACK</h3>
+            <h3 class="bold">ROSE OF GRANVILLE</h3>
             <p>
-              These kicks run true to size and come in French or Euro sizing for men and women.
+              Flowers have been vital sources of inspiration for Dior’s legendary creations.
             </p>
             <a href="#">View More</a>
           </div>
