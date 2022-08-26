@@ -5,8 +5,9 @@ $(function () {
     var metaScale
     var meta
     var t
-    function parallax(){
     
+    function parallax(){
+
       boxt = $('.ydr-perfum').offset().top
       boxh = $('.ydr-perfum').innerHeight()
       meta = 1 + (scrt - (boxt - winh*0.5 + boxh*0.5)) * 0.01
@@ -26,7 +27,6 @@ $(function () {
       })//each
     }//fn
 
-  
     parallax()
     $(window).scroll(function(){
       parallax()

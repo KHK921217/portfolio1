@@ -21,9 +21,9 @@ section.ydr-sauvage {
 }
 div.ydr-youtube-container iframe {
   position: absolute;
-  left: 50%;
+  left: 60%;
   top: 50%;
-  transform: scale(1.2) translate(-40%, -50%);
+  transform: scale(1.2) translate(-50%, -50%);
   width: 100%;
   height: 100%;
   z-index: 1;
@@ -34,6 +34,7 @@ div.ydr-youtube-container img {
   right: 25%;
   width: 50%;
   z-index: 2;
+  opacity: 0.5;
   animation: round 30s linear infinite;
 }
 @keyframes round {
@@ -59,8 +60,6 @@ main.ydr-sauvage-main ul li {
   display: flex;
   margin: 0 auto;
   flex-direction: column;
- 
- 
   text-align: center;
   overflow: hidden;
   transition: all 0.5s;
@@ -110,10 +109,6 @@ section.ydr-sauvage-banner nav {
   width: 100%;
   height: 100%;
   transition: filter 0.5s;
-}
-section.ydr-sauvage-banner nav:hover {
-  filter: drop-shadow(4px 5px 6px rgb(35, 35, 35));
-  transition-delay: 0.3s;
 }
 section.ydr-sauvage-banner nav img.ydr-depp {
   width: 100%;
@@ -221,7 +216,7 @@ ul.ybr-colection-wrap li h3 {
 }
 ul.ybr-colection-wrap li em {
   margin: 10px auto;
-  font-size: 1.2em;
+  font-size: 2em;
   font-weight: 600;
   width: 80%;
 }
@@ -324,7 +319,14 @@ section.ydr-homme div figure img {
 .ydr-homme-a {
   width: 100%;
 }
-
+.ydr-homme-a li a{
+  font-size: 2em;
+  font-weight: 300;
+  color: #acacac;
+}
+.ydr-homme-a li a:hover{
+   color: #000;
+}
 .ydr-homme-a li p {
   width: 80%;
   font-size: 0.9em;
@@ -353,7 +355,7 @@ section.ydr-homme div figure img {
 .ydr-homme-purfume ul li {
   margin-bottom: 10px;
 }
-.ydr-homme-purfume ul li a {
+.ydr-homme-ul li a {
   width: 100%;
   height: 100%;
 }
@@ -362,8 +364,12 @@ section.ydr-homme div figure img {
   object-fit: cover;
   object-position: center center;
   overflow: hidden;
+  transition: filter 0.5s;
 }
-
+.ydr-homme-ul li a img:hover {
+  filter: blur(3px);
+  transition-delay: 0.3s;
+ }
 @media screen and (min-width: 1000px) {
   section.ydr-homme div figure {
     width: 45%;

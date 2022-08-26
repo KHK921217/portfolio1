@@ -4,7 +4,7 @@
 
 <section class="ydr-sauvage">
   <div class="ydr-youtube-container">
-   <!--  <iframe src="https://www.youtube.com/embed/dBTBOAE-XK4?=3&autoplay=1&mute=1&loop=1&rel=0&showinfo=0&color=white&controls=0 " title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+     <iframe src="https://www.youtube.com/embed/dBTBOAE-XK4?=3&autoplay=1&mute=1&loop=1&rel=0&showinfo=0&color=white&controls=0&ampplaylist=비디오ID&loop=1 " title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
     <img src="./img/yoodareen/savage/text1.png" alt="">
   </div>
 
@@ -144,9 +144,9 @@
 
    <section class="ydr-homme-purfume">
     <ul class="ydr-homme-ul">
-      <li><a href="#"><img src="./img/yoodareen/homme/3348901126359_0.jpg" alt=""></a></li>
-      <li><a href="#"><img src="./img/yoodareen/homme/3348901419147_0.jpg" alt=""></a></li>
-      <li><a href="#"><img src="./img/yoodareen/homme/3348900838185_0.jpg" alt=""></a></li>
+      <li><a href="#"> <img src="./img/yoodareen/homme/3348901126359_0.jpg" alt=""> </a></li>
+      <li><a href="#"> <img src="./img/yoodareen/homme/3348901419147_0.jpg" alt=""> </a></li>
+      <li><a href="#"> <img src="./img/yoodareen/homme/3348900838185_0.jpg" alt=""> </a></li>
     </ul>
   </section> 
 </section>
