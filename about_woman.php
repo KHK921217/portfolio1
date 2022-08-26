@@ -8,10 +8,10 @@
 <section class="visual-about-woman">
   <div class="img_container">
     <figure class="imgbox1 active active_c">
-      <img src="./img/woman/m1.jpg" alt="">
+      <img src="./img/woman/Miss^diol/missdiol^eaude^parpum.jpg" alt="">
     </figure>
     <figure class="imgbox2 active active_r">
-      <img src="./img/woman/m2.jpg" alt="">
+      <img src="./img/woman/Miss^diol/missdiol^flower.jpg" alt="">
     </figure>
     <figure class="imgbox3">
       <img src="./img/woman/m3.jpg" alt="">
