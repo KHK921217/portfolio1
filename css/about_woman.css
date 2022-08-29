@@ -70,7 +70,7 @@
   display: block;
   font-size:14px;
   font-weight: 800;
-  color:rgb(133, 52, 6);
+  color:rgb(242, 206, 245);
 }
 .visual-about-woman .textbox_container .textbox span{
   color:white;
@@ -134,6 +134,7 @@
   }
   .visual-about-woman h2{
     font-size:100px;
+    
   }
 }/* lg */
 @media screen and (max-width:800px){
@@ -304,13 +305,13 @@
     transform: rotate(90deg);
   }
   .section-about-woman-2 .text8 p:last-child{
-    top: 25%;
+    top: 30%;
     left: 110%;
     font-size: 3em;
   }
   .section-about-woman-2 .text9 p{
     left: 0%;
-    bottom: 25%;
+    bottom: 0%;
     width: 500px;
     font-size: 1.1em;
     transform: rotate(90deg);
@@ -359,7 +360,7 @@
     grid-row: 14 / span 2;
   }
   .section-about-woman-2 .text1 p{
-    bottom: 10%;
+    bottom: 5%;
     left: 100%;
     width: 50%;
     font-size: 1.1em;
