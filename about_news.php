@@ -7,12 +7,12 @@
 <script src="./js/about-news.js"></script>
 <section class="about_news_visual">
   <ul class="img_container">
-    <li class="imgbox1"><img src="./img/leeseongjin/model/model1.png" alt=""></li>
-    <li class="imgbox2"><img src="./img/leeseongjin/model/model2.png" alt=""></li>
-    <li class="imgbox3"><img src="./img/leeseongjin/model/model9.png" alt=""></li>
-    <li class="imgbox4"><img src="./img/leeseongjin/model/model11.png" alt=""></li>
-    <li class="imgbox5"><img src="./img/leeseongjin/model/model12.png" alt=""></li>
-    <li class="imgbox6"><img src="./img/leeseongjin/model/model10.png" alt=""></li>
+    <li class="imgbox1"><img src="./img/news/model/model1.png" alt=""></li>
+    <li class="imgbox2"><img src="./img/news/model/model2.png" alt=""></li>
+    <li class="imgbox3"><img src="./img/news/model/model9.png" alt=""></li>
+    <li class="imgbox4"><img src="./img/news/model/model11.png" alt=""></li>
+    <li class="imgbox5"><img src="./img/news/model/model12.png" alt=""></li>
+    <li class="imgbox6"><img src="./img/news/model/model10.png" alt=""></li>
   </ul><!-- img_contaienr -->
 
   <ul class="title_container type1">
@@ -107,7 +107,7 @@
       <li>
         <div class="inner">
           <figure>
-            <img src="./img/leeseongjin/model/nmodel1.png" alt="">
+            <img src="./img/news/model/nmodel1.png" alt="">
           </figure>
           <div class="textbox">
             <h3 class="bold">AUTUMN-WINTER 2022-2023 HAUTE COUTURE</h3>
@@ -122,7 +122,7 @@
       <li>
         <div class="inner">
           <figure>
-            <img src="./img/leeseongjin/model/nmodel2.jpg" alt="">
+            <img src="./img/news/model/nmodel5.png" alt="">
           </figure>
           <div class="textbox">
             <h3 class="bold">AUTUMN-WINTER 2022-2023 COLLECTION</h3>
@@ -139,7 +139,7 @@
       <li>
         <div class="inner">
           <figure>
-            <img src="./img/leeseongjin/model/nmodel3.jpg" alt="">
+            <img src="./img/news/model/model7.5.png" alt="">
           </figure>
           <div class="textbox">
             <h3 class="bold">DIOR ESSENTIALS</h3>
@@ -155,7 +155,7 @@
       <li>
         <div class="inner">
           <figure>
-            <img src="./img/leeseongjin/model/nmodel4.jpg" alt="">
+            <img src="./img/news/model/nmodel4.jpg" alt="">
           </figure>
           <div class="textbox">
             <h3 class="bold">ROSE DES VENTS</h3>
