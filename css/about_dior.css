@@ -124,15 +124,20 @@ div.kh-title img{
   }
 }/* lg */
 
-  @media screen and (max-width:980px){
+  @media screen and (max-width:1000px){
     div.kh-title{
       width: 60%;}
     
     div.kh-title img{
-        width: 100%;
+        max-width: 100%;
         margin: 30px auto;
       }
-
+    .kh-up_txt h4{
+      font-size: 2em;
+    }
+    .kh-left-img,.kh-right-img{
+      max-width: 900px;
+    }
     .kh-left-img img, .kh-right-img img{
       width: 100%;
       margin: 0 auto;
