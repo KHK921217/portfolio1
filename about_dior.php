@@ -6,7 +6,6 @@
     <div class="kh-title">
       <img src="./img/khk/brand/title1.png" alt="title">
     </div><!-- 제목 -->
-
     <section class="kh-brand-section1" data-n="1">
       <div class=kh-left-box>
         <figure class="kh-left-img">
@@ -14,7 +13,7 @@
         </figure>
         <div class="kh-left-txt">
           <div></div>
-          <h4>제조이력 준수</h4>
+          <h4 data-text="제조이력 준수">제조이력 준수</h4>
           <p>모든 제품은 엄격한 규정을 준수하며 제품 품질, 원재료 제조이력에 대한 DIOR의 자체기준을 준수합니다.</p>
         </div>
       </div>
@@ -27,7 +26,7 @@
         </figure>
         <div class="kh-right-txt">
           <div></div>
-          <h4>철저한 IN-VITRO 평가</h4>
+          <h4 data-text="철저한 IN-VITRO 평가">철저한 IN-VITRO 평가</h4>
           <p>'제품이 본연의 상태를 오래도록 유지할 수 있도록 성분 및 포뮬러에 대한 IN-VITRO 및 IN-VIVO를 평가합니다.'</p>
         </div>
       </div>
@@ -40,7 +39,7 @@
         </figure>
         <div class="kh-left-txt">
           <div></div>
-          <h4>지속가능한 개발</h4>
+          <h4 data-text="지속가능한 개발">지속가능한 개발</h4>
           <p>'DIOR은 지속 가능한 뷰티를 위해 환경을 고려한 성분에 집중해야한다고 믿습니다.'</p>
         </div>
       </div>

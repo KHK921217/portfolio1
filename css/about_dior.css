@@ -12,30 +12,42 @@ div.kh-title img{
   margin: 50px auto;
 }
 
+.kh-left-img, .kh-right-img{
+  box-shadow: 10px 5px 5px #777;
+  transition-delay: all 1s;
+}
+.kh-left-img:hover, .kh-right-img:hover{
+  transform: scale(1.1);
+  transition: all 1.5s;
+}
 .kh-left-txt h4, .kh-right-txt h4{
   margin: 5px 0;
+  position: relative;
 }
 
 .kh-up_txt h4{
-  font-size: 2em;
+  font-size: 3em;
   font-weight: 600px;
   color: #f19cb9;
 }
-.kh-point li{
+.kh-point ul li{
   box-sizing: border-box;
   text-align: center;
   border: 1px solid #d4d4d4;
 }
-.kh-point li i{
-  font-size: 2em;
+.kh-point ul li i{
+  font-size: 2.2em;
   color: #f19cb9;
   margin-bottom: 5px;
 }
-.kh-point li h2{
+.kh-point ul li h2{
   font-size: 2.2em;
   color: #32343e;
 }
-
+.kh-point ul li p{
+  font-size: 0.95em;
+  color: #a7a9a7;
+}
 
 @media screen and (min-width:1000px) {
   .kh-brand-section1 .kh-left-box,
@@ -79,8 +91,26 @@ div.kh-title img{
   }
   .kh-left-txt h4, .kh-right-txt h4{
     font-size: 2.2em;
-    font-weight: 600px;}
+    font-weight: bold;}
 
+  .kh-left-txt h4::before{
+    content: attr(data-text);
+    position: absolute;
+    left: 0;
+    color: #f19cb9;
+    white-space: nowrap;
+    height: 50%;
+    overflow: hidden;
+  }
+  .kh-right-txt h4::before{
+    content: attr(data-text);
+    position: absolute;
+    right: 0;
+    color: rgb(255,187,0);
+    white-space: nowrap;
+    height: 50%;
+    overflow: hidden;
+  }
   .kh-point ul{
     display: flex;
     justify-content: center;
@@ -108,12 +138,53 @@ div.kh-title img{
       margin: 0 auto;
     }
     .kh-left-txt, .kh-right-txt{
+      position: relative;
       width: 100%;
       text-align: center;
     }
     .kh-left-txt h4, .kh-right-txt h4{
       font-size: 1.3em;
       font-weight: 600px;
+    }
+
+    .kh-left-txt h4::before{
+      content: attr(data-text);
+      position: absolute;
+      left: 50%;
+      transform: translateX(-50%);
+      color: #f19cb9;
+      white-space: nowrap;
+      height: 50%;
+      overflow: hidden;
+    }
+    .kh-right-txt h4::before{
+      content: attr(data-text);
+      position: absolute;
+      right: 50%;
+      transform: translateX(50%);
+      color: rgb(255,187,0);
+      white-space: nowrap;
+      height: 50%;
+      overflow: hidden;
+    }
+    .kh-left-txt div{
+      position: absolute;
+      top: 2px;
+      left: 0;
+      border-left: 2px solid #32343e;
+      border-top: 2px solid #32343e;
+      width: 25px;
+      height: 25px;
+    }
+
+    .kh-right-txt div{
+      position: absolute;
+      top: 2px;
+      right: 0;
+      border-right: 2px solid #32343e;
+      border-bottom: 2px solid #32343e;
+      width: 25px;
+      height: 25px;
     }
     .kh-point ul li{
       padding: 25px;
@@ -127,9 +198,22 @@ div.kh-title img{
   text-align: center;
 }
 .kh-up_txt p{
-  max-width: 500px;
+  font-size: 15px;
+  max-width: 800px;
   margin: 30px auto;
+  color: #777;
 }
-.kh-point ul{
 
-}
+
+/* ---------motion--------- */
+
+  .kh-brand-section4 .kh-up_txt .kh-point ul li{
+    opacity: 0;
+    transform: scale(0);
+    transition: transform 1s, opacity 0.3s;}
+
+  .kh-brand-section4 .kh-up_txt .kh-point ul li.active{
+    opacity: 1;
+    transform: scale(1);}
+
+
